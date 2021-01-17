@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Md Fahim Sikder</title>
+    <link>https://fahim-sikder.github.io/publication/</link>
+      <atom:link href="https://fahim-sikder.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Md Fahim Sikder</copyright><lastBuildDate>Sat, 27 Jun 2020 23:03:59 +0600</lastBuildDate>
+    <image>
+      <url>https://fahim-sikder.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Publications</title>
+      <link>https://fahim-sikder.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>Privacy-Preserving Synthetic Trajectory Data Generation</title>
+      <link>https://fahim-sikder.github.io/publication/privacy-preserving-trajectory-data-generation/</link>
+      <pubDate>Sat, 27 Jun 2020 23:03:59 +0600</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/privacy-preserving-trajectory-data-generation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bangla Neural Machine Translation</title>
+      <link>https://fahim-sikder.github.io/publication/bangla-translation/</link>
+      <pubDate>Tue, 26 Nov 2019 10:43:19 +0600</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/bangla-translation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bangla Handwritten Digit Recognition &amp; Generation</title>
+      <link>https://fahim-sikder.github.io/publication/digit-generate/</link>
+      <pubDate>Sat, 15 Dec 2018 00:00:00 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/digit-generate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart Disaster Notification System</title>
+      <link>https://fahim-sikder.github.io/publication/smart-disaster/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/smart-disaster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting Students Yearly Performance using Neural Network: A Case Study of BSMRSTU</title>
+      <link>https://fahim-sikder.github.io/publication/predict-performance/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/predict-performance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

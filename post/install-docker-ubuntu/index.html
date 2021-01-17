@@ -1,0 +1,1391 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Md Fahim Sikder">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="I always get in trouble when creating a new project with different dependencies installed on my machine. I had to reinstall new libraries, which is doing a new thing repeatedly, and it&rsquo;s time-consuming.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://fahim-sikder.github.io/post/install-docker-ubuntu/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.dfa4fe6b75a871f1f332bf636ce167bc.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172931605-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-172931605-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  
+  <link rel="manifest" href="/index.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://fahim-sikder.github.io/post/install-docker-ubuntu/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Md Fahim Sikder">
+  <meta property="og:url" content="https://fahim-sikder.github.io/post/install-docker-ubuntu/">
+  <meta property="og:title" content="Installing Docker, Creating &amp; Running First Python Script Using it on Ubuntu 20.04 LTS | Md Fahim Sikder">
+  <meta property="og:description" content="I always get in trouble when creating a new project with different dependencies installed on my machine. I had to reinstall new libraries, which is doing a new thing repeatedly, and it&rsquo;s time-consuming."><meta property="og:image" content="https://fahim-sikder.github.io/post/install-docker-ubuntu/featured.png">
+  <meta property="twitter:image" content="https://fahim-sikder.github.io/post/install-docker-ubuntu/featured.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-12-26T08:21:34&#43;01:00">
+    
+    <meta property="article:modified_time" content="2020-12-26T08:21:34&#43;01:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://fahim-sikder.github.io/post/install-docker-ubuntu/"
+  },
+  "headline": "Installing Docker, Creating \u0026 Running First Python Script Using it on Ubuntu 20.04 LTS",
+  
+  "image": [
+    "https://fahim-sikder.github.io/post/install-docker-ubuntu/featured.png"
+  ],
+  
+  "datePublished": "2020-12-26T08:21:34+01:00",
+  "dateModified": "2020-12-26T08:21:34+01:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Md Fahim Sikder"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Md Fahim Sikder",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://fahim-sikder.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "I always get in trouble when creating a new project with different dependencies installed on my machine. I had to reinstall new libraries, which is doing a new thing repeatedly, and it\u0026rsquo;s time-consuming."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Installing Docker, Creating &amp; Running First Python Script Using it on Ubuntu 20.04 LTS | Md Fahim Sikder</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7264cf0eba3b66951b36da7d2cecf9c5.js"></script>
+
+  
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Md Fahim Sikder</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Md Fahim Sikder</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#accomplishments"><span>Accomplishments</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#achievements"><span>Achievements</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>Lab</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Installing Docker, Creating &amp; Running First Python Script Using it on Ubuntu 20.04 LTS</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      Md Fahim Sikder</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 26, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/tutorial/">Tutorial</a>, <a href="/category/blog-post/">Blog Post</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 343px; max-height: 147px;">
+  <div style="position: relative">
+    <img src="/post/install-docker-ubuntu/featured.png" alt="" class="featured-image">
+    <span class="article-header-caption">Image Source: google</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>I always get in trouble when creating a new project with different dependencies installed on my machine. I had to reinstall new libraries, which is doing a new thing repeatedly, and it&rsquo;s time-consuming. Then I learned about docker. Docker will allow you to create a virtual machine to install all your dependencies for your specific project without tempering your primary system. Still, it is faster than the virtual machine. In this tutorial, we are going to see:</p>
+<ol>
+<li>Installing docker on ubuntu 20.04 LTS</li>
+<li>Creating and running a python script using docker image</li>
+</ol>
+<h2 id="installing-docker">Installing Docker</h2>
+<p>For installing docker from the website for the different OS, you can visit <a href="https://docs.docker.com/get-docker/" target="_blank" rel="noopener">here.</a> First of all, we are going to uninstall previously installed docker (if have any). We will run the following command in the terminal to do that:</p>
+<pre><code class="language-console">$ sudo apt-get remove docker docker-engine docker.io containerd runc
+</code></pre>
+<h4 id="setting-up-the-repository">Setting up the Repository</h4>
+<p>Then we need to update the <code>apt</code> packages and install the following dependencies by running the commands:</p>
+<pre><code class="language-console">$ sudo apt-get update
+$ sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+</code></pre>
+<p>Now we need to add the Docker&rsquo;s official GPG key to the system.</p>
+<pre><code class="language-console">$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+</code></pre>
+<p>We will use the following command to set up the stable repository.</p>
+<pre><code class="language-console">$ sudo add-apt-repository \
+   &quot;deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable&quot;
+</code></pre>
+<h4 id="installing-docker-engine">Installing Docker Engine</h4>
+<p>To install the docker engine first we have to update the <code>apt</code> package again and run the following commands:</p>
+<pre><code class="language-console">$ sudo apt-get update
+$ sudo apt-get install docker-ce docker-ce-cli containerd.io
+</code></pre>
+<p>Now, the docker should be installed in our system, but before we test it, first we need to add the docker into usergroup, otherwise in some system it will give error. We can do this by using the following commands:</p>
+<pre><code class="language-console">$ sudo groupadd docker
+$ sudo usermod -a -G docker ${USER}
+$ grep docker /etc/group
+$ newgrp docker
+</code></pre>
+<p>After running this command, <strong>you have to logout or restart the pc</strong>. Then run the following command to test the docker system.</p>
+<pre><code class="language-console">$ sudo docker run hello-world
+</code></pre>
+<p>This will download a test container and print some messages and then it will exit.</p>
+<h2 id="creating-first-docker-script">Creating First Docker Script</h2>
+<p>Now, it&rsquo;s time to create our first program that will run on docker. Here we will create a simple script that will measure the square root of a number using the python&rsquo;s <code>NumPy</code> library. So, in this program, we have a dependency, and that is NumPy. We have to install the dependency inside our docker container. First, we will create a folder containing all the necessary things such as python file, docker image etc.</p>
+<p>Then we will create the python script which we will run, let&rsquo;s name it <code>main.py</code> and write the following code into that.</p>
+<pre><code class="language-python">import numpy as np
+
+a = np.sqrt(16)
+
+print(f'The square root of 16 is {a}')
+</code></pre>
+<p>Now, let&rsquo;s create a file name <code>Dockerfile</code>. This file is the blueprint of the docker image. <em>&ldquo;A docker image is a combination of a file system and <a href="https://searchitoperations.techtarget.com/definition/Docker-image" target="_blank" rel="noopener">parameters</a>.&quot;</em> In other words, this file will contain the information on the working environment, dependencies etc. of our docker app. And the docker container (it&rsquo;s an instance of docker image) will run the docker system.</p>
+<p>Let&rsquo;s put the following lines in the <code>Dockerfile</code>.</p>
+<pre><code class="language-docker">FROM python:3.8
+
+ADD main.py .
+
+RUN pip install numpy
+
+CMD [&quot;python&quot;, &quot;main.py&quot;]
+</code></pre>
+<p>Now, let&rsquo;s understand what these lines represent. The docker needs an environment where the docker will run, and this environment can be an operating system, a software package, a python environment etc. Here we are using Python version 3.8 as our environment. By executing <code>FROM python:3.8</code> line, the docker container pulls python version 3.8 from the docker <a href="https://hub.docker.com/" target="_blank" rel="noopener">hub</a>. To add the python script in the docker current directory, we will use <code>ADD main.py .</code> line. The <code>.</code> specifies the current directory. Now, we will be going to install the dependencies, in the python script we have only one dependency, and that is numpy. So to install the NumPy dependency, we are using <code>RUN pip install numpy</code>. If your program has other dependencies, you can add them in this line. And finally, to run the python script, we will use <code>CMD</code> command. Usually, we run a python script in the terminal by using <code>python main.py</code> command. Just like this, we will pass this command into a tokenized list with the <code>CMD</code> command. So, <code>CMD [&quot;python&quot;, &quot;main.py&quot;]</code> will run the python script inside the docker container.</p>
+<h4 id="building-the-docker-image">Building the Docker Image</h4>
+<p>We have the <code>Dockerfile</code> ready, and we now know what it contains and what the lines inside the <code>Dockerfile</code> does, it is time to build the docker image! To build the docker image, we need to give the following command:</p>
+<pre><code class="language-console">$ docker build -t first-docker .
+</code></pre>
+<p>Here <code>first-docker</code> is our docker image name. We can name it whatever we want. And the <code>-t</code> argument is used for tagging the resulting image. After running this command, it will look like the following screenshot.</p>
+<p><img src="build.png" alt="Build Docker"></p>
+<h4 id="running-the-docker-image">Running the Docker Image</h4>
+<p>So, our docker image is now ready. To run our image we need to give the following command in the terminal:</p>
+<pre><code class="language-console">$ docker run first-docker
+</code></pre>
+<p>This command will run the docker image and give the output of the python script we have written. In our case, we have calculated the square root of 16 using NumPy&rsquo;s sqrt function. So we will see the result like the following screenshot.</p>
+<p><img src="run.png" alt="Run Docker"></p>
+<p>Congratulations! We have just run our first docker app. We can do more complex things with docker, keep digging. The code for this tutorial can be found in <a href="https://github.com/fahim-sikder/docker-tutorial" target="_blank" rel="noopener">here</a>.</p>
+<p>Have fun and Stay Safe!</p>
+<h3 id="reference">Reference</h3>
+<ol>
+<li><a href="https://docs.docker.com/engine/install/" target="_blank" rel="noopener">Docker official installation procedure</a></li>
+<li><a href="https://hub.docker.com/" target="_blank" rel="noopener">Docker Hub</a></li>
+</ol>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/tutorial/">Tutorial</a>
+  
+  <a class="badge badge-light" href="/tag/docker/">docker</a>
+  
+  <a class="badge badge-light" href="/tag/python/">python</a>
+  
+  <a class="badge badge-light" href="/tag/container/">container</a>
+  
+  <a class="badge badge-light" href="/tag/ubuntu/">ubuntu</a>
+  
+  <a class="badge badge-light" href="/tag/lts/">LTS</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://fahim-sikder.github.io/post/install-docker-ubuntu/&amp;text=Installing%20Docker,%20Creating%20&amp;amp;%20Running%20First%20Python%20Script%20Using%20it%20on%20Ubuntu%2020.04%20LTS" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://fahim-sikder.github.io/post/install-docker-ubuntu/&amp;t=Installing%20Docker,%20Creating%20&amp;amp;%20Running%20First%20Python%20Script%20Using%20it%20on%20Ubuntu%2020.04%20LTS" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Installing%20Docker,%20Creating%20&amp;amp;%20Running%20First%20Python%20Script%20Using%20it%20on%20Ubuntu%2020.04%20LTS&amp;body=https://fahim-sikder.github.io/post/install-docker-ubuntu/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://fahim-sikder.github.io/post/install-docker-ubuntu/&amp;title=Installing%20Docker,%20Creating%20&amp;amp;%20Running%20First%20Python%20Script%20Using%20it%20on%20Ubuntu%2020.04%20LTS" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Installing%20Docker,%20Creating%20&amp;amp;%20Running%20First%20Python%20Script%20Using%20it%20on%20Ubuntu%2020.04%20LTS%20https://fahim-sikder.github.io/post/install-docker-ubuntu/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://fahim-sikder.github.io/post/install-docker-ubuntu/&amp;title=Installing%20Docker,%20Creating%20&amp;amp;%20Running%20First%20Python%20Script%20Using%20it%20on%20Ubuntu%2020.04%20LTS" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/how-to-install-r-ubuntu-20/">How to Install R and two most popular R packages (tidyverse &amp; rstan) in Ubuntu 20.04 LTS</a></li>
+      
+      <li><a href="/post/julia-tutorial-part-2-data-structures/">Julia Tutorial Part 2: Data Structures</a></li>
+      
+      <li><a href="/post/julia-tutorial-part-1/">Julia Tutorial Part 1: Installations &amp; Basics</a></li>
+      
+      <li><a href="/post/phd-in-europe/">ইউরোপে পিএইচডি</a></li>
+      
+      <li><a href="/publication/privacy-preserving-trajectory-data-generation/">Privacy-Preserving Synthetic Trajectory Data Generation</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    ©Md Fahim Sikder
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'event' : "Events",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/js/wowchemy.min.aeecf26c1eff6b9588dbafc1a9f3953c.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
