@@ -5,12 +5,77 @@
     <link>https://fahim-sikder.github.io/post/</link>
       <atom:link href="https://fahim-sikder.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Md Fahim Sikder</copyright><lastBuildDate>Sat, 26 Dec 2020 08:21:34 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Md Fahim Sikder</copyright><lastBuildDate>Fri, 01 Oct 2021 10:29:54 +0200</lastBuildDate>
     <image>
       <url>https://fahim-sikder.github.io/media/sharing.jpg</url>
       <title>Posts</title>
       <link>https://fahim-sikder.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Installing Texlive Latest Version (Texlive-2021) on Ubuntu-20.04/18.04</title>
+      <link>https://fahim-sikder.github.io/post/installing-texlive-latest-ubuntu/</link>
+      <pubDate>Fri, 01 Oct 2021 10:29:54 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/post/installing-texlive-latest-ubuntu/</guid>
+      <description>&lt;p&gt;Hello there! In this tutorial, we will learn how to install the latest version of texlive in the ubuntu system! Generally, Ubuntu 20.04 / 18.04 only install Texlive-version-2019 from the local repository! But the Texlive current version is 2021! So, a lot happened in these updates. So, we need to install the 2021 version from the source! But before we do that, we have to uninstall any existing Texlive installation.&lt;/p&gt;
+&lt;h3 id=&#34;uninstalling-existing-texlive&#34;&gt;Uninstalling existing Texlive&lt;/h3&gt;
+&lt;p&gt;Use the following command from the terminal to remove the existing installation of Texlive [3].&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$ sudo apt-get purge texlive*
+
+$ sudo rm -rf /usr/local/texlive/*
+
+$ rm -rf ~/.texlive*
+
+$ sudo rm -rf /usr/local/share/texmf
+
+$ sudo rm -rf /var/lib/texmf
+
+$ sudo rm -rf /etc/texmf
+
+$ sudo apt-get remove tex-common --purge
+
+$ rm -rf ~/.texlive
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;These commands should remove delete any existing texlive installation.&lt;/p&gt;
+&lt;h3 id=&#34;installing-texlive-2021&#34;&gt;Installing Texlive-2021&lt;/h3&gt;
+&lt;p&gt;Now it&amp;rsquo;s time for install the Texlive latest version! But first, we have to install some dependency [2]!&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$ sudo apt install wget perl-tk
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We need to get the official installer for Texlive. We can do that by using the following commands:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$ wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
+$ tar -xzf install-tl-unx.tar.gz
+$ cd install-tl-****
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here, **** means the version of the installer! Replace the **** according to your downloaded filename. After changing the directory to the downloaded folder, run the installer by using:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$ sudo ./install-tl
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Installation of the latest version of the texlive should start. After the installation, we need to add the installation path with variables to the &lt;code&gt;.bashrc&lt;/code&gt; file.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$ sudo vim ~/.bashrc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Add the following variables to the file:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;export PATH=/usr/local/texlive/2021/bin/x86_64-linux${PATH:+:${PATH}}
+export INFOPATH=/usr/local/texlive/2021/texmf-dist/doc/info${INFOPATH:+:${INFOPATH}}
+export MANPATH=/usr/local/texlive/2021/texmf-dist/doc/man${MANPATH:+:${MANPATH}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After this, texlive should be installed in the system. We can check it by typing &lt;code&gt;which tex&lt;/code&gt; in the terminal. It should return the path where texlive is installed! Now we have to make sure that Ubuntu thinks we have installed texlive. We can do that by installing the &lt;code&gt;equivs&lt;/code&gt; package!&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$ sudo apt install equivs --no-install-recommends freeglut3
+$ wget -O debian-equivs-2021-ex.txt https://www.tug.org/texlive/files/debian-equivs-2021-ex.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We are using the &lt;code&gt;debian-equivs-2021-ex.txt&lt;/code&gt; file to build a &lt;code&gt;.deb&lt;/code&gt; file to install the necessary packages. To build the file and install it follow this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$ equivs-build debian-equivs-2021-ex.txt
+$ sudo dpkg -i texlive-local_2021.99999999-1_all.deb
+$ sudo apt install -f
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After this, Texlive should be working just fine in Ubuntu!&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tug.org/texlive/doc/texlive-en/texlive-en.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Texlive Official Guide 2021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tex.stackexchange.com/questions/1092/how-to-install-vanilla-texlive-on-debian-or-ubuntu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Post about installing Texlive: Answer Section&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tex.stackexchange.com/questions/95483/how-to-remove-everything-related-to-tex-live-for-fresh-install-on-ubuntu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Post about removing Texlive: Answer Section&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>Installing Docker, Creating &amp; Running First Python Script Using it on Ubuntu 20.04 LTS</title>
@@ -104,10 +169,10 @@ CMD [&amp;quot;python&amp;quot;, &amp;quot;main.py&amp;quot;]
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Build Docker&#34; srcset=&#34;
-               /post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_ce7608eda9556534b500311a598aa116.png 400w,
-               /post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_77f44276f5d4412835d62803162b4a2c.png 760w,
-               /post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_1200x1200_fit_lanczos_2.png 1200w&#34;
-               src=&#34;https://fahim-sikder.github.io/post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_ce7608eda9556534b500311a598aa116.png&#34;
+               /post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_08957a90c3dcb036c20c720c4e69b27f.png 400w,
+               /post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_78577329ff3932a59954323c7ea03a5b.png 760w,
+               /post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://fahim-sikder.github.io/post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_08957a90c3dcb036c20c720c4e69b27f.png&#34;
                width=&#34;760&#34;
                height=&#34;635&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -137,10 +202,10 @@ CMD [&amp;quot;python&amp;quot;, &amp;quot;main.py&amp;quot;]
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Run Docker&#34; srcset=&#34;
-               /post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_d121c1b6739b6fae311dedf755399f19.png 400w,
-               /post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_6da1237b14c9029538e3461e28e78bb9.png 760w,
-               /post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_1200x1200_fit_lanczos_2.png 1200w&#34;
-               src=&#34;https://fahim-sikder.github.io/post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_d121c1b6739b6fae311dedf755399f19.png&#34;
+               /post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_9a41aef5e690b248fecb87122b0b9260.png 400w,
+               /post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_12f7dd3adaa8df5645fec0b49972baea.png 760w,
+               /post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://fahim-sikder.github.io/post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_9a41aef5e690b248fecb87122b0b9260.png&#34;
                width=&#34;658&#34;
                height=&#34;155&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -810,23 +875,23 @@ println(str1 * &amp;quot;, &amp;quot; * str2)
 &lt;p&gt;সবগুলো জিনিস একসাথে পিডিএফ করে সাবমিট করতে হবে। সাবমিট করার লিঙ্কও সেই অ্যাডভার্টাইজমেন্ট এ দেয়া থাকবে। পিডিএফ মার্জ, স্প্লিট করার জন্য &lt;a href=&#34;https://pdfsam.org/download-pdfsam-basic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDFSam Basic software&lt;/a&gt; টা ইউজ করা যেতে পারে। এপ্লাই করার পরে তারা রিভিউ করবে। ভালো লাগলে ইন্টার্ভিউ এর জন্য কল পাবেন। তারপর হয়েও যেতে পারে পিএইচডি শুরু করার সুযোগ। এই লেখা কারো উপকারে আসলে কষ্ট সার্থক। শুভ কামনা।&lt;/p&gt;
 &lt;p&gt;কিছু Vacancy Page এর লিংক দিয়ে দিচ্ছিঃ&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;University of Copenhagen: &lt;a href=&#34;https://employment.ku.dk/phd/&#34;&gt;https://employment.ku.dk/phd/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Technical University of Denmark: &lt;a href=&#34;https://www.dtu.dk/english/About/JOB-and-CAREER/vacant-positions&#34;&gt;https://www.dtu.dk/english/About/JOB-and-CAREER/vacant-positions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Aalborg University: &lt;a href=&#34;https://www.vacancies.aau.dk/phd-positions/&#34;&gt;https://www.vacancies.aau.dk/phd-positions/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;University of Portsmouth: &lt;a href=&#34;https://www.port.ac.uk/study/postgraduate/postgraduate-research/research-degrees/phd/explore-our-projects&#34;&gt;https://www.port.ac.uk/study/postgraduate/postgraduate-research/research-degrees/phd/explore-our-projects&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;University of Antwerp: &lt;a href=&#34;https://www.uantwerpen.be/en/jobs/vacancies/ap/&#34;&gt;https://www.uantwerpen.be/en/jobs/vacancies/ap/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Linköping University: &lt;a href=&#34;https://liu.se/en/work-at-liu/vacancies&#34;&gt;https://liu.se/en/work-at-liu/vacancies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Chalmers University: &lt;a href=&#34;https://www.chalmers.se/en/about-chalmers/Working-at-Chalmers/Vacancies/Pages/default.aspx&#34;&gt;https://www.chalmers.se/en/about-chalmers/Working-at-Chalmers/Vacancies/Pages/default.aspx&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lulea University: &lt;a href=&#34;https://www.ltu.se/ltu/Lediga-jobb?l=en&#34;&gt;https://www.ltu.se/ltu/Lediga-jobb?l=en&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Uppsala University: &lt;a href=&#34;https://www.uu.se/en/about-uu/join-us/jobs/&#34;&gt;https://www.uu.se/en/about-uu/join-us/jobs/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Stockholm University: &lt;a href=&#34;https://www.su.se/english/about-the-university/work-at-su/available-jobs&#34;&gt;https://www.su.se/english/about-the-university/work-at-su/available-jobs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lund University: &lt;a href=&#34;https://www.lunduniversity.lu.se/vacancies&#34;&gt;https://www.lunduniversity.lu.se/vacancies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;University of Gothenburg: &lt;a href=&#34;https://www.gu.se/en/about-the-university/work-at-the-university-of-gothenburg/vacancies&#34;&gt;https://www.gu.se/en/about-the-university/work-at-the-university-of-gothenburg/vacancies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;KTH Royal Institute of Technology: &lt;a href=&#34;https://www.kth.se/en/om/work-at-kth/lediga-jobb&#34;&gt;https://www.kth.se/en/om/work-at-kth/lediga-jobb&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Örebro University: &lt;a href=&#34;https://www.oru.se/english/working-at-orebro-university/jobs-and-vacancies/&#34;&gt;https://www.oru.se/english/working-at-orebro-university/jobs-and-vacancies/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Swedish University of Agricultural Sciences: &lt;a href=&#34;https://www.slu.se/en/about-slu/work-at-slu/jobs-vacancies/&#34;&gt;https://www.slu.se/en/about-slu/work-at-slu/jobs-vacancies/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Umeå University: &lt;a href=&#34;https://www.umu.se/en/work-with-us/&#34;&gt;https://www.umu.se/en/work-with-us/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Karlstads universitet: &lt;a href=&#34;https://www.kau.se/en/work-us/work/vacancies&#34;&gt;https://www.kau.se/en/work-us/work/vacancies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;University of Copenhagen: &lt;a href=&#34;https://employment.ku.dk/phd/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://employment.ku.dk/phd/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Technical University of Denmark: &lt;a href=&#34;https://www.dtu.dk/english/About/JOB-and-CAREER/vacant-positions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.dtu.dk/english/About/JOB-and-CAREER/vacant-positions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Aalborg University: &lt;a href=&#34;https://www.vacancies.aau.dk/phd-positions/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.vacancies.aau.dk/phd-positions/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;University of Portsmouth: &lt;a href=&#34;https://www.port.ac.uk/study/postgraduate/postgraduate-research/research-degrees/phd/explore-our-projects&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.port.ac.uk/study/postgraduate/postgraduate-research/research-degrees/phd/explore-our-projects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;University of Antwerp: &lt;a href=&#34;https://www.uantwerpen.be/en/jobs/vacancies/ap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.uantwerpen.be/en/jobs/vacancies/ap/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linköping University: &lt;a href=&#34;https://liu.se/en/work-at-liu/vacancies&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://liu.se/en/work-at-liu/vacancies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Chalmers University: &lt;a href=&#34;https://www.chalmers.se/en/about-chalmers/Working-at-Chalmers/Vacancies/Pages/default.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.chalmers.se/en/about-chalmers/Working-at-Chalmers/Vacancies/Pages/default.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lulea University: &lt;a href=&#34;https://www.ltu.se/ltu/Lediga-jobb?l=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.ltu.se/ltu/Lediga-jobb?l=en&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Uppsala University: &lt;a href=&#34;https://www.uu.se/en/about-uu/join-us/jobs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.uu.se/en/about-uu/join-us/jobs/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Stockholm University: &lt;a href=&#34;https://www.su.se/english/about-the-university/work-at-su/available-jobs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.su.se/english/about-the-university/work-at-su/available-jobs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lund University: &lt;a href=&#34;https://www.lunduniversity.lu.se/vacancies&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.lunduniversity.lu.se/vacancies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;University of Gothenburg: &lt;a href=&#34;https://www.gu.se/en/about-the-university/work-at-the-university-of-gothenburg/vacancies&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.gu.se/en/about-the-university/work-at-the-university-of-gothenburg/vacancies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;KTH Royal Institute of Technology: &lt;a href=&#34;https://www.kth.se/en/om/work-at-kth/lediga-jobb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.kth.se/en/om/work-at-kth/lediga-jobb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Örebro University: &lt;a href=&#34;https://www.oru.se/english/working-at-orebro-university/jobs-and-vacancies/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.oru.se/english/working-at-orebro-university/jobs-and-vacancies/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Swedish University of Agricultural Sciences: &lt;a href=&#34;https://www.slu.se/en/about-slu/work-at-slu/jobs-vacancies/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.slu.se/en/about-slu/work-at-slu/jobs-vacancies/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Umeå University: &lt;a href=&#34;https://www.umu.se/en/work-with-us/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.umu.se/en/work-with-us/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Karlstads universitet: &lt;a href=&#34;https://www.kau.se/en/work-us/work/vacancies&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.kau.se/en/work-us/work/vacancies&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
