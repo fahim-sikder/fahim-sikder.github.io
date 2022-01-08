@@ -104,10 +104,10 @@ CMD [&amp;quot;python&amp;quot;, &amp;quot;main.py&amp;quot;]
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Build Docker&#34; srcset=&#34;
-               /post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_08957a90c3dcb036c20c720c4e69b27f.png 400w,
-               /post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_78577329ff3932a59954323c7ea03a5b.png 760w,
-               /post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://fahim-sikder.github.io/post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_08957a90c3dcb036c20c720c4e69b27f.png&#34;
+               /post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_8d350eb98383005b5288fd6c9a1ee944.webp 400w,
+               /post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_1cfeacf602158657f7709a5f15821d44.webp 760w,
+               /post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://fahim-sikder.github.io/post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_8d350eb98383005b5288fd6c9a1ee944.webp&#34;
                width=&#34;760&#34;
                height=&#34;635&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -137,10 +137,10 @@ CMD [&amp;quot;python&amp;quot;, &amp;quot;main.py&amp;quot;]
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Run Docker&#34; srcset=&#34;
-               /post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_9a41aef5e690b248fecb87122b0b9260.png 400w,
-               /post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_12f7dd3adaa8df5645fec0b49972baea.png 760w,
-               /post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://fahim-sikder.github.io/post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_9a41aef5e690b248fecb87122b0b9260.png&#34;
+               /post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_c8b6f5a8052ff64f6df98412ff5d15c2.webp 400w,
+               /post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_80a7f91bfed3c29879e350203f3f4f80.webp 760w,
+               /post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://fahim-sikder.github.io/post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_c8b6f5a8052ff64f6df98412ff5d15c2.webp&#34;
                width=&#34;658&#34;
                height=&#34;155&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

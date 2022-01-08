@@ -68,6 +68,15 @@ $ sudo apt install -f
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;After this, Texlive should be working just fine in Ubuntu!&lt;/p&gt;
 &lt;p&gt;Enjoy!&lt;/p&gt;
+&lt;h3 id=&#34;common-issues-in-installation&#34;&gt;Common Issues in Installation&lt;/h3&gt;
+&lt;h4 id=&#34;installing-packages-using-texlive-manager-tlmgr&#34;&gt;Installing Packages Using Texlive Manager (tlmgr)&lt;/h4&gt;
+&lt;p&gt;If we need to install / update packages in our texlive installations, we can use the &lt;code&gt;Texlive manager (tlmgr)&lt;/code&gt;. We can open the &lt;code&gt;tlmgr&lt;/code&gt; by typing the following in the terminal:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$ sudo tlmgr --gui
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;But sometimes, it can give the error, such as: &lt;code&gt;tlmgr: command not found&lt;/code&gt;. If this happens, do the following to open the texlive manager [2]:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$ sudo env PATH=&amp;quot;$PATH&amp;quot; tlmgr --gui
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now, it should work!&lt;/p&gt;
 &lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.tug.org/texlive/doc/texlive-en/texlive-en.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Texlive Official Guide 2021&lt;/a&gt;&lt;/li&gt;
