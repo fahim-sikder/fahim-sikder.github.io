@@ -8,7 +8,7 @@
   
   
   
-    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
   
 
   
@@ -22,7 +22,11 @@
 
 
 
+
   
+
+
+
 
 
 
@@ -80,7 +84,7 @@
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
 
   
   
@@ -254,7 +258,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.246129d782c938a644fe2d653d8a976f.css" />
+  <link rel="stylesheet" href="/css/wowchemy.1052fab8b7700a3dc49ee23683097d66.css" />
 
   
 
@@ -301,7 +305,9 @@
 
   
 
+
   
+
 
   
 
@@ -437,7 +443,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.8f76bdc9e086322ed5147724ebba3d06.js"></script>
+  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
 
   
 
@@ -807,6 +813,7 @@
 
         
         
+        
         <li class="nav-item dropdown theme-dropdown">
           <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
             <i class="fas fa-moon" aria-hidden="true"></i>
@@ -838,6 +845,10 @@
   </div>
 
   <div class="page-body">
+    
+    
+    
+
     <article class="article">
 
   
@@ -912,8 +923,6 @@
   
   
   
-  
-  
 
   
   
@@ -955,51 +964,44 @@
 </ol>
 <h3 id="tuple">Tuple</h3>
 <p>Lets first discuss about <code>Tuple</code>. Tuple and Array can hold a list of elements. But the basic difference between them is, <code>Tuple</code> is immutable. It means that, we can&rsquo;t change the value of a tuple once it&rsquo;s created. We can create a tuple by giving some ordered elements into a paranthesis <code>( )</code>. The syntax of a tuple is as follows:</p>
-<pre><code class="language-julia">(item1, item2, itme3, ...)
-</code></pre>
-<p>Let&rsquo;s see an example. Suppose we want to create a tuple consists of some mixed values. We just give those values within a paranthesis <code>( )</code> or just without the parenthesis. Both will work just fine. Then we can print the type of the tuple by using the <code>typeof()</code> method. To access the elements of a tuple, we can use the index values of tuple, but keep in mind in <code>Julia</code>, index starts from 1. So, in order to access the first element of tuple, we need to follow this syntax:</p>
-<pre><code class="language-julia">
-tuple_name[1]
-
-</code></pre>
-<h4 id="_input_"><em>input</em></h4>
-<pre><code class="language-julia">tup1 = (1, 2, 4.5, &quot;Hello&quot;)
-
-println(tup1)
-
-#this also works
-
-tup2 = 'c', 11, 0.5, &quot;World&quot;
-
-print(tup2)
-</code></pre>
-<h4 id="_output_"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="p">(</span><span class="n">item1</span><span class="p">,</span> <span class="n">item2</span><span class="p">,</span> <span class="n">itme3</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
+</span></span></code></pre></div><p>Let&rsquo;s see an example. Suppose we want to create a tuple consists of some mixed values. We just give those values within a paranthesis <code>( )</code> or just without the parenthesis. Both will work just fine. Then we can print the type of the tuple by using the <code>typeof()</code> method. To access the elements of a tuple, we can use the index values of tuple, but keep in mind in <code>Julia</code>, index starts from 1. So, in order to access the first element of tuple, we need to follow this syntax:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">tuple_name</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+</span></span></code></pre></div><h4 id="_input_"><em>input</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">tup1</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">4.5</span><span class="p">,</span> <span class="s">&#34;Hello&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">tup1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">#this also works</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">tup2</span> <span class="o">=</span> <span class="sc">&#39;c&#39;</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="s">&#34;World&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">print</span><span class="p">(</span><span class="n">tup2</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="_output_"><em>output</em></h4>
 <pre><code>(1, 2, 4.5, &quot;Hello&quot;)
 ('c', 11, 0.5, &quot;World&quot;)
 </code></pre>
 <h4 id="_input_-1"><em>input</em></h4>
-<pre><code class="language-julia">println(&quot;Type of tup1: &quot;, typeof(tup1))
-println(&quot;Type of tup2: &quot;, typeof(tup2))
-</code></pre>
-<h4 id="_output_-1"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Type of tup1: &#34;</span><span class="p">,</span> <span class="n">typeof</span><span class="p">(</span><span class="n">tup1</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Type of tup2: &#34;</span><span class="p">,</span> <span class="n">typeof</span><span class="p">(</span><span class="n">tup2</span><span class="p">))</span>
+</span></span></code></pre></div><h4 id="_output_-1"><em>output</em></h4>
 <pre><code>Type of tup1: Tuple{Int64,Int64,Float64,String}
 Type of tup2: Tuple{Char,Int64,Float64,String}
 </code></pre>
 <h4 id="_input_-2"><em>input</em></h4>
-<pre><code class="language-julia">#accessing Elements
-
-println(tup1[1])
-println(tup2[end])
-</code></pre>
-<h4 id="_output_-2"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="c">#accessing Elements</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">tup1</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">tup2</span><span class="p">[</span><span class="k">end</span><span class="p">])</span>
+</span></span></code></pre></div><h4 id="_output_-2"><em>output</em></h4>
 <pre><code>1
 World
 </code></pre>
 <p>As, we were saying earlier that, tuples are immuatble. That means, we can not change the elements of a tuple after it has been initialized. Let&rsquo;s test that. We will try to change the third element of <code>tup1</code>. And it will give an error.</p>
 <h4 id="_input_-3"><em>input</em></h4>
-<pre><code class="language-julia">tup1[3] = 'c' 
-</code></pre>
-<h4 id="_output_-3"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">tup1</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="sc">&#39;c&#39;</span> 
+</span></span></code></pre></div><h4 id="_output_-3"><em>output</em></h4>
 <pre><code>MethodError: no method matching setindex!(::Tuple{Int64,Int64,Float64,String}, ::Char, ::Int64)
 
 
@@ -1010,59 +1012,50 @@ Stacktrace:
 </code></pre>
 <p>There is an another version of tuples and it is called <strong>NamedTuples</strong>. Here, we can assign an unique name to each elements of the tuple to access them.</p>
 <p>To access by using its name we need to use the following syntax:</p>
-<pre><code class="language-julia">
-tuple_name.variable_name
-
-</code></pre>
-<h4 id="_input_-4"><em>input</em></h4>
-<pre><code class="language-julia">named_tup = (lang = 'C', int_num = 1, float_num = 3.6)
-
-println(&quot;Elements of named_tuple: &quot;, named_tup)
-
-println(&quot;Accessing first element by index: &quot;, named_tup[1])
-
-println(&quot;Accessing first element by using variable name: &quot;, named_tup.lang)
-</code></pre>
-<h4 id="_output_-4"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">tuple_name</span><span class="o">.</span><span class="n">variable_name</span>
+</span></span></code></pre></div><h4 id="_input_-4"><em>input</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">named_tup</span> <span class="o">=</span> <span class="p">(</span><span class="n">lang</span> <span class="o">=</span> <span class="sc">&#39;C&#39;</span><span class="p">,</span> <span class="n">int_num</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">float_num</span> <span class="o">=</span> <span class="mf">3.6</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Elements of named_tuple: &#34;</span><span class="p">,</span> <span class="n">named_tup</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Accessing first element by index: &#34;</span><span class="p">,</span> <span class="n">named_tup</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Accessing first element by using variable name: &#34;</span><span class="p">,</span> <span class="n">named_tup</span><span class="o">.</span><span class="n">lang</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="_output_-4"><em>output</em></h4>
 <pre><code>Elements of named_tuple: (lang = 'C', int_num = 1, float_num = 3.6)
 Accessing first element by index: C
 Accessing first element by using variable name: C
 </code></pre>
 <h3 id="array">Array</h3>
 <p>Unlike Tuples, Arrays are mutable. So, after assigning values we can change them. We can declare an array in many ways. such as:</p>
-<pre><code class="language-julia">
-array_name = [item1, item2, ...]
-array_name = Array([item1, item2, ...])
-array_name = Array{DataType}([item1, item2, ...])
-
-</code></pre>
-<p>Here in the third syntax of declaring array, we can specify what kind of data we want to assign in our array. Lets, create three arrays using these syntax.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">array_name</span> <span class="o">=</span> <span class="p">[</span><span class="n">item1</span><span class="p">,</span> <span class="n">item2</span><span class="p">,</span> <span class="o">...</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">array_name</span> <span class="o">=</span> <span class="kt">Array</span><span class="p">([</span><span class="n">item1</span><span class="p">,</span> <span class="n">item2</span><span class="p">,</span> <span class="o">...</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="n">array_name</span> <span class="o">=</span> <span class="kt">Array</span><span class="p">{</span><span class="kt">DataType</span><span class="p">}([</span><span class="n">item1</span><span class="p">,</span> <span class="n">item2</span><span class="p">,</span> <span class="o">...</span><span class="p">])</span>
+</span></span></code></pre></div><p>Here in the third syntax of declaring array, we can specify what kind of data we want to assign in our array. Lets, create three arrays using these syntax.</p>
 <h4 id="_input_-5"><em>input</em></h4>
-<pre><code class="language-julia">arr1 = [1, 2, 3]
-arr2 = Array([2.5, &quot;Hello&quot;, 100])
-arr3 = Array{Int64}([4, 6, 8])
-
-println(&quot;Elements of arr1: &quot;, arr1)
-println(&quot;Elements of arr2: &quot;, arr2)
-println(&quot;Elements of arr3: &quot;, arr3)
-</code></pre>
-<h4 id="_output_-5"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">arr1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">arr2</span> <span class="o">=</span> <span class="kt">Array</span><span class="p">([</span><span class="mf">2.5</span><span class="p">,</span> <span class="s">&#34;Hello&#34;</span><span class="p">,</span> <span class="mi">100</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="n">arr3</span> <span class="o">=</span> <span class="kt">Array</span><span class="p">{</span><span class="kt">Int64</span><span class="p">}([</span><span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Elements of arr1: &#34;</span><span class="p">,</span> <span class="n">arr1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Elements of arr2: &#34;</span><span class="p">,</span> <span class="n">arr2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Elements of arr3: &#34;</span><span class="p">,</span> <span class="n">arr3</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="_output_-5"><em>output</em></h4>
 <pre><code>Elements of arr1: [1, 2, 3]
 Elements of arr2: Any[2.5, &quot;Hello&quot;, 100]
 Elements of arr3: [4, 6, 8]
 </code></pre>
 <p>These are the example of 1 dimensional array. The syntax of declaring 2 dimensional array is follows:</p>
-<pre><code class="language-julia">
-array_2d = [item1 item2; item3 item4; ...]
-
-</code></pre>
-<p>Let&rsquo;s create an array which has 3 row and 2 columns or an <code>(3*2)</code> array.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">array_2d</span> <span class="o">=</span> <span class="p">[</span><span class="n">item1</span> <span class="n">item2</span><span class="p">;</span> <span class="n">item3</span> <span class="n">item4</span><span class="p">;</span> <span class="o">...</span><span class="p">]</span>
+</span></span></code></pre></div><p>Let&rsquo;s create an array which has 3 row and 2 columns or an <code>(3*2)</code> array.</p>
 <h4 id="_input_-6"><em>input</em></h4>
-<pre><code class="language-julia">arr_2d =[1 2; 3 4; 5 6]
-
-arr_2d
-</code></pre>
-<h4 id="_output_-6"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">arr_2d</span> <span class="o">=</span><span class="p">[</span><span class="mi">1</span> <span class="mi">2</span><span class="p">;</span> <span class="mi">3</span> <span class="mi">4</span><span class="p">;</span> <span class="mi">5</span> <span class="mi">6</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">arr_2d</span>
+</span></span></code></pre></div><h4 id="_output_-6"><em>output</em></h4>
 <pre><code>3×2 Array{Int64,2}:
  1  2
  3  4
@@ -1070,53 +1063,47 @@ arr_2d
 </code></pre>
 <h4 id="array-operations">Array Operations</h4>
 <p>To insert, delete or sort elements of an array we can use some built in methods like <code>insert(), deleteat(), push(), pushfirst(), pop(), popfirst(), sort()</code>. Let&rsquo;s use these methods. To insert elements in an array we can use <code>push()</code>, <code>pushfirst()</code> and <code>insert()</code> methods. <code>push()</code> method insert an element in the end of the array, <code>pushfirst()</code> inserts an item at the begining of the array, and <code>insert()</code> method insert an item into a given location. The syntax of <code>insert()</code> method is</p>
-<pre><code class="language-julia">
-insert(arr_name, position_to_insert, value)
-
-</code></pre>
-<p>Let&rsquo;s first insert into an array.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">insert</span><span class="p">(</span><span class="n">arr_name</span><span class="p">,</span> <span class="n">position_to_insert</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+</span></span></code></pre></div><p>Let&rsquo;s first insert into an array.</p>
 <h4 id="_input_-7"><em>input</em></h4>
-<pre><code class="language-julia">test_arr = [1, 2, 3, 4, 5]
-
-push!(test_arr, 100)
-
-println(&quot;Array after using push method: &quot;, test_arr)
-
-pushfirst!(test_arr, 12)
-
-println(&quot;Array after using pushfirst method: &quot;, test_arr)
-
-insert!(test_arr, 3, 2525)
-
-println(&quot;Array after using insert method: &quot;, test_arr)
-</code></pre>
-<h4 id="_output_-7"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">test_arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">push!</span><span class="p">(</span><span class="n">test_arr</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Array after using push method: &#34;</span><span class="p">,</span> <span class="n">test_arr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">pushfirst!</span><span class="p">(</span><span class="n">test_arr</span><span class="p">,</span> <span class="mi">12</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Array after using pushfirst method: &#34;</span><span class="p">,</span> <span class="n">test_arr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">insert!</span><span class="p">(</span><span class="n">test_arr</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2525</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Array after using insert method: &#34;</span><span class="p">,</span> <span class="n">test_arr</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="_output_-7"><em>output</em></h4>
 <pre><code>Array after using push method: [1, 2, 3, 4, 5, 100]
 Array after using pushfirst method: [12, 1, 2, 3, 4, 5, 100]
 Array after using insert method: [12, 1, 2525, 2, 3, 4, 5, 100]
 </code></pre>
 <p>To delete elements in an array, we can use <code>pop()</code>, <code>popfirst()</code> and <code>deleteat()</code> methods. <code>pop()</code> method deletes an element from the end of the array, <code>popfirst()</code> deletes an item from the begining of the array, and <code>deleteat()</code> method deletes an item from a given location. The syntax of <code>deleteat()</code> method is</p>
-<pre><code class="language-julia">
-deleteat(arr_name, position_for_delete)
-
-</code></pre>
-<p>We will use the same array which we used with insertion methods.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">deleteat</span><span class="p">(</span><span class="n">arr_name</span><span class="p">,</span> <span class="n">position_for_delete</span><span class="p">)</span>
+</span></span></code></pre></div><p>We will use the same array which we used with insertion methods.</p>
 <h4 id="_input_-8"><em>input</em></h4>
-<pre><code class="language-julia">println(&quot;Array before deleting elements: &quot;, test_arr)
-
-pop!(test_arr)
-
-println(&quot;Array after using pop method: &quot;, test_arr)
-
-popfirst!(test_arr)
-
-println(&quot;Array after using popfirst method: &quot;, test_arr)
-
-deleteat!(test_arr, 4)
-
-println(&quot;Array after using deleteat method at the 4th index: &quot;, test_arr)
-</code></pre>
-<h4 id="_output_-8"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Array before deleting elements: &#34;</span><span class="p">,</span> <span class="n">test_arr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">pop!</span><span class="p">(</span><span class="n">test_arr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Array after using pop method: &#34;</span><span class="p">,</span> <span class="n">test_arr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">popfirst!</span><span class="p">(</span><span class="n">test_arr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Array after using popfirst method: &#34;</span><span class="p">,</span> <span class="n">test_arr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">deleteat!</span><span class="p">(</span><span class="n">test_arr</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Array after using deleteat method at the 4th index: &#34;</span><span class="p">,</span> <span class="n">test_arr</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="_output_-8"><em>output</em></h4>
 <pre><code>Array before deleting elements: [12, 1, 2525, 2, 3, 4, 5, 100]
 Array after using pop method: [12, 1, 2525, 2, 3, 4, 5]
 Array after using popfirst method: [1, 2525, 2, 3, 4, 5]
@@ -1125,88 +1112,80 @@ Array after using deleteat method at the 4th index: [1, 2525, 2, 4, 5]
 <p>Besides these inserting and deletion methods, there are some methods for other helpful tasks. Here, we will try to mention some of the methods. For sorting we can use <code>sort()</code> method. Also, if we want arrays of ones or zeros we can use <code>ones()</code> and <code>zeros()</code> method respectively. We can generate random number from uniform distribution using <code>rand()</code> method. To create random number from normal distribution we can use <code>randn()</code> method.</p>
 <p>Let&rsquo;s see them in action.</p>
 <h4 id="_input_-9"><em>input</em></h4>
-<pre><code class="language-julia"># sorting test_arr
-
-println(&quot;Before sorting the test_array: &quot;, test_arr)
-
-sort!(test_arr)
-
-println(&quot;After sorting the test_array: &quot;, test_arr)
-</code></pre>
-<h4 id="_output_-9"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="c"># sorting test_arr</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Before sorting the test_array: &#34;</span><span class="p">,</span> <span class="n">test_arr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">sort!</span><span class="p">(</span><span class="n">test_arr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;After sorting the test_array: &#34;</span><span class="p">,</span> <span class="n">test_arr</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="_output_-9"><em>output</em></h4>
 <pre><code>Before sorting the test_array: [1, 2525, 2, 4, 5]
 After sorting the test_array: [1, 2, 4, 5, 2525]
 </code></pre>
 <h4 id="_input_-10"><em>input</em></h4>
-<pre><code class="language-julia"># create an 2*3 array of ones
-
-ones_arr = ones(2, 3)
-
-ones_arr
-</code></pre>
-<h4 id="_output_-10"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="c"># create an 2*3 array of ones</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">ones_arr</span> <span class="o">=</span> <span class="n">ones</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">ones_arr</span>
+</span></span></code></pre></div><h4 id="_output_-10"><em>output</em></h4>
 <pre><code>2×3 Array{Float64,2}:
  1.0  1.0  1.0
  1.0  1.0  1.0
 </code></pre>
 <h4 id="_input_-11"><em>input</em></h4>
-<pre><code class="language-julia"># create an 2*3 array of zeros
-
-zeros_arr = zeros(2, 3)
-
-zeros_arr
-</code></pre>
-<h4 id="_output_-11"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="c"># create an 2*3 array of zeros</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">zeros_arr</span> <span class="o">=</span> <span class="n">zeros</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">zeros_arr</span>
+</span></span></code></pre></div><h4 id="_output_-11"><em>output</em></h4>
 <pre><code>2×3 Array{Float64,2}:
  0.0  0.0  0.0
  0.0  0.0  0.0
 </code></pre>
 <h4 id="_input_-12"><em>input</em></h4>
-<pre><code class="language-julia"># create an array size of 2*5 with random variable from uniform distribution 
-
-rand(2, 5)
-</code></pre>
-<h4 id="_output_-12"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="c"># create an array size of 2*5 with random variable from uniform distribution </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">rand</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="_output_-12"><em>output</em></h4>
 <pre><code>2×5 Array{Float64,2}:
  0.451961  0.309916  0.193709  0.602781  0.160294
  0.737481  0.523093  0.662101  0.946056  0.804512
 </code></pre>
 <h4 id="_input_-13"><em>input</em></h4>
-<pre><code class="language-julia"># create an array size of 2*5 with random variable from normal distribution 
-
-randn(2, 5)
-</code></pre>
-<h4 id="_output_-13"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="c"># create an array size of 2*5 with random variable from normal distribution </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">randn</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="_output_-13"><em>output</em></h4>
 <pre><code>2×5 Array{Float64,2}:
   0.907519  2.42625  0.909603  -0.420501   0.632623
  -1.78817   0.63605  0.17628    0.419475  -0.200928
 </code></pre>
 <h3 id="dictionary">Dictionary</h3>
 <p>Dictionary is a collection of key-value pairs, where we can access the value using its key. We can declare dictionary in the following three ways:</p>
-<pre><code class="language-julia">
-dict_name = Dict()
-dict_name = Dict(key1 =&gt; value1, key2 =&gt; value2, ....)
-dict_name = Dict{key_datatype, value_datatype}(key1 =&gt; value1, key2 =&gt; value2, ....)
-
-</code></pre>
-<p>Here in the third syntax of declaring dictionary, we can specify the data types of keys and values.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">dict_name</span> <span class="o">=</span> <span class="kt">Dict</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">dict_name</span> <span class="o">=</span> <span class="kt">Dict</span><span class="p">(</span><span class="n">key1</span> <span class="o">=&gt;</span> <span class="n">value1</span><span class="p">,</span> <span class="n">key2</span> <span class="o">=&gt;</span> <span class="n">value2</span><span class="p">,</span> <span class="o">....</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">dict_name</span> <span class="o">=</span> <span class="kt">Dict</span><span class="p">{</span><span class="kt">key_datatype</span><span class="p">,</span> <span class="kt">value_datatype</span><span class="p">}(</span><span class="n">key1</span> <span class="o">=&gt;</span> <span class="n">value1</span><span class="p">,</span> <span class="n">key2</span> <span class="o">=&gt;</span> <span class="n">value2</span><span class="p">,</span> <span class="o">....</span><span class="p">)</span>
+</span></span></code></pre></div><p>Here in the third syntax of declaring dictionary, we can specify the data types of keys and values.</p>
 <h4 id="_input_-14"><em>input</em></h4>
-<pre><code class="language-julia">dict1 = Dict()
-
-dict1[&quot;Bangladesh&quot;] = &quot;Dhaka&quot;
-dict1[&quot;Sweden&quot;] = &quot;Stockholm&quot;
-
-println(&quot;Elements of dict1: &quot;, dict1)
-
-dict2 = Dict(&quot;Apple&quot; =&gt; &quot;Red&quot;, &quot;Orange&quot; =&gt; &quot;Orange&quot;, &quot;Banana&quot; =&gt; &quot;Yellow&quot;)
-
-println(&quot;Elements of dict2: &quot;, dict2)
-
-dict3 = Dict{String, Int64}(&quot;One&quot; =&gt; 1, &quot;Two&quot; =&gt; 2, &quot;Three&quot; =&gt; 3)
-
-println(&quot;Elements of dict3: &quot;, dict3)
-</code></pre>
-<h4 id="_output_-14"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">dict1</span> <span class="o">=</span> <span class="kt">Dict</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">dict1</span><span class="p">[</span><span class="s">&#34;Bangladesh&#34;</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#34;Dhaka&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">dict1</span><span class="p">[</span><span class="s">&#34;Sweden&#34;</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#34;Stockholm&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Elements of dict1: &#34;</span><span class="p">,</span> <span class="n">dict1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">dict2</span> <span class="o">=</span> <span class="kt">Dict</span><span class="p">(</span><span class="s">&#34;Apple&#34;</span> <span class="o">=&gt;</span> <span class="s">&#34;Red&#34;</span><span class="p">,</span> <span class="s">&#34;Orange&#34;</span> <span class="o">=&gt;</span> <span class="s">&#34;Orange&#34;</span><span class="p">,</span> <span class="s">&#34;Banana&#34;</span> <span class="o">=&gt;</span> <span class="s">&#34;Yellow&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Elements of dict2: &#34;</span><span class="p">,</span> <span class="n">dict2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">dict3</span> <span class="o">=</span> <span class="kt">Dict</span><span class="p">{</span><span class="kt">String</span><span class="p">,</span> <span class="kt">Int64</span><span class="p">}(</span><span class="s">&#34;One&#34;</span> <span class="o">=&gt;</span> <span class="mi">1</span><span class="p">,</span> <span class="s">&#34;Two&#34;</span> <span class="o">=&gt;</span> <span class="mi">2</span><span class="p">,</span> <span class="s">&#34;Three&#34;</span> <span class="o">=&gt;</span> <span class="mi">3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Elements of dict3: &#34;</span><span class="p">,</span> <span class="n">dict3</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="_output_-14"><em>output</em></h4>
 <pre><code>Elements of dict1: Dict{Any,Any}(&quot;Bangladesh&quot; =&gt; &quot;Dhaka&quot;,&quot;Sweden&quot; =&gt; &quot;Stockholm&quot;)
 Elements of dict2: Dict(&quot;Apple&quot; =&gt; &quot;Red&quot;,&quot;Orange&quot; =&gt; &quot;Orange&quot;,&quot;Banana&quot; =&gt; &quot;Yellow&quot;)
 Elements of dict3: Dict(&quot;One&quot; =&gt; 1,&quot;Two&quot; =&gt; 2,&quot;Three&quot; =&gt; 3)
@@ -1214,48 +1193,42 @@ Elements of dict3: Dict(&quot;One&quot; =&gt; 1,&quot;Two&quot; =&gt; 2,&quot;Th
 <h4 id="accessing-dictionary-elements">Accessing Dictionary Elements</h4>
 <p>To access the elements of dictionary we need to access them via their key. Suppose in <code>dict3</code>, we want to access the value <code>3</code>. So, we can do that by this:</p>
 <h4 id="_input_-15"><em>input</em></h4>
-<pre><code class="language-julia">println(dict3[&quot;Three&quot;])
-</code></pre>
-<h4 id="_output_-15"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">dict3</span><span class="p">[</span><span class="s">&#34;Three&#34;</span><span class="p">])</span>
+</span></span></code></pre></div><h4 id="_output_-15"><em>output</em></h4>
 <pre><code>3
 </code></pre>
 <p>Also, we can access the keys and values of a dictionary seperately by using <code>keys()</code> and <code>values()</code> method respectively.</p>
 <h4 id="_input_-16"><em>input</em></h4>
-<pre><code class="language-julia">println(&quot;Keys of dict3: &quot;, keys(dict3))
-
-println(&quot;Values of dict3: &quot;, values(dict3))
-</code></pre>
-<h4 id="_output_-16"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Keys of dict3: &#34;</span><span class="p">,</span> <span class="n">keys</span><span class="p">(</span><span class="n">dict3</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Values of dict3: &#34;</span><span class="p">,</span> <span class="n">values</span><span class="p">(</span><span class="n">dict3</span><span class="p">))</span>
+</span></span></code></pre></div><h4 id="_output_-16"><em>output</em></h4>
 <pre><code>Keys of dict3: [&quot;One&quot;, &quot;Two&quot;, &quot;Three&quot;]
 Values of dict3: [1, 2, 3]
 </code></pre>
 <h3 id="set">Set</h3>
 <p>Another data structure of <code>julia</code> is <code>set</code>. <code>Set</code> is like <code>array</code>, its mutable. But the basic difference between them is, <code>set</code> holds only <code>unique element</code>. So, there will be no duplicate element in a <code>set</code>. And the basic syntax of a set is:</p>
-<pre><code class="language-julia">
-set_name = Set([item1, item2, item3, ....])
-
-</code></pre>
-<p>We can do operations like union, intersection, difference between two sets using <code>union()</code>, <code>intersect()</code>, and <code>setdiff()</code> methods respectively. Also we can check if one set is subset of another one by using <code>issubset()</code> function.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">set_name</span> <span class="o">=</span> <span class="kt">Set</span><span class="p">([</span><span class="n">item1</span><span class="p">,</span> <span class="n">item2</span><span class="p">,</span> <span class="n">item3</span><span class="p">,</span> <span class="o">....</span><span class="p">])</span>
+</span></span></code></pre></div><p>We can do operations like union, intersection, difference between two sets using <code>union()</code>, <code>intersect()</code>, and <code>setdiff()</code> methods respectively. Also we can check if one set is subset of another one by using <code>issubset()</code> function.</p>
 <p>Here we will create 2 sets and apply these functions on them.</p>
 <h4 id="_input_-17"><em>input</em></h4>
-<pre><code class="language-julia">set1 = Set([1, 2, 3, 2, 5, &quot;new&quot;])
-
-println(&quot;Set1: &quot;, set1)
-
-set2 = Set([5, 2])
-
-println(&quot;Set1: &quot;, set2)
-</code></pre>
-<h4 id="_output_-17"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">set1</span> <span class="o">=</span> <span class="kt">Set</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="s">&#34;new&#34;</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Set1: &#34;</span><span class="p">,</span> <span class="n">set1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">set2</span> <span class="o">=</span> <span class="kt">Set</span><span class="p">([</span><span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Set1: &#34;</span><span class="p">,</span> <span class="n">set2</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="_output_-17"><em>output</em></h4>
 <pre><code>Set1: Set(Any[&quot;new&quot;, 2, 3, 5, 1])
 Set1: Set([2, 5])
 </code></pre>
 <h4 id="_input_-18"><em>input</em></h4>
-<pre><code class="language-julia"># union between two sets
-
-union(set1, set2)
-</code></pre>
-<h4 id="_output_-18"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="c"># union between two sets</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">union</span><span class="p">(</span><span class="n">set1</span><span class="p">,</span> <span class="n">set2</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="_output_-18"><em>output</em></h4>
 <pre><code>Set{Any} with 5 elements:
   &quot;new&quot;
   2
@@ -1264,39 +1237,35 @@ union(set1, set2)
   1
 </code></pre>
 <h4 id="_input_-19"><em>input</em></h4>
-<pre><code class="language-julia"># intersection between two sets
-
-intersect(set1, set2)
-</code></pre>
-<h4 id="_output_-19"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="c"># intersection between two sets</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">intersect</span><span class="p">(</span><span class="n">set1</span><span class="p">,</span> <span class="n">set2</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="_output_-19"><em>output</em></h4>
 <pre><code>Set{Any} with 2 elements:
   2
   5
 </code></pre>
 <h4 id="_input_-20"><em>input</em></h4>
-<pre><code class="language-julia"># set difference between two sets
-
-setdiff(set1, set2)
-</code></pre>
-<h4 id="_output_-20"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="c"># set difference between two sets</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">setdiff</span><span class="p">(</span><span class="n">set1</span><span class="p">,</span> <span class="n">set2</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="_output_-20"><em>output</em></h4>
 <pre><code>Set{Any} with 3 elements:
   &quot;new&quot;
   3
   1
 </code></pre>
 <h4 id="_input_-21"><em>input</em></h4>
-<pre><code class="language-julia"># Checking if set2 is subset of set1
-
-issubset(set2, set1)
-</code></pre>
-<h4 id="_output_-21"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="c"># Checking if set2 is subset of set1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">issubset</span><span class="p">(</span><span class="n">set2</span><span class="p">,</span> <span class="n">set1</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="_output_-21"><em>output</em></h4>
 <pre><code>true
 </code></pre>
 <p>As, set is mutable, we can add or delete elements from it. To add elements we can use <code>push()</code> method and to delete elements we can use <code>delete()</code> method. For deletion, we need to tell specifically which element from a set we want to delete.</p>
 <h4 id="_input_-22"><em>input</em></h4>
-<pre><code class="language-julia">push!(set1, &quot;hello&quot;)
-</code></pre>
-<h4 id="_output_-22"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">push!</span><span class="p">(</span><span class="n">set1</span><span class="p">,</span> <span class="s">&#34;hello&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="_output_-22"><em>output</em></h4>
 <pre><code>Set{Any} with 6 elements:
   &quot;new&quot;
   2
@@ -1306,9 +1275,8 @@ issubset(set2, set1)
   1
 </code></pre>
 <h4 id="_input_-23"><em>input</em></h4>
-<pre><code class="language-julia">delete!(set1, &quot;hello&quot;)
-</code></pre>
-<h4 id="_output_-23"><em>output</em></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">delete!</span><span class="p">(</span><span class="n">set1</span><span class="p">,</span> <span class="s">&#34;hello&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="_output_-23"><em>output</em></h4>
 <pre><code>Set{Any} with 5 elements:
   &quot;new&quot;
   2
@@ -1328,8 +1296,6 @@ issubset(set2, set1)
     </div>
 
     
-
-
 
 
 
@@ -1464,24 +1430,6 @@ issubset(set2, set1)
 
 
 
-  
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/post/julia-tutorial-part-1/">Julia Tutorial Part 1: Installations &amp; Basics</a></li>
-      
-      <li><a href="/post/install-docker-ubuntu/">Installing Docker, Creating &amp; Running First Python Script Using it on Ubuntu 20.04 LTS</a></li>
-      
-      <li><a href="/post/how-to-install-r-ubuntu-20/">How to Install R and two most popular R packages (tidyverse &amp; rstan) in Ubuntu 20.04 LTS</a></li>
-      
-    </ul>
-  </div>
-  
-
-
-
 
 
   </div>
@@ -1503,15 +1451,47 @@ issubset(set2, set1)
   
 
   
-  <p class="powered-by">
-    ©Md Fahim Sikder
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2022 Md Fahim Sikder. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
-  
-  
-
-
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
 
 
 
@@ -1535,44 +1515,14 @@ issubset(set2, set1)
     
   </div>
 
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
       
 
     
-    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+    <script src="/js/vendor-bundle.min.fab8b449b814cc9f95b22fcf2e45f05b.js"></script>
 
     
     
     
-      
-      
-        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
       
 
       
@@ -1586,6 +1536,8 @@ issubset(set2, set1)
         
         
         <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
         
       
 
@@ -1649,7 +1601,7 @@ issubset(set2, set1)
 
     
     
-      <script src="/js/wowchemy-headroom.1cb9e2fc8399acee94eab837265b73bf.js" type="module"></script>
+      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
     
     
     
@@ -1661,9 +1613,42 @@ issubset(set2, set1)
       
     
     
-    <script src="/en/js/wowchemy.min.247fd8f54253895301106e3006f53f38.js"></script>
+    <script src="/en/js/wowchemy.min.ab2f2890dbe3e2e83579366d3d6e8fd9.js"></script>
 
     
+    
+      <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
 
 
 

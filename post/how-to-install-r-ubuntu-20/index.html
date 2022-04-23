@@ -8,7 +8,7 @@
   
   
   
-    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
   
 
   
@@ -22,7 +22,11 @@
 
 
 
+
   
+
+
+
 
 
 
@@ -79,7 +83,7 @@
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
 
   
   
@@ -253,7 +257,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.246129d782c938a644fe2d653d8a976f.css" />
+  <link rel="stylesheet" href="/css/wowchemy.1052fab8b7700a3dc49ee23683097d66.css" />
 
   
 
@@ -300,7 +304,9 @@
 
   
 
+
   
+
 
   
 
@@ -435,7 +441,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.8f76bdc9e086322ed5147724ebba3d06.js"></script>
+  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
 
   
 
@@ -805,6 +811,7 @@
 
         
         
+        
         <li class="nav-item dropdown theme-dropdown">
           <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
             <i class="fas fa-moon" aria-hidden="true"></i>
@@ -836,6 +843,10 @@
   </div>
 
   <div class="page-body">
+    
+    
+    
+
     <article class="article">
 
   
@@ -910,8 +921,6 @@
   
   
   
-  
-  
 
   
   
@@ -946,19 +955,15 @@
       <p>Hello there! In this post, we are going to see how we can install <code>R</code> in our Ubuntu 20.04 LTS. Also, we will install two of R&rsquo;s popular packages, namely: <a href="https://www.tidyverse.org/" target="_blank" rel="noopener">tidyverse</a> &amp; <a href="https://mc-stan.org/users/interfaces/rstan" target="_blank" rel="noopener">rstan</a>. Both of these packages are important tools for data scientists. Rstan is the R interface for <a href="https://mc-stan.org/" target="_blank" rel="noopener">stan</a>, which is the state-of-the-art platform for statistical modeling and high-performance statistical computation. I faced so much difficulty installing these. So, I decided to make it simple for you guys.</p>
 <h3 id="installing-r">Installing R</h3>
 <p>First, let&rsquo;s install the <code>R</code> in our system. We will install R from <a href="https://cran.r-project.org/" target="_blank" rel="noopener">CRAN</a> repository. We need to install some dependencies for adding a new repository over HTTPS. To do that, we will run the following command in our terminal.</p>
-<pre><code class="language-console">sudo apt-get install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
-</code></pre>
-<p>Then, we need to add the CRAN repository to our system sources’ list. We can do that by typing the following commands into our terminal.</p>
-<pre><code class="language-console">sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
-sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
-</code></pre>
-<p>Finally, we will install R by using the following command.</p>
-<pre><code class="language-console">sudo apt-get install r-base
-</code></pre>
-<p>Now, the R should be installed in our system. To check that, we can run the following command into our terminal.</p>
-<pre><code class="language-console">R
-</code></pre>
-<p>If R is installed correctly, the console will show something like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">sudo apt-get install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
+</span></span></span></code></pre></div><p>Then, we need to add the CRAN repository to our system sources’ list. We can do that by typing the following commands into our terminal.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+</span></span></span><span class="line"><span class="cl"><span class="go">sudo add-apt-repository &#39;deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/&#39;
+</span></span></span></code></pre></div><p>Finally, we will install R by using the following command.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">sudo apt-get install r-base
+</span></span></span></code></pre></div><p>Now, the R should be installed in our system. To check that, we can run the following command into our terminal.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">R
+</span></span></span></code></pre></div><p>If R is installed correctly, the console will show something like this:</p>
 <p>
 
 
@@ -989,27 +994,22 @@ sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-
 </p>
 <h3 id="installing-tidyverse">Installing tidyverse</h3>
 <p>Now, we will install the tidyverse packages. <strong>Please note that we need to install <code>tidyverse</code> first then install <code>rstan</code>, because <code>rstan</code> requires some dependencies. By installing <code>tidyverse</code> first, it will make the job easier.</strong> First of all, we need to install some dependencies by typing the following commands in our terminal.</p>
-<pre><code class="language-console">sudo apt-get install -y libxml2-dev libcurl4-openssl-dev libssl-dev libv8-dev
-</code></pre>
-<p>Then install <code>tidyverse</code> by using the following commands:</p>
-<pre><code class="language-console">sudo R
-install.packages('tidyverse')
-</code></pre>
-<p>It will take some time to get installed. After installation, exit from the <code>r</code> environment using the <code>q()</code> function and be sure to save the environment when prompted.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">sudo apt-get install -y libxml2-dev libcurl4-openssl-dev libssl-dev libv8-dev
+</span></span></span></code></pre></div><p>Then install <code>tidyverse</code> by using the following commands:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">sudo R
+</span></span></span><span class="line"><span class="cl"><span class="go">install.packages(&#39;tidyverse&#39;)
+</span></span></span></code></pre></div><p>It will take some time to get installed. After installation, exit from the <code>r</code> environment using the <code>q()</code> function and be sure to save the environment when prompted.</p>
 <h3 id="installing-rstan">Installing rstan</h3>
 <p>To install the rstan, we need first check if our system has rstan already installed. If it has, then we need to remove it. We can do this by using the following commands:</p>
-<pre><code class="language-console">remove.packages(&quot;rstan&quot;)
-if (file.exists(&quot;.RData&quot;)) file.remove(&quot;.RData&quot;)
-</code></pre>
-<p>Now, we need to check the c++ toolchain. We can do that by using these commands:</p>
-<pre><code class="language-console">sudo R
-pkgbuild::has_build_tools(debug = TRUE)
-</code></pre>
-<p>This command will check if the installed c++ is using the pkgbuild package. The system will give the output <code>TRUE</code> if it is using the pkgbuild package. Otherwise, we need to follow instructions from <a href="https://github.com/stan-dev/rstan/wiki/Installing-RStan-on-Linux" target="_blank" rel="noopener">here</a>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">remove.packages(&#34;rstan&#34;)
+</span></span></span><span class="line"><span class="cl"><span class="go">if (file.exists(&#34;.RData&#34;)) file.remove(&#34;.RData&#34;)
+</span></span></span></code></pre></div><p>Now, we need to check the c++ toolchain. We can do that by using these commands:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">sudo R
+</span></span></span><span class="line"><span class="cl"><span class="go">pkgbuild::has_build_tools(debug = TRUE)
+</span></span></span></code></pre></div><p>This command will check if the installed c++ is using the pkgbuild package. The system will give the output <code>TRUE</code> if it is using the pkgbuild package. Otherwise, we need to follow instructions from <a href="https://github.com/stan-dev/rstan/wiki/Installing-RStan-on-Linux" target="_blank" rel="noopener">here</a>.</p>
 <p>Now, run the following command to install rstan.</p>
-<pre><code class="language-console">install.packages(&quot;rstan&quot;, repos = &quot;https://cloud.r-project.org/&quot;, dependencies = TRUE)
-</code></pre>
-<p>Again, it will take some time to get installed. After the installations, exit from the <code>r</code> environment using <code>q()</code> function and be sure to save the environment when prompted.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">install.packages(&#34;rstan&#34;, repos = &#34;https://cloud.r-project.org/&#34;, dependencies = TRUE)
+</span></span></span></code></pre></div><p>Again, it will take some time to get installed. After the installations, exit from the <code>r</code> environment using <code>q()</code> function and be sure to save the environment when prompted.</p>
 <p>Happy Coding!!!</p>
 <h4 id="references">References</h4>
 <ol>
@@ -1020,8 +1020,6 @@ pkgbuild::has_build_tools(debug = TRUE)
     </div>
 
     
-
-
 
 
 
@@ -1160,26 +1158,6 @@ pkgbuild::has_build_tools(debug = TRUE)
 
 
 
-  
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/post/install-docker-ubuntu/">Installing Docker, Creating &amp; Running First Python Script Using it on Ubuntu 20.04 LTS</a></li>
-      
-      <li><a href="/post/installing-texlive-latest-ubuntu/">Installing Texlive Latest Version (Texlive-2021) on Ubuntu-20.04/18.04</a></li>
-      
-      <li><a href="/post/julia-tutorial-part-2-data-structures/">Julia Tutorial Part 2: Data Structures</a></li>
-      
-      <li><a href="/post/julia-tutorial-part-1/">Julia Tutorial Part 1: Installations &amp; Basics</a></li>
-      
-    </ul>
-  </div>
-  
-
-
-
 
 
   </div>
@@ -1201,15 +1179,47 @@ pkgbuild::has_build_tools(debug = TRUE)
   
 
   
-  <p class="powered-by">
-    ©Md Fahim Sikder
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2022 Md Fahim Sikder. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
-  
-  
-
-
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
 
 
 
@@ -1233,44 +1243,14 @@ pkgbuild::has_build_tools(debug = TRUE)
     
   </div>
 
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
       
 
     
-    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+    <script src="/js/vendor-bundle.min.fab8b449b814cc9f95b22fcf2e45f05b.js"></script>
 
     
     
     
-      
-      
-        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
       
 
       
@@ -1284,6 +1264,8 @@ pkgbuild::has_build_tools(debug = TRUE)
         
         
         <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
         
       
 
@@ -1347,7 +1329,7 @@ pkgbuild::has_build_tools(debug = TRUE)
 
     
     
-      <script src="/js/wowchemy-headroom.1cb9e2fc8399acee94eab837265b73bf.js" type="module"></script>
+      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
     
     
     
@@ -1359,9 +1341,42 @@ pkgbuild::has_build_tools(debug = TRUE)
       
     
     
-    <script src="/en/js/wowchemy.min.247fd8f54253895301106e3006f53f38.js"></script>
+    <script src="/en/js/wowchemy.min.ab2f2890dbe3e2e83579366d3d6e8fd9.js"></script>
 
     
+    
+      <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
 
 
 

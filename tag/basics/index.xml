@@ -5,7 +5,7 @@
     <link>https://fahim-sikder.github.io/tag/basics/</link>
       <atom:link href="https://fahim-sikder.github.io/tag/basics/index.xml" rel="self" type="application/rss+xml" />
     <description>Basics</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Md Fahim Sikder</copyright><lastBuildDate>Wed, 08 Jul 2020 14:24:00 +0600</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Jul 2020 14:24:00 +0600</lastBuildDate>
     <image>
       <url>https://fahim-sikder.github.io/media/sharing.jpg</url>
       <title>Basics</title>
@@ -19,19 +19,15 @@
       <guid>https://fahim-sikder.github.io/post/julia-tutorial-part-1/</guid>
       <description>&lt;h2 id=&#34;introduction-installations-and-basics&#34;&gt;Introduction, Installations, and Basics&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Julia&lt;/code&gt; is a open source programming language. It was designed from the beginning for high &lt;a href=&#34;https://julialang.org/benchmarks/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;performance&lt;/a&gt;. Julia programs compile to efficient native code for multiple platforms via LLVM. To install it we need to download it&amp;rsquo;s binary from &lt;a href=&#34;https://julialang.org/downloads/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. We are going to use &lt;code&gt;Jupyter Notebook&lt;/code&gt; as the code editor. But to do that we need to link the &lt;code&gt;Jupyter Notebook&lt;/code&gt; with &lt;code&gt;Julia&lt;/code&gt;. After installing &lt;code&gt;Julia&lt;/code&gt;, open the Julia Command prompt with administration rights. Then type the following code:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;
-using Pkg
-Pkg.add(&amp;quot;IJulia&amp;quot;)
-
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;These will integrate &lt;code&gt;Julia&lt;/code&gt; environment with &lt;code&gt;Jupyter Notebbok&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-julia&#34; data-lang=&#34;julia&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Pkg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Pkg&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;IJulia&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;These will integrate &lt;code&gt;Julia&lt;/code&gt; environment with &lt;code&gt;Jupyter Notebbok&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;N.B: We are assuming that your system has already Jupyter notebook installed.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Julia&lt;/code&gt; file has &lt;code&gt;.jl&lt;/code&gt; extensions. It&amp;rsquo;s time to write our first program. We will print &lt;code&gt;Hello Julia!&lt;/code&gt;. The print function in &lt;code&gt;julia&lt;/code&gt; is &lt;code&gt;println&lt;/code&gt;.&lt;/p&gt;
 &lt;h5 id=&#34;_input_&#34;&gt;&lt;em&gt;input&lt;/em&gt;&lt;/h5&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;println(&amp;quot;Hello Julia!&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h5 id=&#34;_output_&#34;&gt;&lt;em&gt;output&lt;/em&gt;&lt;/h5&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-julia&#34; data-lang=&#34;julia&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello Julia!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;_output_&#34;&gt;&lt;em&gt;output&lt;/em&gt;&lt;/h5&gt;
 &lt;pre&gt;&lt;code&gt;Hello Julia!
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Congratulations! We have just run your first program in &lt;code&gt;Julia&lt;/code&gt;.&lt;/p&gt;
@@ -46,24 +42,23 @@ Pkg.add(&amp;quot;IJulia&amp;quot;)
 &lt;/ol&gt;
 &lt;p&gt;We can easily declare a variable just assigining the value in it. We don&amp;rsquo;t need to give the datatype when declaring a variable. Also we can see what is the datatype of a variable by using &lt;code&gt;typeof&lt;/code&gt; function. Lets see an example.&lt;/p&gt;
 &lt;h5 id=&#34;_input_-1&#34;&gt;&lt;em&gt;input&lt;/em&gt;&lt;/h5&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;first = 1
-
-println(typeof(first))
-
-second = 22.0
-
-println(typeof(second))
-
-third = true
-println(typeof(third))
-
-fourth = &amp;quot;Hello World!&amp;quot;
-println(typeof(fourth))
-
-fifth = &#39;L&#39;
-println(typeof(fifth))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h5 id=&#34;_output_-1&#34;&gt;&lt;em&gt;output&lt;/em&gt;&lt;/h5&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-julia&#34; data-lang=&#34;julia&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;first&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;typeof&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;first&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;second&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;22.0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;typeof&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;second&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;third&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;typeof&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;third&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;fourth&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;typeof&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fourth&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;fifth&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;sc&#34;&gt;&amp;#39;L&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;typeof&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fifth&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;_output_-1&#34;&gt;&lt;em&gt;output&lt;/em&gt;&lt;/h5&gt;
 &lt;pre&gt;&lt;code&gt;Int64
 Float64
 Bool
@@ -72,27 +67,25 @@ Char
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;code&gt;String&lt;/code&gt; needs to be in double quotes or triple quotes. If we put &lt;code&gt;String&lt;/code&gt; in single quote, it will show error. Only &lt;code&gt;Character&lt;/code&gt; will be in single quote.&lt;/p&gt;
 &lt;h5 id=&#34;_input_-2&#34;&gt;&lt;em&gt;input&lt;/em&gt;&lt;/h5&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;#This is an intenional error
-
-strr = &#39;Hello world&#39;
-println(strr)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h5 id=&#34;_output_-2&#34;&gt;&lt;em&gt;output&lt;/em&gt;&lt;/h5&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-julia&#34; data-lang=&#34;julia&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#This is an intenional error&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;strr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Hello&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;world&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;strr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;_output_-2&#34;&gt;&lt;em&gt;output&lt;/em&gt;&lt;/h5&gt;
 &lt;pre&gt;&lt;code&gt;syntax: invalid character literal
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;constant&#34;&gt;Constant&lt;/h3&gt;
 &lt;p&gt;To declare a constant we need to use &lt;code&gt;const&lt;/code&gt; keyword. After defining a constant we can redefine it, but it will give us a warning. We only can redefine in the same datatype. Suppose: we created a constant with integer datatype with a value, so we can redefine it with another integer value though it will give a warning, but we can not redefine with another datatype. It will give an error.&lt;/p&gt;
 &lt;h5 id=&#34;_input_-3&#34;&gt;&lt;em&gt;input&lt;/em&gt;&lt;/h5&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;const var1 = 2
-println(var1)
-var1 = 3
-println(var1)
-
-#this will give error
-var1 = 4.9
-println(var1)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h5 id=&#34;_output_-3&#34;&gt;&lt;em&gt;output&lt;/em&gt;&lt;/h5&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-julia&#34; data-lang=&#34;julia&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;var1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;var1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;var1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;var1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;#this will give error&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;var1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;4.9&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;var1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;_output_-3&#34;&gt;&lt;em&gt;output&lt;/em&gt;&lt;/h5&gt;
 &lt;pre&gt;&lt;code&gt;2
 3
 
@@ -111,50 +104,44 @@ Stacktrace:
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;strings&#34;&gt;Strings&lt;/h3&gt;
 &lt;p&gt;As we have mentioned earlier, &lt;code&gt;String&lt;/code&gt; needs to be in double or triple quotes.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;mystr = &amp;quot;Hey this is a string&amp;quot;
-
-mystr2 = &amp;quot;&amp;quot;&amp;quot;
-    this is a multiple line string
-    this string has 2 lines
-    &amp;quot;&amp;quot;&amp;quot;
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;We can see the length of a string using the &lt;code&gt;length&lt;/code&gt; function.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-julia&#34; data-lang=&#34;julia&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;mystr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Hey this is a string&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;mystr2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;    this is a multiple line string
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;    this string has 2 lines
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;    &amp;#34;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We can see the length of a string using the &lt;code&gt;length&lt;/code&gt; function.&lt;/p&gt;
 &lt;h5 id=&#34;_input_-4&#34;&gt;&lt;em&gt;input&lt;/em&gt;&lt;/h5&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;mystr = &amp;quot;Hey this is a string&amp;quot;
-
-println(length(mystr))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h5 id=&#34;_output_-4&#34;&gt;&lt;em&gt;output&lt;/em&gt;&lt;/h5&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-julia&#34; data-lang=&#34;julia&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;mystr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Hey this is a string&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mystr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;_output_-4&#34;&gt;&lt;em&gt;output&lt;/em&gt;&lt;/h5&gt;
 &lt;pre&gt;&lt;code&gt;20
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h4 id=&#34;taking-seperate-characters-from-string&#34;&gt;Taking seperate characters from string&lt;/h4&gt;
 &lt;p&gt;We can access seperate characters from the string using index. Here we need to keep in mind that, unlike other programming language, &lt;code&gt;Julia&lt;/code&gt; access its first character from a string using index 1. Suppose in &lt;code&gt;mystr&lt;/code&gt; we want access the first character &lt;code&gt;H&lt;/code&gt; , so we need to access it using &lt;code&gt;mystr[1]&lt;/code&gt;. Now, if we want to access the last character of a string we need to use the &lt;code&gt;end&lt;/code&gt; keyword. So, in &lt;code&gt;mystr&lt;/code&gt; the last character is &lt;code&gt;g&lt;/code&gt; and we can access it by using &lt;code&gt;mystr[end]&lt;/code&gt;.&lt;/p&gt;
 &lt;h5 id=&#34;_input_-5&#34;&gt;&lt;em&gt;input&lt;/em&gt;&lt;/h5&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;println(mystr[1])
-println(mystr[end])
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h5 id=&#34;_output_-5&#34;&gt;&lt;em&gt;output&lt;/em&gt;&lt;/h5&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-julia&#34; data-lang=&#34;julia&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mystr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mystr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;_output_-5&#34;&gt;&lt;em&gt;output&lt;/em&gt;&lt;/h5&gt;
 &lt;pre&gt;&lt;code&gt;H
 g
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h4 id=&#34;substring&#34;&gt;Substring&lt;/h4&gt;
 &lt;p&gt;We also can get a substring from a string by slicing it. To do that we need to use &lt;code&gt;:&lt;/code&gt; this. Suppose we want &lt;code&gt;this&lt;/code&gt; as substring from &lt;code&gt;mystr&lt;/code&gt; string. So, &lt;code&gt;this&lt;/code&gt; started from index number &lt;code&gt;5&lt;/code&gt; and ended in index number &lt;code&gt;8&lt;/code&gt;. Then we need to access it using &lt;code&gt;mystr[5:8]&lt;/code&gt;.&lt;/p&gt;
 &lt;h5 id=&#34;_input_-6&#34;&gt;&lt;em&gt;input&lt;/em&gt;&lt;/h5&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;println(mystr[5:8])
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h5 id=&#34;_output_-6&#34;&gt;&lt;em&gt;output&lt;/em&gt;&lt;/h5&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-julia&#34; data-lang=&#34;julia&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mystr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;_output_-6&#34;&gt;&lt;em&gt;output&lt;/em&gt;&lt;/h5&gt;
 &lt;pre&gt;&lt;code&gt;this
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h4 id=&#34;string-concatenation&#34;&gt;String Concatenation&lt;/h4&gt;
 &lt;p&gt;To concatenate one string with another we need to use &lt;code&gt;*&lt;/code&gt; keyword. Suppose we have two strings. &lt;code&gt;str1 = &amp;quot;Hello&amp;quot;&lt;/code&gt; and &lt;code&gt;str2 = &amp;quot;World&amp;quot;&lt;/code&gt;. We can merge them like this:&lt;/p&gt;
 &lt;h5 id=&#34;_input_-7&#34;&gt;&lt;em&gt;input&lt;/em&gt;&lt;/h5&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;str1 = &amp;quot;Hello&amp;quot;
-str2 = &amp;quot;World&amp;quot;
-
-println(str1 * &amp;quot;, &amp;quot; * str2)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h5 id=&#34;_output_-7&#34;&gt;&lt;em&gt;output&lt;/em&gt;&lt;/h5&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-julia&#34; data-lang=&#34;julia&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;str1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;str2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;World&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;str1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;, &amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;str2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;_output_-7&#34;&gt;&lt;em&gt;output&lt;/em&gt;&lt;/h5&gt;
 &lt;pre&gt;&lt;code&gt;Hello, World
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Thats it for this tutorial.&lt;/p&gt;

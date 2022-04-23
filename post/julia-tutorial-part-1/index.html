@@ -8,7 +8,7 @@
   
   
   
-    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
   
 
   
@@ -22,7 +22,11 @@
 
 
 
+
   
+
+
+
 
 
 
@@ -79,7 +83,7 @@
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
 
   
   
@@ -253,7 +257,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.246129d782c938a644fe2d653d8a976f.css" />
+  <link rel="stylesheet" href="/css/wowchemy.1052fab8b7700a3dc49ee23683097d66.css" />
 
   
 
@@ -300,7 +304,9 @@
 
   
 
+
   
+
 
   
 
@@ -435,7 +441,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.8f76bdc9e086322ed5147724ebba3d06.js"></script>
+  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
 
   
 
@@ -805,6 +811,7 @@
 
         
         
+        
         <li class="nav-item dropdown theme-dropdown">
           <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
             <i class="fas fa-moon" aria-hidden="true"></i>
@@ -836,6 +843,10 @@
   </div>
 
   <div class="page-body">
+    
+    
+    
+
     <article class="article">
 
   
@@ -910,8 +921,6 @@
   
   
   
-  
-  
 
   
   
@@ -945,19 +954,15 @@
     <div class="article-style">
       <h2 id="introduction-installations-and-basics">Introduction, Installations, and Basics</h2>
 <p><code>Julia</code> is a open source programming language. It was designed from the beginning for high <a href="https://julialang.org/benchmarks/" target="_blank" rel="noopener">performance</a>. Julia programs compile to efficient native code for multiple platforms via LLVM. To install it we need to download it&rsquo;s binary from <a href="https://julialang.org/downloads/" target="_blank" rel="noopener">here</a>. We are going to use <code>Jupyter Notebook</code> as the code editor. But to do that we need to link the <code>Jupyter Notebook</code> with <code>Julia</code>. After installing <code>Julia</code>, open the Julia Command prompt with administration rights. Then type the following code:</p>
-<pre><code class="language-julia">
-using Pkg
-Pkg.add(&quot;IJulia&quot;)
-
-
-</code></pre>
-<p>These will integrate <code>Julia</code> environment with <code>Jupyter Notebbok</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="n">Pkg</span>
+</span></span><span class="line"><span class="cl"><span class="n">Pkg</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s">&#34;IJulia&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><p>These will integrate <code>Julia</code> environment with <code>Jupyter Notebbok</code>.</p>
 <p>N.B: We are assuming that your system has already Jupyter notebook installed.</p>
 <p><code>Julia</code> file has <code>.jl</code> extensions. It&rsquo;s time to write our first program. We will print <code>Hello Julia!</code>. The print function in <code>julia</code> is <code>println</code>.</p>
 <h5 id="_input_"><em>input</em></h5>
-<pre><code class="language-julia">println(&quot;Hello Julia!&quot;)
-</code></pre>
-<h5 id="_output_"><em>output</em></h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Hello Julia!&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><h5 id="_output_"><em>output</em></h5>
 <pre><code>Hello Julia!
 </code></pre>
 <p>Congratulations! We have just run your first program in <code>Julia</code>.</p>
@@ -972,24 +977,23 @@ Pkg.add(&quot;IJulia&quot;)
 </ol>
 <p>We can easily declare a variable just assigining the value in it. We don&rsquo;t need to give the datatype when declaring a variable. Also we can see what is the datatype of a variable by using <code>typeof</code> function. Lets see an example.</p>
 <h5 id="_input_-1"><em>input</em></h5>
-<pre><code class="language-julia">first = 1
-
-println(typeof(first))
-
-second = 22.0
-
-println(typeof(second))
-
-third = true
-println(typeof(third))
-
-fourth = &quot;Hello World!&quot;
-println(typeof(fourth))
-
-fifth = 'L'
-println(typeof(fifth))
-</code></pre>
-<h5 id="_output_-1"><em>output</em></h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">first</span> <span class="o">=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">typeof</span><span class="p">(</span><span class="n">first</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">second</span> <span class="o">=</span> <span class="mf">22.0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">typeof</span><span class="p">(</span><span class="n">second</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">third</span> <span class="o">=</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">typeof</span><span class="p">(</span><span class="n">third</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">fourth</span> <span class="o">=</span> <span class="s">&#34;Hello World!&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">typeof</span><span class="p">(</span><span class="n">fourth</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">fifth</span> <span class="o">=</span> <span class="sc">&#39;L&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">typeof</span><span class="p">(</span><span class="n">fifth</span><span class="p">))</span>
+</span></span></code></pre></div><h5 id="_output_-1"><em>output</em></h5>
 <pre><code>Int64
 Float64
 Bool
@@ -998,27 +1002,25 @@ Char
 </code></pre>
 <p><code>String</code> needs to be in double quotes or triple quotes. If we put <code>String</code> in single quote, it will show error. Only <code>Character</code> will be in single quote.</p>
 <h5 id="_input_-2"><em>input</em></h5>
-<pre><code class="language-julia">#This is an intenional error
-
-strr = 'Hello world'
-println(strr)
-</code></pre>
-<h5 id="_output_-2"><em>output</em></h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="c">#This is an intenional error</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">strr</span> <span class="o">=</span> <span class="err">&#39;</span><span class="n">Hello</span> <span class="n">world</span><span class="o">&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">strr</span><span class="p">)</span>
+</span></span></code></pre></div><h5 id="_output_-2"><em>output</em></h5>
 <pre><code>syntax: invalid character literal
 </code></pre>
 <h3 id="constant">Constant</h3>
 <p>To declare a constant we need to use <code>const</code> keyword. After defining a constant we can redefine it, but it will give us a warning. We only can redefine in the same datatype. Suppose: we created a constant with integer datatype with a value, so we can redefine it with another integer value though it will give a warning, but we can not redefine with another datatype. It will give an error.</p>
 <h5 id="_input_-3"><em>input</em></h5>
-<pre><code class="language-julia">const var1 = 2
-println(var1)
-var1 = 3
-println(var1)
-
-#this will give error
-var1 = 4.9
-println(var1)
-</code></pre>
-<h5 id="_output_-3"><em>output</em></h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="k">const</span> <span class="n">var1</span> <span class="o">=</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">var1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">var1</span> <span class="o">=</span> <span class="mi">3</span>
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">var1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">#this will give error</span>
+</span></span><span class="line"><span class="cl"><span class="n">var1</span> <span class="o">=</span> <span class="mf">4.9</span>
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">var1</span><span class="p">)</span>
+</span></span></code></pre></div><h5 id="_output_-3"><em>output</em></h5>
 <pre><code>2
 3
 
@@ -1037,50 +1039,44 @@ Stacktrace:
 </code></pre>
 <h3 id="strings">Strings</h3>
 <p>As we have mentioned earlier, <code>String</code> needs to be in double or triple quotes.</p>
-<pre><code class="language-julia">mystr = &quot;Hey this is a string&quot;
-
-mystr2 = &quot;&quot;&quot;
-    this is a multiple line string
-    this string has 2 lines
-    &quot;&quot;&quot;
-
-</code></pre>
-<p>We can see the length of a string using the <code>length</code> function.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">mystr</span> <span class="o">=</span> <span class="s">&#34;Hey this is a string&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mystr2</span> <span class="o">=</span> <span class="s">&#34;&#34;&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s">    this is a multiple line string
+</span></span></span><span class="line"><span class="cl"><span class="s">    this string has 2 lines
+</span></span></span><span class="line"><span class="cl"><span class="s">    &#34;&#34;&#34;</span>
+</span></span></code></pre></div><p>We can see the length of a string using the <code>length</code> function.</p>
 <h5 id="_input_-4"><em>input</em></h5>
-<pre><code class="language-julia">mystr = &quot;Hey this is a string&quot;
-
-println(length(mystr))
-</code></pre>
-<h5 id="_output_-4"><em>output</em></h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">mystr</span> <span class="o">=</span> <span class="s">&#34;Hey this is a string&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">length</span><span class="p">(</span><span class="n">mystr</span><span class="p">))</span>
+</span></span></code></pre></div><h5 id="_output_-4"><em>output</em></h5>
 <pre><code>20
 </code></pre>
 <h4 id="taking-seperate-characters-from-string">Taking seperate characters from string</h4>
 <p>We can access seperate characters from the string using index. Here we need to keep in mind that, unlike other programming language, <code>Julia</code> access its first character from a string using index 1. Suppose in <code>mystr</code> we want access the first character <code>H</code> , so we need to access it using <code>mystr[1]</code>. Now, if we want to access the last character of a string we need to use the <code>end</code> keyword. So, in <code>mystr</code> the last character is <code>g</code> and we can access it by using <code>mystr[end]</code>.</p>
 <h5 id="_input_-5"><em>input</em></h5>
-<pre><code class="language-julia">println(mystr[1])
-println(mystr[end])
-</code></pre>
-<h5 id="_output_-5"><em>output</em></h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">mystr</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">mystr</span><span class="p">[</span><span class="k">end</span><span class="p">])</span>
+</span></span></code></pre></div><h5 id="_output_-5"><em>output</em></h5>
 <pre><code>H
 g
 </code></pre>
 <h4 id="substring">Substring</h4>
 <p>We also can get a substring from a string by slicing it. To do that we need to use <code>:</code> this. Suppose we want <code>this</code> as substring from <code>mystr</code> string. So, <code>this</code> started from index number <code>5</code> and ended in index number <code>8</code>. Then we need to access it using <code>mystr[5:8]</code>.</p>
 <h5 id="_input_-6"><em>input</em></h5>
-<pre><code class="language-julia">println(mystr[5:8])
-</code></pre>
-<h5 id="_output_-6"><em>output</em></h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">mystr</span><span class="p">[</span><span class="mi">5</span><span class="o">:</span><span class="mi">8</span><span class="p">])</span>
+</span></span></code></pre></div><h5 id="_output_-6"><em>output</em></h5>
 <pre><code>this
 </code></pre>
 <h4 id="string-concatenation">String Concatenation</h4>
 <p>To concatenate one string with another we need to use <code>*</code> keyword. Suppose we have two strings. <code>str1 = &quot;Hello&quot;</code> and <code>str2 = &quot;World&quot;</code>. We can merge them like this:</p>
 <h5 id="_input_-7"><em>input</em></h5>
-<pre><code class="language-julia">str1 = &quot;Hello&quot;
-str2 = &quot;World&quot;
-
-println(str1 * &quot;, &quot; * str2)
-</code></pre>
-<h5 id="_output_-7"><em>output</em></h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-julia" data-lang="julia"><span class="line"><span class="cl"><span class="n">str1</span> <span class="o">=</span> <span class="s">&#34;Hello&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">str2</span> <span class="o">=</span> <span class="s">&#34;World&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="n">str1</span> <span class="o">*</span> <span class="s">&#34;, &#34;</span> <span class="o">*</span> <span class="n">str2</span><span class="p">)</span>
+</span></span></code></pre></div><h5 id="_output_-7"><em>output</em></h5>
 <pre><code>Hello, World
 </code></pre>
 <p>Thats it for this tutorial.</p>
@@ -1094,8 +1090,6 @@ println(str1 * &quot;, &quot; * str2)
     </div>
 
     
-
-
 
 
 
@@ -1230,24 +1224,6 @@ println(str1 * &quot;, &quot; * str2)
 
 
 
-  
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/post/julia-tutorial-part-2-data-structures/">Julia Tutorial Part 2: Data Structures</a></li>
-      
-      <li><a href="/post/install-docker-ubuntu/">Installing Docker, Creating &amp; Running First Python Script Using it on Ubuntu 20.04 LTS</a></li>
-      
-      <li><a href="/post/how-to-install-r-ubuntu-20/">How to Install R and two most popular R packages (tidyverse &amp; rstan) in Ubuntu 20.04 LTS</a></li>
-      
-    </ul>
-  </div>
-  
-
-
-
 
 
   </div>
@@ -1269,15 +1245,47 @@ println(str1 * &quot;, &quot; * str2)
   
 
   
-  <p class="powered-by">
-    ©Md Fahim Sikder
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2022 Md Fahim Sikder. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
-  
-  
-
-
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
 
 
 
@@ -1301,44 +1309,14 @@ println(str1 * &quot;, &quot; * str2)
     
   </div>
 
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
       
 
     
-    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+    <script src="/js/vendor-bundle.min.fab8b449b814cc9f95b22fcf2e45f05b.js"></script>
 
     
     
     
-      
-      
-        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
       
 
       
@@ -1352,6 +1330,8 @@ println(str1 * &quot;, &quot; * str2)
         
         
         <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
         
       
 
@@ -1415,7 +1395,7 @@ println(str1 * &quot;, &quot; * str2)
 
     
     
-      <script src="/js/wowchemy-headroom.1cb9e2fc8399acee94eab837265b73bf.js" type="module"></script>
+      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
     
     
     
@@ -1427,9 +1407,42 @@ println(str1 * &quot;, &quot; * str2)
       
     
     
-    <script src="/en/js/wowchemy.min.247fd8f54253895301106e3006f53f38.js"></script>
+    <script src="/en/js/wowchemy.min.ab2f2890dbe3e2e83579366d3d6e8fd9.js"></script>
 
     
+    
+      <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
 
 
 

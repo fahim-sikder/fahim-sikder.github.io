@@ -5,7 +5,7 @@
     <link>https://fahim-sikder.github.io/tag/tidyverse/</link>
       <atom:link href="https://fahim-sikder.github.io/tag/tidyverse/index.xml" rel="self" type="application/rss+xml" />
     <description>tidyverse</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©Md Fahim Sikder</copyright><lastBuildDate>Sun, 06 Sep 2020 20:39:11 +0600</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 06 Sep 2020 20:39:11 +0600</lastBuildDate>
     <image>
       <url>https://fahim-sikder.github.io/media/sharing.jpg</url>
       <title>tidyverse</title>
@@ -20,19 +20,15 @@
       <description>&lt;p&gt;Hello there! In this post, we are going to see how we can install &lt;code&gt;R&lt;/code&gt; in our Ubuntu 20.04 LTS. Also, we will install two of R&amp;rsquo;s popular packages, namely: &lt;a href=&#34;https://www.tidyverse.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidyverse&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://mc-stan.org/users/interfaces/rstan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rstan&lt;/a&gt;. Both of these packages are important tools for data scientists. Rstan is the R interface for &lt;a href=&#34;https://mc-stan.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;stan&lt;/a&gt;, which is the state-of-the-art platform for statistical modeling and high-performance statistical computation. I faced so much difficulty installing these. So, I decided to make it simple for you guys.&lt;/p&gt;
 &lt;h3 id=&#34;installing-r&#34;&gt;Installing R&lt;/h3&gt;
 &lt;p&gt;First, let&amp;rsquo;s install the &lt;code&gt;R&lt;/code&gt; in our system. We will install R from &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt; repository. We need to install some dependencies for adding a new repository over HTTPS. To do that, we will run the following command in our terminal.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;sudo apt-get install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Then, we need to add the CRAN repository to our system sources’ list. We can do that by typing the following commands into our terminal.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
-sudo add-apt-repository &#39;deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/&#39;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Finally, we will install R by using the following command.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;sudo apt-get install r-base
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now, the R should be installed in our system. To check that, we can run the following command into our terminal.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;R
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If R is installed correctly, the console will show something like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;sudo apt-get install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then, we need to add the CRAN repository to our system sources’ list. We can do that by typing the following commands into our terminal.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;sudo add-apt-repository &amp;#39;deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Finally, we will install R by using the following command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;sudo apt-get install r-base
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now, the R should be installed in our system. To check that, we can run the following command into our terminal.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;R
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If R is installed correctly, the console will show something like this:&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -63,27 +59,22 @@ sudo add-apt-repository &#39;deb https://cloud.r-project.org/bin/linux/ubuntu fo
 &lt;/p&gt;
 &lt;h3 id=&#34;installing-tidyverse&#34;&gt;Installing tidyverse&lt;/h3&gt;
 &lt;p&gt;Now, we will install the tidyverse packages. &lt;strong&gt;Please note that we need to install &lt;code&gt;tidyverse&lt;/code&gt; first then install &lt;code&gt;rstan&lt;/code&gt;, because &lt;code&gt;rstan&lt;/code&gt; requires some dependencies. By installing &lt;code&gt;tidyverse&lt;/code&gt; first, it will make the job easier.&lt;/strong&gt; First of all, we need to install some dependencies by typing the following commands in our terminal.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;sudo apt-get install -y libxml2-dev libcurl4-openssl-dev libssl-dev libv8-dev
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Then install &lt;code&gt;tidyverse&lt;/code&gt; by using the following commands:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;sudo R
-install.packages(&#39;tidyverse&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It will take some time to get installed. After installation, exit from the &lt;code&gt;r&lt;/code&gt; environment using the &lt;code&gt;q()&lt;/code&gt; function and be sure to save the environment when prompted.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;sudo apt-get install -y libxml2-dev libcurl4-openssl-dev libssl-dev libv8-dev
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then install &lt;code&gt;tidyverse&lt;/code&gt; by using the following commands:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;sudo R
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;install.packages(&amp;#39;tidyverse&amp;#39;)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It will take some time to get installed. After installation, exit from the &lt;code&gt;r&lt;/code&gt; environment using the &lt;code&gt;q()&lt;/code&gt; function and be sure to save the environment when prompted.&lt;/p&gt;
 &lt;h3 id=&#34;installing-rstan&#34;&gt;Installing rstan&lt;/h3&gt;
 &lt;p&gt;To install the rstan, we need first check if our system has rstan already installed. If it has, then we need to remove it. We can do this by using the following commands:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;remove.packages(&amp;quot;rstan&amp;quot;)
-if (file.exists(&amp;quot;.RData&amp;quot;)) file.remove(&amp;quot;.RData&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now, we need to check the c++ toolchain. We can do that by using these commands:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;sudo R
-pkgbuild::has_build_tools(debug = TRUE)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This command will check if the installed c++ is using the pkgbuild package. The system will give the output &lt;code&gt;TRUE&lt;/code&gt; if it is using the pkgbuild package. Otherwise, we need to follow instructions from &lt;a href=&#34;https://github.com/stan-dev/rstan/wiki/Installing-RStan-on-Linux&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;remove.packages(&amp;#34;rstan&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;if (file.exists(&amp;#34;.RData&amp;#34;)) file.remove(&amp;#34;.RData&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now, we need to check the c++ toolchain. We can do that by using these commands:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;sudo R
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;pkgbuild::has_build_tools(debug = TRUE)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command will check if the installed c++ is using the pkgbuild package. The system will give the output &lt;code&gt;TRUE&lt;/code&gt; if it is using the pkgbuild package. Otherwise, we need to follow instructions from &lt;a href=&#34;https://github.com/stan-dev/rstan/wiki/Installing-RStan-on-Linux&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Now, run the following command to install rstan.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;install.packages(&amp;quot;rstan&amp;quot;, repos = &amp;quot;https://cloud.r-project.org/&amp;quot;, dependencies = TRUE)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Again, it will take some time to get installed. After the installations, exit from the &lt;code&gt;r&lt;/code&gt; environment using &lt;code&gt;q()&lt;/code&gt; function and be sure to save the environment when prompted.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;install.packages(&amp;#34;rstan&amp;#34;, repos = &amp;#34;https://cloud.r-project.org/&amp;#34;, dependencies = TRUE)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Again, it will take some time to get installed. After the installations, exit from the &lt;code&gt;r&lt;/code&gt; environment using &lt;code&gt;q()&lt;/code&gt; function and be sure to save the environment when prompted.&lt;/p&gt;
 &lt;p&gt;Happy Coding!!!&lt;/p&gt;
 &lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
 &lt;ol&gt;
