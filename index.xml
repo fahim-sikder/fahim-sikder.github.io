@@ -5,12 +5,44 @@
     <link>https://fahim-sikder.github.io/</link>
       <atom:link href="https://fahim-sikder.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Md Fahim Sikder</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 Jun 2022 10:56:37 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 Jan 2023 01:56:14 +0100</lastBuildDate>
     <image>
       <url>https://fahim-sikder.github.io/media/sharing.jpg</url>
       <title>Md Fahim Sikder</title>
       <link>https://fahim-sikder.github.io/</link>
     </image>
+    
+    <item>
+      <title>Fair Latent Deep Generative Models: A Syntax-agnostic, Stable, and Fair Data Synthesis using GANs and Diffusion Models</title>
+      <link>https://fahim-sikder.github.io/publication/fair-latent-generative-models/</link>
+      <pubDate>Sat, 14 Jan 2023 01:56:14 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/fair-latent-generative-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Generate Some Much Longer and Higher-Fidelity Time-Series Data with Diffusion Models</title>
+      <link>https://fahim-sikder.github.io/publication/diffusion-time-series/</link>
+      <pubDate>Sat, 14 Jan 2023 01:55:53 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/diffusion-time-series/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthesizing Longer and Higher-Fidelity Time-Series Data Using Generative Adversarial Networks</title>
+      <link>https://fahim-sikder.github.io/publication/mottgan/</link>
+      <pubDate>Sat, 14 Jan 2023 01:55:44 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/mottgan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bias Transforming Generative Adversarial Networks (Bt-GAN)</title>
+      <link>https://fahim-sikder.github.io/publication/bias-transforming-gan/</link>
+      <pubDate>Sat, 14 Jan 2023 01:55:33 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/bias-transforming-gan/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Sequential Ice Hockey Events Generation using Generative Adversarial Network</title>
