@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Digit Generation | Md Fahim Sikder</title>
-    <link>https://fahim-sikder.github.io/tag/digit-generation/</link>
-      <atom:link href="https://fahim-sikder.github.io/tag/digit-generation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fahimsikder.com/tag/digit-generation/</link>
+      <atom:link href="https://fahimsikder.com/tag/digit-generation/index.xml" rel="self" type="application/rss+xml" />
     <description>Digit Generation</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 15 Dec 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://fahim-sikder.github.io/media/sharing.jpg</url>
+      <url>https://fahimsikder.com/media/sharing.jpg</url>
       <title>Digit Generation</title>
-      <link>https://fahim-sikder.github.io/tag/digit-generation/</link>
+      <link>https://fahimsikder.com/tag/digit-generation/</link>
     </image>
     
     <item>
       <title>Bangla Handwritten Digit Recognition &amp; Generation</title>
-      <link>https://fahim-sikder.github.io/publication/digit-generate/</link>
+      <link>https://fahimsikder.com/publication/digit-generate/</link>
       <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://fahim-sikder.github.io/publication/digit-generate/</guid>
+      <guid>https://fahimsikder.com/publication/digit-generate/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Texlive | Md Fahim Sikder</title>
-    <link>https://fahim-sikder.github.io/tag/texlive/</link>
-      <atom:link href="https://fahim-sikder.github.io/tag/texlive/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fahimsikder.com/tag/texlive/</link>
+      <atom:link href="https://fahimsikder.com/tag/texlive/index.xml" rel="self" type="application/rss+xml" />
     <description>Texlive</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Oct 2021 10:29:54 +0200</lastBuildDate>
     <image>
-      <url>https://fahim-sikder.github.io/media/sharing.jpg</url>
+      <url>https://fahimsikder.com/media/sharing.jpg</url>
       <title>Texlive</title>
-      <link>https://fahim-sikder.github.io/tag/texlive/</link>
+      <link>https://fahimsikder.com/tag/texlive/</link>
     </image>
     
     <item>
       <title>Installing Texlive Latest Version (Texlive-2021) on Ubuntu-20.04/18.04</title>
-      <link>https://fahim-sikder.github.io/post/installing-texlive-latest-ubuntu/</link>
+      <link>https://fahimsikder.com/post/installing-texlive-latest-ubuntu/</link>
       <pubDate>Fri, 01 Oct 2021 10:29:54 +0200</pubDate>
-      <guid>https://fahim-sikder.github.io/post/installing-texlive-latest-ubuntu/</guid>
+      <guid>https://fahimsikder.com/post/installing-texlive-latest-ubuntu/</guid>
       <description>&lt;p&gt;Hello there! In this tutorial, we will learn how to install the latest version of texlive in the ubuntu system! Generally, Ubuntu 20.04 / 18.04 only install Texlive-version-2019 from the local repository! But the Texlive current version is 2021! So, a lot happened in these updates. So, we need to install the 2021 version from the source! But before we do that, we have to uninstall any existing Texlive installation.&lt;/p&gt;
 &lt;h3 id=&#34;uninstalling-existing-texlive&#34;&gt;Uninstalling existing Texlive&lt;/h3&gt;
 &lt;p&gt;Use the following command from the terminal to remove the existing installation of Texlive [3].&lt;/p&gt;
