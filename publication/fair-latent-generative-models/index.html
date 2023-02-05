@@ -244,45 +244,6 @@
 
 
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172931605-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-172931605-1', {});
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
   
 
 
@@ -333,7 +294,7 @@
   
   <meta property="og:site_name" content="Md Fahim Sikder" />
   <meta property="og:url" content="https://fahim-sikder.github.io/publication/fair-latent-generative-models/" />
-  <meta property="og:title" content="Fair Latent Deep Generative Models: A Syntax-agnostic, Stable, and Fair Data Synthesis using GANs and Diffusion Models | Md Fahim Sikder" />
+  <meta property="og:title" content="Fair Latent Deep Generative Models (FLDGM) for Syntax-agnostic and Fair Synthetic Data Generation | Md Fahim Sikder" />
   <meta property="og:description" content="" /><meta property="og:image" content="https://fahim-sikder.github.io/media/sharing.jpg" />
     <meta property="twitter:image" content="https://fahim-sikder.github.io/media/sharing.jpg" /><meta property="og:locale" content="en-us" />
   
@@ -367,7 +328,7 @@
     "@type": "WebPage",
     "@id": "https://fahim-sikder.github.io/publication/fair-latent-generative-models/"
   },
-  "headline": "Fair Latent Deep Generative Models: A Syntax-agnostic, Stable, and Fair Data Synthesis using GANs and Diffusion Models",
+  "headline": "Fair Latent Deep Generative Models (FLDGM) for Syntax-agnostic and Fair Synthetic Data Generation",
   
   "datePublished": "2023-01-14T01:56:14+01:00",
   "dateModified": "2023-01-14T01:56:14+01:00",
@@ -394,6 +355,36 @@
   
 
   
+  
+  
+  
+  
+    <script src="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#1565c0",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#1565c0"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
 
   
 
@@ -401,7 +392,7 @@
 
 
 
-  <title>Fair Latent Deep Generative Models: A Syntax-agnostic, Stable, and Fair Data Synthesis using GANs and Diffusion Models | Md Fahim Sikder</title>
+  <title>Fair Latent Deep Generative Models (FLDGM) for Syntax-agnostic and Fair Synthetic Data Generation | Md Fahim Sikder</title>
 </head>
 
 
@@ -889,7 +880,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Fair Latent Deep Generative Models: A Syntax-agnostic, Stable, and Fair Data Synthesis using GANs and Diffusion Models</h1>
+  <h1>Fair Latent Deep Generative Models (FLDGM) for Syntax-agnostic and Fair Synthetic Data Generation</h1>
 
   
 
@@ -1008,7 +999,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://fahim-sikder.github.io/publication/fair-latent-generative-models/&amp;text=Fair%20Latent%20Deep%20Generative%20Models:%20A%20Syntax-agnostic,%20Stable,%20and%20Fair%20Data%20Synthesis%20using%20GANs%20and%20Diffusion%20Models" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://fahim-sikder.github.io/publication/fair-latent-generative-models/&amp;text=Fair%20Latent%20Deep%20Generative%20Models%20%28FLDGM%29%20for%20Syntax-agnostic%20and%20Fair%20Synthetic%20Data%20Generation" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1021,7 +1012,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://fahim-sikder.github.io/publication/fair-latent-generative-models/&amp;t=Fair%20Latent%20Deep%20Generative%20Models:%20A%20Syntax-agnostic,%20Stable,%20and%20Fair%20Data%20Synthesis%20using%20GANs%20and%20Diffusion%20Models" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://fahim-sikder.github.io/publication/fair-latent-generative-models/&amp;t=Fair%20Latent%20Deep%20Generative%20Models%20%28FLDGM%29%20for%20Syntax-agnostic%20and%20Fair%20Synthetic%20Data%20Generation" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1034,7 +1025,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Fair%20Latent%20Deep%20Generative%20Models:%20A%20Syntax-agnostic,%20Stable,%20and%20Fair%20Data%20Synthesis%20using%20GANs%20and%20Diffusion%20Models&amp;body=https://fahim-sikder.github.io/publication/fair-latent-generative-models/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Fair%20Latent%20Deep%20Generative%20Models%20%28FLDGM%29%20for%20Syntax-agnostic%20and%20Fair%20Synthetic%20Data%20Generation&amp;body=https://fahim-sikder.github.io/publication/fair-latent-generative-models/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1047,7 +1038,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://fahim-sikder.github.io/publication/fair-latent-generative-models/&amp;title=Fair%20Latent%20Deep%20Generative%20Models:%20A%20Syntax-agnostic,%20Stable,%20and%20Fair%20Data%20Synthesis%20using%20GANs%20and%20Diffusion%20Models" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://fahim-sikder.github.io/publication/fair-latent-generative-models/&amp;title=Fair%20Latent%20Deep%20Generative%20Models%20%28FLDGM%29%20for%20Syntax-agnostic%20and%20Fair%20Synthetic%20Data%20Generation" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1060,7 +1051,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Fair%20Latent%20Deep%20Generative%20Models:%20A%20Syntax-agnostic,%20Stable,%20and%20Fair%20Data%20Synthesis%20using%20GANs%20and%20Diffusion%20Models%20https://fahim-sikder.github.io/publication/fair-latent-generative-models/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Fair%20Latent%20Deep%20Generative%20Models%20%28FLDGM%29%20for%20Syntax-agnostic%20and%20Fair%20Synthetic%20Data%20Generation%20https://fahim-sikder.github.io/publication/fair-latent-generative-models/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1073,7 +1064,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://fahim-sikder.github.io/publication/fair-latent-generative-models/&amp;title=Fair%20Latent%20Deep%20Generative%20Models:%20A%20Syntax-agnostic,%20Stable,%20and%20Fair%20Data%20Synthesis%20using%20GANs%20and%20Diffusion%20Models" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://fahim-sikder.github.io/publication/fair-latent-generative-models/&amp;title=Fair%20Latent%20Deep%20Generative%20Models%20%28FLDGM%29%20for%20Syntax-agnostic%20and%20Fair%20Synthetic%20Data%20Generation" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
