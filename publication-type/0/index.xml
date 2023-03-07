@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3 | Md Fahim Sikder</title>
-    <link>https://fahim-sikder.github.io/publication-type/3/</link>
-      <atom:link href="https://fahim-sikder.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
-    <description>3</description>
+    <title>0 | Md Fahim Sikder</title>
+    <link>https://fahim-sikder.github.io/publication-type/0/</link>
+      <atom:link href="https://fahim-sikder.github.io/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
+    <description>0</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 Jan 2023 01:56:14 +0100</lastBuildDate>
     <image>
       <url>https://fahim-sikder.github.io/media/sharing.jpg</url>
-      <title>3</title>
-      <link>https://fahim-sikder.github.io/publication-type/3/</link>
+      <title>0</title>
+      <link>https://fahim-sikder.github.io/publication-type/0/</link>
     </image>
     
     <item>
-      <title>Fair Latent Deep Generative Models: A Syntax-agnostic, Stable, and Fair Data Synthesis using GANs and Diffusion Models</title>
+      <title>Fair Latent Deep Generative Models (FLDGM) for Syntax-agnostic and Fair Synthetic Data Generation</title>
       <link>https://fahim-sikder.github.io/publication/fair-latent-generative-models/</link>
       <pubDate>Sat, 14 Jan 2023 01:56:14 +0100</pubDate>
       <guid>https://fahim-sikder.github.io/publication/fair-latent-generative-models/</guid>
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Let&#39;s Generate Some Much Longer and Higher-Fidelity Time-Series Data with Diffusion Models</title>
+      <title>TransFusion: Generating Long, High Fidelity Time Series using Diffusion Models with Transformer</title>
       <link>https://fahim-sikder.github.io/publication/diffusion-time-series/</link>
       <pubDate>Sat, 14 Jan 2023 01:55:53 +0100</pubDate>
       <guid>https://fahim-sikder.github.io/publication/diffusion-time-series/</guid>
