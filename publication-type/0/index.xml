@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 | Md Fahim Sikder</title>
+    <link>https://fahimsikder.com/publication-type/0/</link>
+      <atom:link href="https://fahimsikder.com/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
+    <description>0</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 Jan 2023 01:56:14 +0100</lastBuildDate>
+    <image>
+      <url>https://fahimsikder.com/media/sharing.jpg</url>
+      <title>0</title>
+      <link>https://fahimsikder.com/publication-type/0/</link>
+    </image>
+    
+    <item>
+      <title>Fair Latent Deep Generative Models (FLDGM) for Syntax-agnostic and Fair Synthetic Data Generation</title>
+      <link>https://fahimsikder.com/publication/fair-latent-generative-models/</link>
+      <pubDate>Sat, 14 Jan 2023 01:56:14 +0100</pubDate>
+      <guid>https://fahimsikder.com/publication/fair-latent-generative-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TransFusion: Generating Long, High Fidelity Time Series using Diffusion Models with Transformer</title>
+      <link>https://fahimsikder.com/publication/diffusion-time-series/</link>
+      <pubDate>Sat, 14 Jan 2023 01:55:53 +0100</pubDate>
+      <guid>https://fahimsikder.com/publication/diffusion-time-series/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthesizing Longer and Higher-Fidelity Time-Series Data Using Generative Adversarial Networks</title>
+      <link>https://fahimsikder.com/publication/mottgan/</link>
+      <pubDate>Sat, 14 Jan 2023 01:55:44 +0100</pubDate>
+      <guid>https://fahimsikder.com/publication/mottgan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bias Transforming Generative Adversarial Networks (Bt-GAN)</title>
+      <link>https://fahimsikder.com/publication/bias-transforming-gan/</link>
+      <pubDate>Sat, 14 Jan 2023 01:55:33 +0100</pubDate>
+      <guid>https://fahimsikder.com/publication/bias-transforming-gan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring the Fairness, Privacy and Accuracy of Time-Series Generative Models - A Survey</title>
+      <link>https://fahimsikder.com/publication/fairness-survey/</link>
+      <pubDate>Sun, 20 Jun 2021 19:48:37 +0200</pubDate>
+      <guid>https://fahimsikder.com/publication/fairness-survey/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
