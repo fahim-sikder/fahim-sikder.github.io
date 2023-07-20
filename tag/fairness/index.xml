@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fairness | Md Fahim Sikder</title>
+    <link>https://fahim-sikder.github.io/tag/fairness/</link>
+      <atom:link href="https://fahim-sikder.github.io/tag/fairness/index.xml" rel="self" type="application/rss+xml" />
+    <description>fairness</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 14 Jul 2023 18:03:27 +0200</lastBuildDate>
+    <image>
+      <url>https://fahim-sikder.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>fairness</title>
+      <link>https://fahim-sikder.github.io/tag/fairness/</link>
+    </image>
+    
+    <item>
+      <title>Welcome to Todays Meeting</title>
+      <link>https://fahim-sikder.github.io/slides/deep-dream-group-meeting/</link>
+      <pubDate>Fri, 14 Jul 2023 18:03:27 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/slides/deep-dream-group-meeting/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-todays-meeting&#34;&gt;Welcome to todays Meeting&lt;/h1&gt;
+&lt;p&gt;Deep Dream Group&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;agenda&#34;&gt;Agenda&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Text Classification Tasks!&lt;/li&gt;
+&lt;li&gt;Possible ICCIT!&lt;/li&gt;
+&lt;li&gt;Fair Data Generation Project!&lt;/li&gt;
+&lt;li&gt;Explainable Audio Classification!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;text-classification-task&#34;&gt;Text Classification Task&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Finished part of Introduction&lt;/li&gt;
+&lt;li&gt;Finished abstract&lt;/li&gt;
+&lt;li&gt;Finished all the experiments&lt;/li&gt;
+&lt;li&gt;Need to write all the remaining parts&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fair-bengali-handwritten-character-generation&#34;&gt;Fair Bengali Handwritten Character Generation&lt;/h1&gt;
+&lt;p&gt;Presented by: &lt;strong&gt;Md Fahim Sikder&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Deep Dream Group&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Data Fairness is needed!&lt;/li&gt;
+&lt;li&gt;Trustworthy AI!&lt;/li&gt;
+&lt;li&gt;Not much research has been done in Bengali!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;research-problem&#34;&gt;Research Problem&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;How can we create an Image dataset for Bengali domain?&lt;/li&gt;
+&lt;li&gt;How we can generate fair generative models?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;data-fairness&#34;&gt;Data Fairness&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Real world data is full of bias
+&lt;ol&gt;
+&lt;li&gt;COMPAS case in the USA&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- ![alt text](racial.png) --&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;data-fairness-1&#34;&gt;Data Fairness&lt;/h2&gt;
+&lt;!-- ![alt text](racial.png) --&gt;
+&lt;img src=&#34;racial.png&#34;  width=&#34;60%&#34; height=&#34;30%&#34;&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;bangla-sensitive-dataset&#34;&gt;Bangla Sensitive Dataset&lt;/h2&gt;
+&lt;img src=&#34;dataset1.jpg&#34;  width=&#34;60%&#34; height=&#34;30%&#34;&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;bangla-sensitive-dataset-1&#34;&gt;Bangla Sensitive Dataset&lt;/h2&gt;
+&lt;img src=&#34;sensitive-bangla.jpg&#34;  width=&#34;70%&#34; height=&#34;40%&#34;&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;generative-models&#34;&gt;Generative Models&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;GAN-based&lt;/li&gt;
+&lt;li&gt;Diffusion-based&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;possible-contribution&#34;&gt;Possible Contribution&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Bangla Sensitive datasets&lt;/li&gt;
+&lt;li&gt;Generative model&lt;/li&gt;
+&lt;li&gt;Interpretability / Explainability&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;related-works&#34;&gt;Related Works&lt;/h2&gt;
+&lt;p&gt;See zotero library.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;explainable-audio-classification&#34;&gt;Explainable Audio Classification&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;idea&#34;&gt;Idea&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Train an audio classifier (preferably cnn/transformers based)&lt;/li&gt;
+&lt;li&gt;Explain the results&lt;/li&gt;
+&lt;li&gt;Compare different explainable techniques&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;possible-contribution-1&#34;&gt;Possible Contribution&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Unique model&lt;/li&gt;
+&lt;li&gt;Explainability&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;datasets&#34;&gt;Datasets&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Jakobovski/free-spoken-digit-dataset/tree/master&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/Jakobovski/free-spoken-digit-dataset/tree/master&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;related-works-1&#34;&gt;Related Works&lt;/h2&gt;
+&lt;p&gt;See zotero library.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
