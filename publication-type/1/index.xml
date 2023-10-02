@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 | Md Fahim Sikder</title>
-    <link>https://fahimsikder.com/publication-type/1/</link>
-      <atom:link href="https://fahimsikder.com/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fahim-sikder.github.io/publication-type/1/</link>
+      <atom:link href="https://fahim-sikder.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Jun 2023 13:44:59 +0200</lastBuildDate>
     <image>
-      <url>https://fahimsikder.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://fahim-sikder.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
-      <link>https://fahimsikder.com/publication-type/1/</link>
+      <link>https://fahim-sikder.github.io/publication-type/1/</link>
     </image>
     
     <item>
       <title>Generating Private and Fair Long-Sequenced Longitudinal Healthcare Records</title>
-      <link>https://fahimsikder.com/publication/medical-longitudinal-fair-privacy/</link>
+      <link>https://fahim-sikder.github.io/publication/medical-longitudinal-fair-privacy/</link>
       <pubDate>Wed, 07 Jun 2023 13:44:59 +0200</pubDate>
-      <guid>https://fahimsikder.com/publication/medical-longitudinal-fair-privacy/</guid>
+      <guid>https://fahim-sikder.github.io/publication/medical-longitudinal-fair-privacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fair Latent Deep Generative Models (FLDGM) for Syntax-agnostic and Fair Synthetic Data Generation</title>
-      <link>https://fahimsikder.com/publication/fair-latent-generative-models/</link>
+      <link>https://fahim-sikder.github.io/publication/fair-latent-generative-models/</link>
       <pubDate>Sat, 14 Jan 2023 01:56:14 +0100</pubDate>
-      <guid>https://fahimsikder.com/publication/fair-latent-generative-models/</guid>
+      <guid>https://fahim-sikder.github.io/publication/fair-latent-generative-models/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Privacy-Preserving Synthetic Trajectory Data Generation</title>
-      <link>https://fahimsikder.com/publication/privacy-preserving-trajectory-data-generation/</link>
+      <link>https://fahim-sikder.github.io/publication/privacy-preserving-trajectory-data-generation/</link>
       <pubDate>Sat, 27 Jun 2020 23:03:59 +0600</pubDate>
-      <guid>https://fahimsikder.com/publication/privacy-preserving-trajectory-data-generation/</guid>
+      <guid>https://fahim-sikder.github.io/publication/privacy-preserving-trajectory-data-generation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bangla Handwritten Digit Recognition &amp; Generation</title>
-      <link>https://fahimsikder.com/publication/digit-generate/</link>
+      <link>https://fahim-sikder.github.io/publication/digit-generate/</link>
       <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://fahimsikder.com/publication/digit-generate/</guid>
+      <guid>https://fahim-sikder.github.io/publication/digit-generate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Smart Disaster Notification System</title>
-      <link>https://fahimsikder.com/publication/smart-disaster/</link>
+      <link>https://fahim-sikder.github.io/publication/smart-disaster/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://fahimsikder.com/publication/smart-disaster/</guid>
+      <guid>https://fahim-sikder.github.io/publication/smart-disaster/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Predicting Students Yearly Performance using Neural Network: A Case Study of BSMRSTU</title>
-      <link>https://fahimsikder.com/publication/predict-performance/</link>
+      <link>https://fahim-sikder.github.io/publication/predict-performance/</link>
       <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://fahimsikder.com/publication/predict-performance/</guid>
+      <guid>https://fahim-sikder.github.io/publication/predict-performance/</guid>
       <description></description>
     </item>
     
