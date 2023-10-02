@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>0 | Md Fahim Sikder</title>
-    <link>https://fahim-sikder.github.io/publication-type/0/</link>
-      <atom:link href="https://fahim-sikder.github.io/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fahimsikder.com/publication-type/0/</link>
+      <atom:link href="https://fahimsikder.com/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 Jan 2023 01:55:44 +0100</lastBuildDate>
     <image>
-      <url>https://fahim-sikder.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://fahimsikder.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>0</title>
-      <link>https://fahim-sikder.github.io/publication-type/0/</link>
+      <link>https://fahimsikder.com/publication-type/0/</link>
     </image>
     
     <item>
       <title>Synthesizing Longer and Higher-Fidelity Time-Series Data Using Generative Adversarial Networks</title>
-      <link>https://fahim-sikder.github.io/publication/mottgan/</link>
+      <link>https://fahimsikder.com/publication/mottgan/</link>
       <pubDate>Sat, 14 Jan 2023 01:55:44 +0100</pubDate>
-      <guid>https://fahim-sikder.github.io/publication/mottgan/</guid>
+      <guid>https://fahimsikder.com/publication/mottgan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bt-GAN: Generating Fair Synthetic Healthdata via Bias-transforming Generative Adversarial Networks</title>
-      <link>https://fahim-sikder.github.io/publication/bias-transforming-gan/</link>
+      <link>https://fahimsikder.com/publication/bias-transforming-gan/</link>
       <pubDate>Sat, 14 Jan 2023 01:55:33 +0100</pubDate>
-      <guid>https://fahim-sikder.github.io/publication/bias-transforming-gan/</guid>
+      <guid>https://fahimsikder.com/publication/bias-transforming-gan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Measuring the Fairness, Privacy and Accuracy of Time-Series Generative Models - A Survey</title>
-      <link>https://fahim-sikder.github.io/publication/fairness-survey/</link>
+      <link>https://fahimsikder.com/publication/fairness-survey/</link>
       <pubDate>Sun, 20 Jun 2021 19:48:37 +0200</pubDate>
-      <guid>https://fahim-sikder.github.io/publication/fairness-survey/</guid>
+      <guid>https://fahimsikder.com/publication/fairness-survey/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tidyverse | Md Fahim Sikder</title>
-    <link>https://fahim-sikder.github.io/tag/tidyverse/</link>
-      <atom:link href="https://fahim-sikder.github.io/tag/tidyverse/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fahimsikder.com/tag/tidyverse/</link>
+      <atom:link href="https://fahimsikder.com/tag/tidyverse/index.xml" rel="self" type="application/rss+xml" />
     <description>tidyverse</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 06 Sep 2020 20:39:11 +0600</lastBuildDate>
     <image>
-      <url>https://fahim-sikder.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://fahimsikder.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>tidyverse</title>
-      <link>https://fahim-sikder.github.io/tag/tidyverse/</link>
+      <link>https://fahimsikder.com/tag/tidyverse/</link>
     </image>
     
     <item>
       <title>How to Install R and two most popular R packages (tidyverse &amp; rstan) in Ubuntu 20.04 LTS</title>
-      <link>https://fahim-sikder.github.io/post/how-to-install-r-ubuntu-20/</link>
+      <link>https://fahimsikder.com/post/how-to-install-r-ubuntu-20/</link>
       <pubDate>Sun, 06 Sep 2020 20:39:11 +0600</pubDate>
-      <guid>https://fahim-sikder.github.io/post/how-to-install-r-ubuntu-20/</guid>
+      <guid>https://fahimsikder.com/post/how-to-install-r-ubuntu-20/</guid>
       <description>&lt;p&gt;Hello there! In this post, we are going to see how we can install &lt;code&gt;R&lt;/code&gt; in our Ubuntu 20.04 LTS. Also, we will install two of R&amp;rsquo;s popular packages, namely: &lt;a href=&#34;https://www.tidyverse.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidyverse&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://mc-stan.org/users/interfaces/rstan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rstan&lt;/a&gt;. Both of these packages are important tools for data scientists. Rstan is the R interface for &lt;a href=&#34;https://mc-stan.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;stan&lt;/a&gt;, which is the state-of-the-art platform for statistical modeling and high-performance statistical computation. I faced so much difficulty installing these. So, I decided to make it simple for you guys.&lt;/p&gt;
 &lt;h3 id=&#34;installing-r&#34;&gt;Installing R&lt;/h3&gt;
 &lt;p&gt;First, let&amp;rsquo;s install the &lt;code&gt;R&lt;/code&gt; in our system. We will install R from &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt; repository. We need to install some dependencies for adding a new repository over HTTPS. To do that, we will run the following command in our terminal.&lt;/p&gt;
@@ -51,7 +51,7 @@
                /post/how-to-install-r-ubuntu-20/r_hufd30d648919556e88c13f92b33f4636e_49944_bc033d6554b20f7f9b5f77774183ec16.webp 400w,
                /post/how-to-install-r-ubuntu-20/r_hufd30d648919556e88c13f92b33f4636e_49944_7cb6e37a56768140bdb44f1be7e610ad.webp 760w,
                /post/how-to-install-r-ubuntu-20/r_hufd30d648919556e88c13f92b33f4636e_49944_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://fahim-sikder.github.io/post/how-to-install-r-ubuntu-20/r_hufd30d648919556e88c13f92b33f4636e_49944_bc033d6554b20f7f9b5f77774183ec16.webp&#34;
+               src=&#34;https://fahimsikder.com/post/how-to-install-r-ubuntu-20/r_hufd30d648919556e88c13f92b33f4636e_49944_bc033d6554b20f7f9b5f77774183ec16.webp&#34;
                width=&#34;731&#34;
                height=&#34;388&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
