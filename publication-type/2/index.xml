@@ -20,5 +20,13 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Bt-GAN: Generating Fair Synthetic Healthdata via Bias-transforming Generative Adversarial Networks</title>
+      <link>https://fahim-sikder.github.io/publication/bias-transforming-gan/</link>
+      <pubDate>Sat, 14 Jan 2023 01:55:33 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/bias-transforming-gan/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
