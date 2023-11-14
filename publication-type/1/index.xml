@@ -5,12 +5,20 @@
     <link>https://fahimsikder.com/publication-type/1/</link>
       <atom:link href="https://fahimsikder.com/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Jun 2023 13:44:59 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Nov 2023 17:34:24 +0100</lastBuildDate>
     <image>
       <url>https://fahimsikder.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://fahimsikder.com/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Explainable Bengali News Classification</title>
+      <link>https://fahimsikder.com/publication/explainable-bengali-news/</link>
+      <pubDate>Tue, 14 Nov 2023 17:34:24 +0100</pubDate>
+      <guid>https://fahimsikder.com/publication/explainable-bengali-news/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Generating Private and Fair Long-Sequenced Longitudinal Healthcare Records</title>
