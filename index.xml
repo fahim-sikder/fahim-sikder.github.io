@@ -33,7 +33,15 @@
     </item>
     
     <item>
-      <title>Explainable Bengali News Classification</title>
+      <title>Generative Model for Generating Temporal and Fair Data</title>
+      <link>https://fahim-sikder.github.io/publication/generate-fair-temporal-data/</link>
+      <pubDate>Mon, 15 Jan 2024 12:23:56 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/generate-fair-temporal-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explainable Bengali Multiclass News Classification</title>
       <link>https://fahim-sikder.github.io/publication/explainable-bengali-news/</link>
       <pubDate>Tue, 14 Nov 2023 17:34:24 +0100</pubDate>
       <guid>https://fahim-sikder.github.io/publication/explainable-bengali-news/</guid>

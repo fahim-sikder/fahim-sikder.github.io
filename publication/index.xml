@@ -5,7 +5,7 @@
     <link>https://fahim-sikder.github.io/publication/</link>
       <atom:link href="https://fahim-sikder.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Nov 2023 17:34:24 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jan 2024 12:23:56 +0100</lastBuildDate>
     <image>
       <url>https://fahim-sikder.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
@@ -13,7 +13,15 @@
     </image>
     
     <item>
-      <title>Explainable Bengali News Classification</title>
+      <title>Generative Model for Generating Temporal and Fair Data</title>
+      <link>https://fahim-sikder.github.io/publication/generate-fair-temporal-data/</link>
+      <pubDate>Mon, 15 Jan 2024 12:23:56 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/generate-fair-temporal-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explainable Bengali Multiclass News Classification</title>
       <link>https://fahim-sikder.github.io/publication/explainable-bengali-news/</link>
       <pubDate>Tue, 14 Nov 2023 17:34:24 +0100</pubDate>
       <guid>https://fahim-sikder.github.io/publication/explainable-bengali-news/</guid>
