@@ -33,6 +33,14 @@
     </item>
     
     <item>
+      <title>Bt-GAN: Generating Fair Synthetic Healthdata via Bias-transforming Generative Adversarial Networks</title>
+      <link>https://fahimsikder.com/publication/bias-transforming-gan/</link>
+      <pubDate>Thu, 25 Apr 2024 01:55:33 +0100</pubDate>
+      <guid>https://fahimsikder.com/publication/bias-transforming-gan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Generative Models for Time-Series and Fair Data Generation</title>
       <link>https://fahimsikder.com/publication/generate-fair-temporal-data/</link>
       <pubDate>Mon, 15 Jan 2024 12:23:56 +0100</pubDate>
@@ -180,14 +188,6 @@
       <link>https://fahimsikder.com/publication/mottgan/</link>
       <pubDate>Sat, 14 Jan 2023 01:55:44 +0100</pubDate>
       <guid>https://fahimsikder.com/publication/mottgan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bt-GAN: Generating Fair Synthetic Healthdata via Bias-transforming Generative Adversarial Networks</title>
-      <link>https://fahimsikder.com/publication/bias-transforming-gan/</link>
-      <pubDate>Sat, 14 Jan 2023 01:55:33 +0100</pubDate>
-      <guid>https://fahimsikder.com/publication/bias-transforming-gan/</guid>
       <description></description>
     </item>
     
