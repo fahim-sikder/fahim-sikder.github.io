@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>time-series generation | Md Fahim Sikder</title>
+    <link>https://fahimsikder.com/tag/time-series-generation/</link>
+      <atom:link href="https://fahimsikder.com/tag/time-series-generation/index.xml" rel="self" type="application/rss+xml" />
+    <description>time-series generation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 Jan 2023 01:55:53 +0100</lastBuildDate>
+    <image>
+      <url>https://fahimsikder.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>time-series generation</title>
+      <link>https://fahimsikder.com/tag/time-series-generation/</link>
+    </image>
+    
+    <item>
+      <title>TransFusion: Generating Long, High-Fidelity Time Series using Diffusion Models with Transformers</title>
+      <link>https://fahimsikder.com/publication/diffusion-time-series/</link>
+      <pubDate>Sat, 14 Jan 2023 01:55:53 +0100</pubDate>
+      <guid>https://fahimsikder.com/publication/diffusion-time-series/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
