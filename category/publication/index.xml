@@ -20,5 +20,13 @@
       <description></description>
     </item>
     
+    <item>
+      <title>TransFusion: Generating Long, High-Fidelity Time Series using Diffusion Models with Transformers</title>
+      <link>https://fahim-sikder.github.io/publication/diffusion-time-series/</link>
+      <pubDate>Sat, 14 Jan 2023 01:55:53 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/diffusion-time-series/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>synthetic data | Md Fahim Sikder</title>
+    <link>https://fahim-sikder.github.io/tag/synthetic-data/</link>
+      <atom:link href="https://fahim-sikder.github.io/tag/synthetic-data/index.xml" rel="self" type="application/rss+xml" />
+    <description>synthetic data</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 Jan 2023 01:55:53 +0100</lastBuildDate>
+    <image>
+      <url>https://fahim-sikder.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>synthetic data</title>
+      <link>https://fahim-sikder.github.io/tag/synthetic-data/</link>
+    </image>
+    
+    <item>
+      <title>TransFusion: Generating Long, High-Fidelity Time Series using Diffusion Models with Transformers</title>
+      <link>https://fahim-sikder.github.io/publication/diffusion-time-series/</link>
+      <pubDate>Sat, 14 Jan 2023 01:55:53 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/diffusion-time-series/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
