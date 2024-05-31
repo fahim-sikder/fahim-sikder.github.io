@@ -33,6 +33,30 @@
     </item>
     
     <item>
+      <title>FairX: A Comprehensive Python Package for Fairness, Utility, and eXplainability for Model Analysis</title>
+      <link>https://fahimsikder.com/publication/fairx/</link>
+      <pubDate>Fri, 31 May 2024 23:19:19 +0200</pubDate>
+      <guid>https://fahimsikder.com/publication/fairx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fair Image and Tabular data Synthesis (FITS) via Generating Fair Latent Space</title>
+      <link>https://fahimsikder.com/publication/fits/</link>
+      <pubDate>Sun, 12 May 2024 14:15:06 +0200</pubDate>
+      <guid>https://fahimsikder.com/publication/fits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fair Generation through Hints-based Latent Space Distillation</title>
+      <link>https://fahimsikder.com/publication/fairness-distillation/</link>
+      <pubDate>Sun, 12 May 2024 14:12:53 +0200</pubDate>
+      <guid>https://fahimsikder.com/publication/fairness-distillation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bt-GAN: Generating Fair Synthetic Healthdata via Bias-transforming Generative Adversarial Networks</title>
       <link>https://fahimsikder.com/publication/bias-transforming-gan/</link>
       <pubDate>Thu, 25 Apr 2024 01:55:33 +0100</pubDate>
