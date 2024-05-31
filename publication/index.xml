@@ -5,12 +5,36 @@
     <link>https://fahim-sikder.github.io/publication/</link>
       <atom:link href="https://fahim-sikder.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Apr 2024 01:55:33 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 31 May 2024 23:19:19 +0200</lastBuildDate>
     <image>
       <url>https://fahim-sikder.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://fahim-sikder.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>FairX: A Comprehensive Python Package for Fairness, Utility, and eXplainability for Model Analysis</title>
+      <link>https://fahim-sikder.github.io/publication/fairx/</link>
+      <pubDate>Fri, 31 May 2024 23:19:19 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/fairx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fair Image and Tabular data Synthesis (FITS) via Generating Fair Latent Space</title>
+      <link>https://fahim-sikder.github.io/publication/fits/</link>
+      <pubDate>Sun, 12 May 2024 14:15:06 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/fits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fair Generation through Hints-based Latent Space Distillation</title>
+      <link>https://fahim-sikder.github.io/publication/fairness-distillation/</link>
+      <pubDate>Sun, 12 May 2024 14:12:53 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/fairness-distillation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bt-GAN: Generating Fair Synthetic Healthdata via Bias-transforming Generative Adversarial Networks</title>
