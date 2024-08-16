@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Md Fahim Sikder</title>
-    <link>https://fahimsikder.com/post/</link>
-      <atom:link href="https://fahimsikder.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fahim-sikder.github.io/post/</link>
+      <atom:link href="https://fahim-sikder.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Oct 2021 10:29:54 +0200</lastBuildDate>
     <image>
-      <url>https://fahimsikder.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://fahim-sikder.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
-      <link>https://fahimsikder.com/post/</link>
+      <link>https://fahim-sikder.github.io/post/</link>
     </image>
     
     <item>
       <title>Installing Texlive Latest Version (Texlive-2021) on Ubuntu-20.04/18.04</title>
-      <link>https://fahimsikder.com/post/installing-texlive-latest-ubuntu/</link>
+      <link>https://fahim-sikder.github.io/post/installing-texlive-latest-ubuntu/</link>
       <pubDate>Fri, 01 Oct 2021 10:29:54 +0200</pubDate>
-      <guid>https://fahimsikder.com/post/installing-texlive-latest-ubuntu/</guid>
+      <guid>https://fahim-sikder.github.io/post/installing-texlive-latest-ubuntu/</guid>
       <description>&lt;p&gt;Hello there! In this tutorial, we will learn how to install the latest version of texlive in the ubuntu system! Generally, Ubuntu 20.04 / 18.04 only install Texlive-version-2019 from the local repository! But the Texlive current version is 2021! So, a lot happened in these updates. So, we need to install the 2021 version from the source! But before we do that, we have to uninstall any existing Texlive installation.&lt;/p&gt;
 &lt;h3 id=&#34;uninstalling-existing-texlive&#34;&gt;Uninstalling existing Texlive&lt;/h3&gt;
 &lt;p&gt;Use the following command from the terminal to remove the existing installation of Texlive [3].&lt;/p&gt;
@@ -78,9 +78,9 @@
     
     <item>
       <title>Installing Docker, Creating &amp; Running First Python Script Using it on Ubuntu 20.04 LTS</title>
-      <link>https://fahimsikder.com/post/install-docker-ubuntu/</link>
+      <link>https://fahim-sikder.github.io/post/install-docker-ubuntu/</link>
       <pubDate>Sat, 26 Dec 2020 08:21:34 +0100</pubDate>
-      <guid>https://fahimsikder.com/post/install-docker-ubuntu/</guid>
+      <guid>https://fahim-sikder.github.io/post/install-docker-ubuntu/</guid>
       <description>&lt;p&gt;I always get in trouble when creating a new project with different dependencies installed on my machine. I had to reinstall new libraries, which is doing a new thing repeatedly, and it&amp;rsquo;s time-consuming. Then I learned about docker. Docker will allow you to create a virtual machine to install all your dependencies for your specific project without tempering your primary system. Still, it is faster than the virtual machine. In this tutorial, we are going to see:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Installing docker on ubuntu 20.04 LTS&lt;/li&gt;
@@ -161,7 +161,7 @@
                /post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_1a7abac4e01ee5d264e1cc58747419bf.webp 400w,
                /post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_1cfeacf602158657f7709a5f15821d44.webp 760w,
                /post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://fahimsikder.com/post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_1a7abac4e01ee5d264e1cc58747419bf.webp&#34;
+               src=&#34;https://fahim-sikder.github.io/post/install-docker-ubuntu/build_hu34424acdaa48457dcc75561f9fd871b4_123340_1a7abac4e01ee5d264e1cc58747419bf.webp&#34;
                width=&#34;760&#34;
                height=&#34;635&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -193,7 +193,7 @@
                /post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_45a534f02d4beac3c0b64592379d30a4.webp 400w,
                /post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_80a7f91bfed3c29879e350203f3f4f80.webp 760w,
                /post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://fahimsikder.com/post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_45a534f02d4beac3c0b64592379d30a4.webp&#34;
+               src=&#34;https://fahim-sikder.github.io/post/install-docker-ubuntu/run_hu15eac8b91ece8f57e05260ccb59d230d_11235_45a534f02d4beac3c0b64592379d30a4.webp&#34;
                width=&#34;658&#34;
                height=&#34;155&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -211,9 +211,9 @@
     
     <item>
       <title>How to Install R and two most popular R packages (tidyverse &amp; rstan) in Ubuntu 20.04 LTS</title>
-      <link>https://fahimsikder.com/post/how-to-install-r-ubuntu-20/</link>
+      <link>https://fahim-sikder.github.io/post/how-to-install-r-ubuntu-20/</link>
       <pubDate>Sun, 06 Sep 2020 20:39:11 +0600</pubDate>
-      <guid>https://fahimsikder.com/post/how-to-install-r-ubuntu-20/</guid>
+      <guid>https://fahim-sikder.github.io/post/how-to-install-r-ubuntu-20/</guid>
       <description>&lt;p&gt;Hello there! In this post, we are going to see how we can install &lt;code&gt;R&lt;/code&gt; in our Ubuntu 20.04 LTS. Also, we will install two of R&amp;rsquo;s popular packages, namely: &lt;a href=&#34;https://www.tidyverse.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidyverse&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://mc-stan.org/users/interfaces/rstan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rstan&lt;/a&gt;. Both of these packages are important tools for data scientists. Rstan is the R interface for &lt;a href=&#34;https://mc-stan.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;stan&lt;/a&gt;, which is the state-of-the-art platform for statistical modeling and high-performance statistical computation. I faced so much difficulty installing these. So, I decided to make it simple for you guys.&lt;/p&gt;
 &lt;h3 id=&#34;installing-r&#34;&gt;Installing R&lt;/h3&gt;
 &lt;p&gt;First, let&amp;rsquo;s install the &lt;code&gt;R&lt;/code&gt; in our system. We will install R from &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt; repository. We need to install some dependencies for adding a new repository over HTTPS. To do that, we will run the following command in our terminal.&lt;/p&gt;
@@ -248,7 +248,7 @@
                /post/how-to-install-r-ubuntu-20/r_hufd30d648919556e88c13f92b33f4636e_49944_bc033d6554b20f7f9b5f77774183ec16.webp 400w,
                /post/how-to-install-r-ubuntu-20/r_hufd30d648919556e88c13f92b33f4636e_49944_7cb6e37a56768140bdb44f1be7e610ad.webp 760w,
                /post/how-to-install-r-ubuntu-20/r_hufd30d648919556e88c13f92b33f4636e_49944_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://fahimsikder.com/post/how-to-install-r-ubuntu-20/r_hufd30d648919556e88c13f92b33f4636e_49944_bc033d6554b20f7f9b5f77774183ec16.webp&#34;
+               src=&#34;https://fahim-sikder.github.io/post/how-to-install-r-ubuntu-20/r_hufd30d648919556e88c13f92b33f4636e_49944_bc033d6554b20f7f9b5f77774183ec16.webp&#34;
                width=&#34;731&#34;
                height=&#34;388&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -283,9 +283,9 @@
     
     <item>
       <title>Julia Tutorial Part 2: Data Structures</title>
-      <link>https://fahimsikder.com/post/julia-tutorial-part-2-data-structures/</link>
+      <link>https://fahim-sikder.github.io/post/julia-tutorial-part-2-data-structures/</link>
       <pubDate>Thu, 30 Jul 2020 10:50:26 +0600</pubDate>
-      <guid>https://fahimsikder.com/post/julia-tutorial-part-2-data-structures/</guid>
+      <guid>https://fahim-sikder.github.io/post/julia-tutorial-part-2-data-structures/</guid>
       <description>&lt;h2 id=&#34;data-structures&#34;&gt;Data Structures&lt;/h2&gt;
 &lt;p&gt;In this tutorial, we will see &lt;code&gt;Julia&#39;s&lt;/code&gt; data structure. Namely,&lt;/p&gt;
 &lt;ol&gt;
@@ -622,16 +622,16 @@ Set1: Set([2, 5])
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Other posts in this series:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://fahimsikder.com/post/julia-tutorial-part-1/&#34;&gt;Julia Tutorial Part 1: Installations &amp;amp; Basics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fahim-sikder.github.io/post/julia-tutorial-part-1/&#34;&gt;Julia Tutorial Part 1: Installations &amp;amp; Basics&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
     
     <item>
       <title>Julia Tutorial Part 1: Installations &amp; Basics</title>
-      <link>https://fahimsikder.com/post/julia-tutorial-part-1/</link>
+      <link>https://fahim-sikder.github.io/post/julia-tutorial-part-1/</link>
       <pubDate>Wed, 08 Jul 2020 14:24:00 +0600</pubDate>
-      <guid>https://fahimsikder.com/post/julia-tutorial-part-1/</guid>
+      <guid>https://fahim-sikder.github.io/post/julia-tutorial-part-1/</guid>
       <description>&lt;h2 id=&#34;introduction-installations-and-basics&#34;&gt;Introduction, Installations, and Basics&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Julia&lt;/code&gt; is a open source programming language. It was designed from the beginning for high &lt;a href=&#34;https://julialang.org/benchmarks/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;performance&lt;/a&gt;. Julia programs compile to efficient native code for multiple platforms via LLVM. To install it we need to download it&amp;rsquo;s binary from &lt;a href=&#34;https://julialang.org/downloads/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. We are going to use &lt;code&gt;Jupyter Notebook&lt;/code&gt; as the code editor. But to do that we need to link the &lt;code&gt;Jupyter Notebook&lt;/code&gt; with &lt;code&gt;Julia&lt;/code&gt;. After installing &lt;code&gt;Julia&lt;/code&gt;, open the Julia Command prompt with administration rights. Then type the following code:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-julia&#34; data-lang=&#34;julia&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
@@ -764,16 +764,16 @@ g
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Other posts in this series:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://fahimsikder.com/post/julia-tutorial-part-2-data-structures/&#34;&gt;Julia Tutorial Part 2: Data Structures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fahim-sikder.github.io/post/julia-tutorial-part-2-data-structures/&#34;&gt;Julia Tutorial Part 2: Data Structures&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
     
     <item>
       <title>ইউরোপে পিএইচডি</title>
-      <link>https://fahimsikder.com/post/phd-in-europe/</link>
+      <link>https://fahim-sikder.github.io/post/phd-in-europe/</link>
       <pubDate>Wed, 01 Jul 2020 19:52:22 +0600</pubDate>
-      <guid>https://fahimsikder.com/post/phd-in-europe/</guid>
+      <guid>https://fahim-sikder.github.io/post/phd-in-europe/</guid>
       <description>&lt;p&gt;গত বছর থেকে পিএইচডি তে কিভাবে এপ্লাই করা যায় সেটা নিয়ে মোটামুটি গবেষণা শুরু করে দিয়েছিলাম। সেই গবেষণার ফলে অনেক কিছু জানতে পেড়েছি। এই পোষ্টের মুল উদ্দেশ্য যা জেনেছি তা সবার সামনে তুলে ধরা।&lt;/p&gt;
 &lt;p&gt;ইউরোপের প্রায় সব বিশ্ববিদ্যালয়ের ওয়েবসাইটে একটি পেজ থাকেঃ &lt;strong&gt;Vacancy / Work at &lt;em&gt;university name&lt;/em&gt;&lt;/strong&gt; এই নামে। পিএইচডি, পোস্ট-ডক, রিসার্চার আরো অনেক জবের অ্যাডভার্টাইজমেন্ট ওই পেজগুলোতে দেয়া হয় (ইউরোপে ওরা পিএইচডি কে জব হিসেবে কাউন্ট করে)। প্রতিটা জব এর অ্যাডভার্টাইজমেন্ট এ কোন টপিকের উপর কাজ করা হবে, এপ্লাই করার জন্য নুন্যতম যোগ্যতা কি, এপ্লাই করতে হলে কি কি দরকার পড়বে সব দেয়া থাকে।&lt;/p&gt;
 &lt;p&gt;পিএইচডি তে এপ্লাই করার যোগ্যতা(বিশ্ববিদ্যালয় সাপেক্ষে পরিবর্তন হতে পারে):&lt;/p&gt;

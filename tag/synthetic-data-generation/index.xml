@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>synthetic-data-generation | Md Fahim Sikder</title>
-    <link>https://fahimsikder.com/tag/synthetic-data-generation/</link>
-      <atom:link href="https://fahimsikder.com/tag/synthetic-data-generation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fahim-sikder.github.io/tag/synthetic-data-generation/</link>
+      <atom:link href="https://fahim-sikder.github.io/tag/synthetic-data-generation/index.xml" rel="self" type="application/rss+xml" />
     <description>synthetic-data-generation</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Apr 2024 01:55:33 +0100</lastBuildDate>
     <image>
-      <url>https://fahimsikder.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://fahim-sikder.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>synthetic-data-generation</title>
-      <link>https://fahimsikder.com/tag/synthetic-data-generation/</link>
+      <link>https://fahim-sikder.github.io/tag/synthetic-data-generation/</link>
     </image>
     
     <item>
       <title>Bt-GAN: Generating Fair Synthetic Healthdata via Bias-transforming Generative Adversarial Networks</title>
-      <link>https://fahimsikder.com/publication/bias-transforming-gan/</link>
+      <link>https://fahim-sikder.github.io/publication/bias-transforming-gan/</link>
       <pubDate>Thu, 25 Apr 2024 01:55:33 +0100</pubDate>
-      <guid>https://fahimsikder.com/publication/bias-transforming-gan/</guid>
+      <guid>https://fahim-sikder.github.io/publication/bias-transforming-gan/</guid>
       <description></description>
     </item>
     
