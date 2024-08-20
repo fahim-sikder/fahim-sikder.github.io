@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Julia | Md Fahim Sikder</title>
-    <link>https://fahim-sikder.github.io/tag/julia/</link>
-      <atom:link href="https://fahim-sikder.github.io/tag/julia/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fahimsikder.com/tag/julia/</link>
+      <atom:link href="https://fahimsikder.com/tag/julia/index.xml" rel="self" type="application/rss+xml" />
     <description>Julia</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Jul 2020 10:50:26 +0600</lastBuildDate>
     <image>
-      <url>https://fahim-sikder.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://fahimsikder.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Julia</title>
-      <link>https://fahim-sikder.github.io/tag/julia/</link>
+      <link>https://fahimsikder.com/tag/julia/</link>
     </image>
     
     <item>
       <title>Julia Tutorial Part 2: Data Structures</title>
-      <link>https://fahim-sikder.github.io/post/julia-tutorial-part-2-data-structures/</link>
+      <link>https://fahimsikder.com/post/julia-tutorial-part-2-data-structures/</link>
       <pubDate>Thu, 30 Jul 2020 10:50:26 +0600</pubDate>
-      <guid>https://fahim-sikder.github.io/post/julia-tutorial-part-2-data-structures/</guid>
+      <guid>https://fahimsikder.com/post/julia-tutorial-part-2-data-structures/</guid>
       <description>&lt;h2 id=&#34;data-structures&#34;&gt;Data Structures&lt;/h2&gt;
 &lt;p&gt;In this tutorial, we will see &lt;code&gt;Julia&#39;s&lt;/code&gt; data structure. Namely,&lt;/p&gt;
 &lt;ol&gt;
@@ -353,16 +353,16 @@ Set1: Set([2, 5])
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Other posts in this series:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://fahim-sikder.github.io/post/julia-tutorial-part-1/&#34;&gt;Julia Tutorial Part 1: Installations &amp;amp; Basics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fahimsikder.com/post/julia-tutorial-part-1/&#34;&gt;Julia Tutorial Part 1: Installations &amp;amp; Basics&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
     
     <item>
       <title>Julia Tutorial Part 1: Installations &amp; Basics</title>
-      <link>https://fahim-sikder.github.io/post/julia-tutorial-part-1/</link>
+      <link>https://fahimsikder.com/post/julia-tutorial-part-1/</link>
       <pubDate>Wed, 08 Jul 2020 14:24:00 +0600</pubDate>
-      <guid>https://fahim-sikder.github.io/post/julia-tutorial-part-1/</guid>
+      <guid>https://fahimsikder.com/post/julia-tutorial-part-1/</guid>
       <description>&lt;h2 id=&#34;introduction-installations-and-basics&#34;&gt;Introduction, Installations, and Basics&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Julia&lt;/code&gt; is a open source programming language. It was designed from the beginning for high &lt;a href=&#34;https://julialang.org/benchmarks/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;performance&lt;/a&gt;. Julia programs compile to efficient native code for multiple platforms via LLVM. To install it we need to download it&amp;rsquo;s binary from &lt;a href=&#34;https://julialang.org/downloads/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. We are going to use &lt;code&gt;Jupyter Notebook&lt;/code&gt; as the code editor. But to do that we need to link the &lt;code&gt;Jupyter Notebook&lt;/code&gt; with &lt;code&gt;Julia&lt;/code&gt;. After installing &lt;code&gt;Julia&lt;/code&gt;, open the Julia Command prompt with administration rights. Then type the following code:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-julia&#34; data-lang=&#34;julia&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
@@ -495,7 +495,7 @@ g
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Other posts in this series:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://fahim-sikder.github.io/post/julia-tutorial-part-2-data-structures/&#34;&gt;Julia Tutorial Part 2: Data Structures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fahimsikder.com/post/julia-tutorial-part-2-data-structures/&#34;&gt;Julia Tutorial Part 2: Data Structures&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>

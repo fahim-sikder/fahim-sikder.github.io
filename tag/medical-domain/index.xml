@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>medical-domain | Md Fahim Sikder</title>
-    <link>https://fahim-sikder.github.io/tag/medical-domain/</link>
-      <atom:link href="https://fahim-sikder.github.io/tag/medical-domain/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fahimsikder.com/tag/medical-domain/</link>
+      <atom:link href="https://fahimsikder.com/tag/medical-domain/index.xml" rel="self" type="application/rss+xml" />
     <description>medical-domain</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Apr 2024 01:55:33 +0100</lastBuildDate>
     <image>
-      <url>https://fahim-sikder.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://fahimsikder.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>medical-domain</title>
-      <link>https://fahim-sikder.github.io/tag/medical-domain/</link>
+      <link>https://fahimsikder.com/tag/medical-domain/</link>
     </image>
     
     <item>
       <title>Bt-GAN: Generating Fair Synthetic Healthdata via Bias-transforming Generative Adversarial Networks</title>
-      <link>https://fahim-sikder.github.io/publication/bias-transforming-gan/</link>
+      <link>https://fahimsikder.com/publication/bias-transforming-gan/</link>
       <pubDate>Thu, 25 Apr 2024 01:55:33 +0100</pubDate>
-      <guid>https://fahim-sikder.github.io/publication/bias-transforming-gan/</guid>
+      <guid>https://fahimsikder.com/publication/bias-transforming-gan/</guid>
       <description></description>
     </item>
     

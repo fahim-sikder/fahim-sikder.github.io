@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slides | Md Fahim Sikder</title>
-    <link>https://fahim-sikder.github.io/slides/</link>
-      <atom:link href="https://fahim-sikder.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fahimsikder.com/slides/</link>
+      <atom:link href="https://fahimsikder.com/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 14 Jul 2023 18:03:27 +0200</lastBuildDate>
     <item>
       <title>Welcome to Todays Meeting</title>
-      <link>https://fahim-sikder.github.io/slides/deep-dream-group-meeting/</link>
+      <link>https://fahimsikder.com/slides/deep-dream-group-meeting/</link>
       <pubDate>Fri, 14 Jul 2023 18:03:27 +0200</pubDate>
-      <guid>https://fahim-sikder.github.io/slides/deep-dream-group-meeting/</guid>
+      <guid>https://fahimsikder.com/slides/deep-dream-group-meeting/</guid>
       <description>&lt;h1 id=&#34;welcome-to-todays-meeting&#34;&gt;Welcome to todays Meeting&lt;/h1&gt;
 &lt;p&gt;Deep Dream Group&lt;/p&gt;
 &lt;hr&gt;
