@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: February 19, 2025 --><html lang="en-us" >
+<!-- Last Published: April 2, 2025 --><html lang="en-us" >
 
 
 <head>
@@ -1584,9 +1584,8 @@
     
 
   <span >
-      Resmi Ramachandranpillai</span>, <span >
       Md Fahim Sikder</span>, <span >
-      David Bergström</span>, <span >
+      Resmi Ramachandranpillai</span>, <span >
       Fredrik Heintz</span>
   </div>
   
@@ -1598,7 +1597,7 @@
     
       
     
-    April, 2024
+    April, 2025
   </span>
   
 
@@ -1606,7 +1605,7 @@
   <span class="middot-divider"></span>
   <span class="pub-publication">
     
-      JAIR
+      Accepted at Machine Learning with Application
     
   </span>
   
@@ -1633,22 +1632,22 @@
   
   
     
-    <a href="/publication/bias-transforming-gan/" >
+    <a href="/publication/diffusion-time-series/" >
       <div class="img-hover-zoom">
-        <img src="/publication/bias-transforming-gan/featured_hu56134dbab54d46e00455e1c9401f6394_155348_808x455_fill_q75_h2_lanczos_smart1_3.webp" height="455" width="808"
-            class="article-banner" alt="Bt-GAN: Generating Fair Synthetic Healthdata via Bias-transforming Generative Adversarial Networks" loading="lazy">
+        <img src="/publication/diffusion-time-series/featured_hu57cd222ae4fd5c8914a82af24c125fd9_1378055_808x455_fill_q75_h2_lanczos_smart1_3.webp" height="455" width="808"
+            class="article-banner" alt="TransFusion: Generating Long, High-Fidelity Time Series using Diffusion Models with Transformers" loading="lazy">
       </div>
     </a>
   
 
   <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/bias-transforming-gan/" >Bt-GAN: Generating Fair Synthetic Healthdata via Bias-transforming Generative Adversarial Networks</a>
+    <a href="/publication/diffusion-time-series/" >TransFusion: Generating Long, High-Fidelity Time Series using Diffusion Models with Transformers</a>
   </div>
 
   
-  <a href="/publication/bias-transforming-gan/"  class="summary-link">
+  <a href="/publication/diffusion-time-series/"  class="summary-link">
     <div class="article-style">
-      <p>Synthetic data generation offers a promising solution to enhance the usefulness of Electronic Healthcare Records (EHR) by generating realistic de-identified data. However, the existing literature primarily focuses on the quality of synthetic health data, neglecting the crucial aspect of fairness in downstream predictions. Consequently, models trained on synthetic EHR have faced criticism for producing biased outcomes in target tasks. These biases can arise from either spurious correlations between features or the failure of models to accurately represent sub-groups. To address these concerns, we present Bias-transforming Generative Adversarial Networks (Bt-GAN), a GAN-based synthetic data generator specifically designed for the healthcare domain. In order to tackle spurious correlations (i), we propose an information-constrained Data Generation Process (DGP) that enables the generator to learn a fair deterministic transformation based on a well-defined notion of algorithmic fairness. To overcome the challenge of capturing exact sub-group representations (ii), we incentivize the generator to preserve sub-group densities through score-based weighted sampling. This approach compels the generator to learn from underrepresented regions of the data manifold. To evaluate the effectiveness of our proposed method, we conduct extensive experiments using the Medical Information Mart for Intensive Care (MIMIC-III) database. Our results demonstrate that Bt-GAN achieves state-of-the-art accuracy while significantly improving fairness and minimizing bias amplification. Furthermore, we perform an in-depth explainability analysis to provide additional evidence supporting the validity of our study. In conclusion, our research introduces a novel and professional approach to addressing the limitations of synthetic data generation in the healthcare domain. By incorporating fairness considerations and leveraging advanced techniques such as GANs, we pave the way for more reliable and unbiased predictions in healthcare applications.</p>
+      <p>The generation of high-quality, long-sequenced time-series data is essential due to its wide range of applications. In the past, standalone Recurrent and Convolutional Neural Network-based Generative Adversarial Networks (GAN) were used to synthesize time-series data. However, they are inadequate for generating long sequences of time-series data due to limitations in the architecture. Furthermore, GANs are well known for their training instability and mode collapse problem. To address this, we propose TransFusion, a diffusion, and transformers-based generative model to generate high-quality long-sequence time-series data. We have stretched the sequence length to 384, and generated high-quality synthetic data. Also, we introduce two evaluation metrics to evaluate the quality of the synthetic data as well as its predictive characteristics. We evaluate TransFusion with a wide variety of visual and empirical metrics, and TransFusion outperforms the previous state-of-the-art by a significant margin.</p>
     </div>
   </a>
   
@@ -1670,16 +1669,28 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.jair.org/index.php/jair/article/view/15317/27031" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2307.12667" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/bias-transforming-gan/cite.bib">
+        data-filename="/publication/diffusion-time-series/cite.bib">
   Cite
 </a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/fahim-sikder/TransFusion" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
 
 
 
@@ -1687,8 +1698,8 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://physionet.org/content/mimiciii/1.4/" target="_blank" rel="noopener">
-  Dataset
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/uploads/TransFusion-Poster.pdf" target="_blank" rel="noopener">
+  Poster
 </a>
 
 
@@ -1697,11 +1708,7 @@
 
 
 
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/https://doi.org/10.1613/jair.1.15317" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/https://doi.org/10.48550/arXiv.2307.12667" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -1880,9 +1887,65 @@
       Daniel de Leng</span>, <span >
       Fredrik Heintz</span>
   </span>
+  (2025).
+  <a href="/publication/diffusion-intersectional-bias/">Mitigating Intersectional Bias Through Diffusion-Driven Fair Representation</a>.
+  Work in Progress.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Md Fahim Sikder</span>, <span >
+      Daniel de Leng</span>, <span >
+      Fredrik Heintz</span>
+  </span>
   (2024).
   <a href="/publication/fair4free/">Fair4Free: Generating High-fidelity Fair Synthetic Samples using Data Free Distillation</a>.
-  Under Review.
+  Work in Progress.
   
   <p>
 
@@ -2034,7 +2097,7 @@
   </span>
   (2024).
   <a href="/publication/fairness-distillation/">Generating Synthetic Fair Syntax-agnostic Data by Learning and Distilling Fair Representation</a>.
-  Under Review.
+  Work in Progress.
   
   <p>
 
@@ -2095,83 +2158,14 @@
     
 
   <span >
-      Md Fahim Sikder</span>, <span >
       Resmi Ramachandranpillai</span>, <span >
-      Daniel de Leng</span>, <span >
+      Md Fahim Sikder</span>, <span >
+      David Bergström</span>, <span >
       Fredrik Heintz</span>
   </span>
   (2024).
-  <a href="/publication/generate-fair-temporal-data/">Generative Models for Time-Series and Fair Data Generation</a>.
-  SSBA/SSDL 2024 as extended abstract.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/uploads/fair-time-series-poster.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-  
-    
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      Md Fahim Sikder</span>, <span >
-      Md Ferdous</span>, <span >
-      Shraboni Afroz</span>, <span >
-      Uzzal Podder</span>, <span >
-      Kaniz Fatema</span>, <span >
-      Mohammad Nahid Hossain</span>, <span >
-      Md Tahmid Hasan</span>, <span >
-      Mrinal Kanti Baowaly</span>
-  </span>
-  (2023).
-  <a href="/publication/explainable-bengali-news/">Explainable Bengali Multiclass News Classification</a>.
-  ICCIT 2023.
+  <a href="/publication/bias-transforming-gan/">Bt-GAN: Generating Fair Synthetic Healthdata via Bias-transforming Generative Adversarial Networks</a>.
+  JAIR.
   
   <p>
 
@@ -2188,32 +2182,24 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/uploads/explainable-bengali.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.jair.org/index.php/jair/article/view/15317/27031" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/explainable-bengali-news/cite.bib">
+        data-filename="/publication/bias-transforming-gan/cite.bib">
   Cite
 </a>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/fahim-sikder/explainable-bengali-news-classification" target="_blank" rel="noopener">
-  Code
-</a>
-
 
   
   
     
   
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.kaggle.com/datasets/furcifer/bangla-newspaper-dataset" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://physionet.org/content/mimiciii/1.4/" target="_blank" rel="noopener">
   Dataset
 </a>
 
@@ -2227,7 +2213,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/ICCIT60459.2023.10441218" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/https://doi.org/10.1613/jair.1.15317" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -3449,7 +3435,7 @@
   
 
 
-<script src="/js/vendor-bundle.min.f64289d8217e08e3afcd597d60836062.js"></script>
+<script src="/js/vendor-bundle.min.938a3a7554cd9f6602290411f64d2617.js"></script>
 
 
 
@@ -3534,7 +3520,7 @@
   
 
 
-<script src="/en/js/wowchemy.min.ead4a376bcf2c4714888c770ea9b0040.js"></script>
+<script src="/en/js/wowchemy.min.2945731fa88332cb0ec33cf47d29879f.js"></script>
 
 
 

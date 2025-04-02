@@ -33,6 +33,22 @@
     </item>
     
     <item>
+      <title>TransFusion: Generating Long, High-Fidelity Time Series using Diffusion Models with Transformers</title>
+      <link>https://fahim-sikder.github.io/publication/diffusion-time-series/</link>
+      <pubDate>Tue, 01 Apr 2025 01:55:53 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/diffusion-time-series/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitigating Intersectional Bias Through Diffusion-Driven Fair Representation</title>
+      <link>https://fahim-sikder.github.io/publication/diffusion-intersectional-bias/</link>
+      <pubDate>Wed, 19 Feb 2025 19:19:07 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publication/diffusion-intersectional-bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fair4Free: Generating High-fidelity Fair Synthetic Samples using Data Free Distillation</title>
       <link>https://fahim-sikder.github.io/publication/fair4free/</link>
       <pubDate>Wed, 02 Oct 2024 13:19:44 +0200</pubDate>
@@ -196,14 +212,6 @@
       <link>https://fahim-sikder.github.io/publication/fair-latent-generative-models/</link>
       <pubDate>Sat, 14 Jan 2023 01:56:14 +0100</pubDate>
       <guid>https://fahim-sikder.github.io/publication/fair-latent-generative-models/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TransFusion: Generating Long, High-Fidelity Time Series using Diffusion Models with Transformers</title>
-      <link>https://fahim-sikder.github.io/publication/diffusion-time-series/</link>
-      <pubDate>Sat, 14 Jan 2023 01:55:53 +0100</pubDate>
-      <guid>https://fahim-sikder.github.io/publication/diffusion-time-series/</guid>
       <description></description>
     </item>
     
