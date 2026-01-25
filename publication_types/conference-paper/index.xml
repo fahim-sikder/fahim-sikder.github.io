@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conference Paper | Md Fahim Sikder</title>
+    <link>https://fahimsikder.com/publication_types/conference-paper/</link>
+      <atom:link href="https://fahimsikder.com/publication_types/conference-paper/index.xml" rel="self" type="application/rss+xml" />
+    <description>Conference Paper</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 Oct 2025 11:21:34 +0200</lastBuildDate>
+    <image>
+      <url>https://fahimsikder.com/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>Conference Paper</title>
+      <link>https://fahimsikder.com/publication_types/conference-paper/</link>
+    </image>
+    
+    <item>
+      <title>Promoting Intersectional Fairness through Knowledge Distillation</title>
+      <link>https://fahimsikder.com/publications/promoting-intersectional-fainress/</link>
+      <pubDate>Thu, 23 Oct 2025 11:21:34 +0200</pubDate>
+      <guid>https://fahimsikder.com/publications/promoting-intersectional-fainress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FairRep: Mitigating Intersectional Bias through Fair Representation Learning</title>
+      <link>https://fahimsikder.com/publications/diffusion-intersectional-bias/</link>
+      <pubDate>Wed, 19 Feb 2025 19:19:07 +0100</pubDate>
+      <guid>https://fahimsikder.com/publications/diffusion-intersectional-bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FairX: A comprehensive benchmarking tool for model analysis using fairness, utility, and eXplainability</title>
+      <link>https://fahimsikder.com/publications/fairx/</link>
+      <pubDate>Fri, 31 May 2024 23:19:19 +0200</pubDate>
+      <guid>https://fahimsikder.com/publications/fairx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generative Models for Time-Series and Fair Data Generation</title>
+      <link>https://fahimsikder.com/publications/generate-fair-temporal-data/</link>
+      <pubDate>Mon, 15 Jan 2024 12:23:56 +0100</pubDate>
+      <guid>https://fahimsikder.com/publications/generate-fair-temporal-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explainable Bengali Multiclass News Classification</title>
+      <link>https://fahimsikder.com/publications/explainable-bengali-news/</link>
+      <pubDate>Tue, 14 Nov 2023 17:34:24 +0100</pubDate>
+      <guid>https://fahimsikder.com/publications/explainable-bengali-news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating Private and Fair Long-Sequenced Longitudinal Healthcare Records</title>
+      <link>https://fahimsikder.com/publications/medical-longitudinal-fair-privacy/</link>
+      <pubDate>Wed, 07 Jun 2023 13:44:59 +0200</pubDate>
+      <guid>https://fahimsikder.com/publications/medical-longitudinal-fair-privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fair Latent Deep Generative Models (FLDGM) for Syntax-agnostic and Fair Synthetic Data Generation</title>
+      <link>https://fahimsikder.com/publications/fair-latent-generative-models/</link>
+      <pubDate>Sat, 14 Jan 2023 01:56:14 +0100</pubDate>
+      <guid>https://fahimsikder.com/publications/fair-latent-generative-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy-Preserving Synthetic Trajectory Data Generation</title>
+      <link>https://fahimsikder.com/publications/privacy-preserving-trajectory-data-generation/</link>
+      <pubDate>Sat, 27 Jun 2020 23:03:59 +0600</pubDate>
+      <guid>https://fahimsikder.com/publications/privacy-preserving-trajectory-data-generation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bangla Handwritten Digit Recognition &amp; Generation</title>
+      <link>https://fahimsikder.com/publications/digit-generate/</link>
+      <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://fahimsikder.com/publications/digit-generate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart Disaster Notification System</title>
+      <link>https://fahimsikder.com/publications/smart-disaster/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://fahimsikder.com/publications/smart-disaster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting Students Yearly Performance using Neural Network: A Case Study of BSMRSTU</title>
+      <link>https://fahimsikder.com/publications/predict-performance/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://fahimsikder.com/publications/predict-performance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

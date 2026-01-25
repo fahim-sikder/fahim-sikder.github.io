@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Synthetic-Data-Generation | Md Fahim Sikder</title>
+    <link>https://fahimsikder.com/tags/synthetic-data-generation/</link>
+      <atom:link href="https://fahimsikder.com/tags/synthetic-data-generation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Synthetic-Data-Generation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Apr 2024 01:55:33 +0100</lastBuildDate>
+    <image>
+      <url>https://fahimsikder.com/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>Synthetic-Data-Generation</title>
+      <link>https://fahimsikder.com/tags/synthetic-data-generation/</link>
+    </image>
+    
+    <item>
+      <title>Bt-GAN: Generating Fair Synthetic Healthdata via Bias-transforming Generative Adversarial Networks</title>
+      <link>https://fahimsikder.com/publications/bias-transforming-gan/</link>
+      <pubDate>Thu, 25 Apr 2024 01:55:33 +0100</pubDate>
+      <guid>https://fahimsikder.com/publications/bias-transforming-gan/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

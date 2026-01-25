@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intersectional Fairness | Md Fahim Sikder</title>
+    <link>http://localhost:1313/tags/intersectional-fairness/</link>
+      <atom:link href="http://localhost:1313/tags/intersectional-fairness/index.xml" rel="self" type="application/rss+xml" />
+    <description>Intersectional Fairness</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 Oct 2025 11:21:34 +0200</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>Intersectional Fairness</title>
+      <link>http://localhost:1313/tags/intersectional-fairness/</link>
+    </image>
+    
+    <item>
+      <title>Promoting Intersectional Fairness through Knowledge Distillation</title>
+      <link>http://localhost:1313/publications/promoting-intersectional-fainress/</link>
+      <pubDate>Thu, 23 Oct 2025 11:21:34 +0200</pubDate>
+      <guid>http://localhost:1313/publications/promoting-intersectional-fainress/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
