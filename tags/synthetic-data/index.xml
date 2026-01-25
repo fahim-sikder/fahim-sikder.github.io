@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Synthetic Data | Md Fahim Sikder</title>
+    <link>https://fahim-sikder.github.io/tags/synthetic-data/</link>
+      <atom:link href="https://fahim-sikder.github.io/tags/synthetic-data/index.xml" rel="self" type="application/rss+xml" />
+    <description>Synthetic Data</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 28 Nov 2025 11:38:37 +0100</lastBuildDate>
+    <image>
+      <url>https://fahim-sikder.github.io/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>Synthetic Data</title>
+      <link>https://fahim-sikder.github.io/tags/synthetic-data/</link>
+    </image>
+    
+    <item>
+      <title>Reserach Work Presented at NordicAIMeet</title>
+      <link>https://fahim-sikder.github.io/blog/reserach-presented-nordicaimeet/</link>
+      <pubDate>Fri, 28 Nov 2025 11:38:37 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/blog/reserach-presented-nordicaimeet/</guid>
+      <description>&lt;p&gt;I had the pleasure to present my work titled &lt;strong&gt;&amp;ldquo;Representative Synthetic Data for Fair Decision Making&amp;rdquo;&lt;/strong&gt; at the Nordic Young Researchers Symposium which held in Norrökping, Sweden on 26-27 November, 2025.&lt;/p&gt;
+&lt;p&gt;More detaile about the event can be found: 
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TransFusion: Generating Long, High-Fidelity Time Series using Diffusion Models with Transformers</title>
+      <link>https://fahim-sikder.github.io/publications/diffusion-time-series/</link>
+      <pubDate>Tue, 01 Apr 2025 01:55:53 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/diffusion-time-series/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

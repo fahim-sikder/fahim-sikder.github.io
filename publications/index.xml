@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Md Fahim Sikder</title>
+    <link>https://fahim-sikder.github.io/publications/</link>
+      <atom:link href="https://fahim-sikder.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Dec 2025 11:16:52 +0100</lastBuildDate>
+    <image>
+      <url>https://fahim-sikder.github.io/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>Publications</title>
+      <link>https://fahim-sikder.github.io/publications/</link>
+    </image>
+    
+    <item>
+      <title>Representative Synthetic Data for Fair Decision Making</title>
+      <link>https://fahim-sikder.github.io/publications/representative-synthetic-data-for-fair-decision-making/</link>
+      <pubDate>Wed, 10 Dec 2025 11:16:52 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/representative-synthetic-data-for-fair-decision-making/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Promoting Intersectional Fairness through Knowledge Distillation</title>
+      <link>https://fahim-sikder.github.io/publications/promoting-intersectional-fainress/</link>
+      <pubDate>Thu, 23 Oct 2025 11:21:34 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/promoting-intersectional-fainress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TransFusion: Generating Long, High-Fidelity Time Series using Diffusion Models with Transformers</title>
+      <link>https://fahim-sikder.github.io/publications/diffusion-time-series/</link>
+      <pubDate>Tue, 01 Apr 2025 01:55:53 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/diffusion-time-series/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FairRep: Mitigating Intersectional Bias through Fair Representation Learning</title>
+      <link>https://fahim-sikder.github.io/publications/diffusion-intersectional-bias/</link>
+      <pubDate>Wed, 19 Feb 2025 19:19:07 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/diffusion-intersectional-bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fair4Free: Generating High-fidelity Fair Synthetic Samples using Data Free Distillation</title>
+      <link>https://fahim-sikder.github.io/publications/fair4free/</link>
+      <pubDate>Wed, 02 Oct 2024 13:19:44 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/fair4free/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FairX: A comprehensive benchmarking tool for model analysis using fairness, utility, and eXplainability</title>
+      <link>https://fahim-sikder.github.io/publications/fairx/</link>
+      <pubDate>Fri, 31 May 2024 23:19:19 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/fairx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating Synthetic Fair Syntax-agnostic Data by Learning and Distilling Fair Representation</title>
+      <link>https://fahim-sikder.github.io/publications/fairness-distillation/</link>
+      <pubDate>Sun, 12 May 2024 14:12:53 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/fairness-distillation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bt-GAN: Generating Fair Synthetic Healthdata via Bias-transforming Generative Adversarial Networks</title>
+      <link>https://fahim-sikder.github.io/publications/bias-transforming-gan/</link>
+      <pubDate>Thu, 25 Apr 2024 01:55:33 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/bias-transforming-gan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generative Models for Time-Series and Fair Data Generation</title>
+      <link>https://fahim-sikder.github.io/publications/generate-fair-temporal-data/</link>
+      <pubDate>Mon, 15 Jan 2024 12:23:56 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/generate-fair-temporal-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explainable Bengali Multiclass News Classification</title>
+      <link>https://fahim-sikder.github.io/publications/explainable-bengali-news/</link>
+      <pubDate>Tue, 14 Nov 2023 17:34:24 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/explainable-bengali-news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating Private and Fair Long-Sequenced Longitudinal Healthcare Records</title>
+      <link>https://fahim-sikder.github.io/publications/medical-longitudinal-fair-privacy/</link>
+      <pubDate>Wed, 07 Jun 2023 13:44:59 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/medical-longitudinal-fair-privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fair Latent Deep Generative Models (FLDGM) for Syntax-agnostic and Fair Synthetic Data Generation</title>
+      <link>https://fahim-sikder.github.io/publications/fair-latent-generative-models/</link>
+      <pubDate>Sat, 14 Jan 2023 01:56:14 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/fair-latent-generative-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthesizing Longer and Higher-Fidelity Time-Series Data Using Generative Adversarial Networks</title>
+      <link>https://fahim-sikder.github.io/publications/mottgan/</link>
+      <pubDate>Sat, 14 Jan 2023 01:55:44 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/mottgan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sequential Ice Hockey Events Generation using Generative Adversarial Network</title>
+      <link>https://fahim-sikder.github.io/publications/sequential-ice-hockey-events/</link>
+      <pubDate>Fri, 03 Jun 2022 10:56:37 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/sequential-ice-hockey-events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring the Fairness, Privacy and Accuracy of Time-Series Generative Models - A Survey</title>
+      <link>https://fahim-sikder.github.io/publications/fairness-survey/</link>
+      <pubDate>Sun, 20 Jun 2021 19:48:37 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/fairness-survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy-Preserving Synthetic Trajectory Data Generation</title>
+      <link>https://fahim-sikder.github.io/publications/privacy-preserving-trajectory-data-generation/</link>
+      <pubDate>Sat, 27 Jun 2020 23:03:59 +0600</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/privacy-preserving-trajectory-data-generation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bangla Handwritten Digit Recognition &amp; Generation</title>
+      <link>https://fahim-sikder.github.io/publications/digit-generate/</link>
+      <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/digit-generate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart Disaster Notification System</title>
+      <link>https://fahim-sikder.github.io/publications/smart-disaster/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/smart-disaster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting Students Yearly Performance using Neural Network: A Case Study of BSMRSTU</title>
+      <link>https://fahim-sikder.github.io/publications/predict-performance/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/predict-performance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

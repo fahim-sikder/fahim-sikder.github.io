@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digit Generation | Md Fahim Sikder</title>
+    <link>https://fahim-sikder.github.io/tags/digit-generation/</link>
+      <atom:link href="https://fahim-sikder.github.io/tags/digit-generation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digit Generation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 15 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://fahim-sikder.github.io/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>Digit Generation</title>
+      <link>https://fahim-sikder.github.io/tags/digit-generation/</link>
+    </image>
+    
+    <item>
+      <title>Bangla Handwritten Digit Recognition &amp; Generation</title>
+      <link>https://fahim-sikder.github.io/publications/digit-generate/</link>
+      <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/digit-generate/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

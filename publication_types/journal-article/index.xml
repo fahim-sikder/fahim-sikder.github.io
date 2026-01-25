@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journal Article | Md Fahim Sikder</title>
+    <link>https://fahim-sikder.github.io/publication_types/journal-article/</link>
+      <atom:link href="https://fahim-sikder.github.io/publication_types/journal-article/index.xml" rel="self" type="application/rss+xml" />
+    <description>Journal Article</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Apr 2025 01:55:53 +0100</lastBuildDate>
+    <image>
+      <url>https://fahim-sikder.github.io/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>Journal Article</title>
+      <link>https://fahim-sikder.github.io/publication_types/journal-article/</link>
+    </image>
+    
+    <item>
+      <title>TransFusion: Generating Long, High-Fidelity Time Series using Diffusion Models with Transformers</title>
+      <link>https://fahim-sikder.github.io/publications/diffusion-time-series/</link>
+      <pubDate>Tue, 01 Apr 2025 01:55:53 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/diffusion-time-series/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Preprint | Md Fahim Sikder</title>
+    <link>https://fahim-sikder.github.io/publication_types/preprint/</link>
+      <atom:link href="https://fahim-sikder.github.io/publication_types/preprint/index.xml" rel="self" type="application/rss+xml" />
+    <description>Preprint</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Oct 2024 13:19:44 +0200</lastBuildDate>
+    <image>
+      <url>https://fahim-sikder.github.io/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>Preprint</title>
+      <link>https://fahim-sikder.github.io/publication_types/preprint/</link>
+    </image>
+    
+    <item>
+      <title>Fair4Free: Generating High-fidelity Fair Synthetic Samples using Data Free Distillation</title>
+      <link>https://fahim-sikder.github.io/publications/fair4free/</link>
+      <pubDate>Wed, 02 Oct 2024 13:19:44 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/fair4free/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating Synthetic Fair Syntax-agnostic Data by Learning and Distilling Fair Representation</title>
+      <link>https://fahim-sikder.github.io/publications/fairness-distillation/</link>
+      <pubDate>Sun, 12 May 2024 14:12:53 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/fairness-distillation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthesizing Longer and Higher-Fidelity Time-Series Data Using Generative Adversarial Networks</title>
+      <link>https://fahim-sikder.github.io/publications/mottgan/</link>
+      <pubDate>Sat, 14 Jan 2023 01:55:44 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/mottgan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring the Fairness, Privacy and Accuracy of Time-Series Generative Models - A Survey</title>
+      <link>https://fahim-sikder.github.io/publications/fairness-survey/</link>
+      <pubDate>Sun, 20 Jun 2021 19:48:37 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/fairness-survey/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
