@@ -4,20 +4,6 @@
   
   
   <url>
-    <loc>https://fahimsikder.com/courses/hugo-blox/getting-started/</loc><lastmod>2024-02-17T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/courses/hugo-blox/reference/customization/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/courses/hugo-blox/guide/project-structure/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/courses/hugo-blox/guide/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/courses/hugo-blox/guide/configuration/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/events/example/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/events/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://fahimsikder.com/blog/</loc><lastmod>2026-01-17T18:15:46+01:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://fahimsikder.com/blog/defended-phd-thesis/</loc><lastmod>2026-01-17T18:15:46+01:00</lastmod><changefreq>weekly</changefreq></url>
@@ -32,9 +18,21 @@
   <url>
     <loc>https://fahimsikder.com/publications/representative-synthetic-data-for-fair-decision-making/</loc><lastmod>2025-12-10T11:16:52+01:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://fahimsikder.com/tags/data-fairness/</loc><lastmod>2025-12-10T11:05:01+01:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://fahimsikder.com/tags/generative-models/</loc><lastmod>2025-12-10T11:05:01+01:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://fahimsikder.com/tags/intersectional-fairness/</loc><lastmod>2025-12-10T11:05:01+01:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://fahimsikder.com/post/</loc><lastmod>2025-12-10T11:05:01+01:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://fahimsikder.com/tags/data-fairness/</loc><lastmod>2025-12-06T11:38:37+01:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://fahimsikder.com/tags/representation-learning/</loc><lastmod>2025-12-10T11:05:01+01:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://fahimsikder.com/tags/synthetic-data/</loc><lastmod>2025-12-10T11:05:01+01:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://fahimsikder.com/tags/</loc><lastmod>2025-12-10T11:05:01+01:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://fahimsikder.com/post/representative-synthetic-data/</loc><lastmod>2025-12-10T11:05:01+01:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://fahimsikder.com/tags/decision-making/</loc><lastmod>2025-12-06T11:38:37+01:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -42,21 +40,9 @@
   <url>
     <loc>https://fahimsikder.com/blog/reserach-presented-nordicaimeet/</loc><lastmod>2025-12-06T11:38:37+01:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://fahimsikder.com/tags/synthetic-data/</loc><lastmod>2025-12-06T11:38:37+01:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/tags/</loc><lastmod>2025-12-06T11:38:37+01:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://fahimsikder.com/publication_types/conference-paper/</loc><lastmod>2025-10-23T11:21:34+02:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://fahimsikder.com/publications/promoting-intersectional-fainress/</loc><lastmod>2025-10-23T11:21:34+02:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/tags/course/</loc><lastmod>2025-09-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/courses/</loc><lastmod>2025-09-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/courses/hugo-blox/</loc><lastmod>2025-09-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/tags/hugo-blox/</loc><lastmod>2025-09-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://fahimsikder.com/blog/close-to-final-seminar-phd/</loc><lastmod>2025-12-06T11:43:52+01:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -65,8 +51,6 @@
     <loc>https://fahimsikder.com/blog/attended-iclr-2025/</loc><lastmod>2025-12-06T12:48:37+01:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://fahimsikder.com/blog/champion-swedens-largest-ai-hackathon/</loc><lastmod>2025-12-06T11:45:26+01:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/tags/generative-models/</loc><lastmod>2025-04-01T01:55:53+01:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://fahimsikder.com/publication_types/journal-article/</loc><lastmod>2025-04-01T01:55:53+01:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -81,8 +65,6 @@
     <loc>https://fahimsikder.com/publication_types/preprint/</loc><lastmod>2024-10-02T13:19:44+02:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://fahimsikder.com/publications/fairx/</loc><lastmod>2024-05-31T23:19:19+02:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/projects/</loc><lastmod>2024-05-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://fahimsikder.com/publications/fairness-distillation/</loc><lastmod>2024-05-12T14:12:53+02:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -100,23 +82,7 @@
   <url>
     <loc>https://fahimsikder.com/publications/explainable-bengali-news/</loc><lastmod>2023-11-14T17:34:24+01:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://fahimsikder.com/tags/hugo/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/tags/hugoblox/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/tags/markdown/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/projects/pandas/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/projects/pytorch/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/projects/scikit/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/courses/hugo-blox/guide/formatting/media/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://fahimsikder.com/experience/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/courses/hugo-blox/guide/formatting/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://fahimsikder.com/publications/medical-longitudinal-fair-privacy/</loc><lastmod>2023-06-07T13:44:59+02:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -210,18 +176,4 @@
   <url>
     <loc>https://fahimsikder.com/publications/smart-disaster/</loc><lastmod>2017-08-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://fahimsikder.com/publications/predict-performance/</loc><lastmod>2016-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/courses/hugo-blox/guide/formatting/button/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/courses/hugo-blox/guide/formatting/callout/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/courses/hugo-blox/guide/formatting/cards/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/courses/hugo-blox/reference/i18n/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/courses/hugo-blox/reference/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/courses/hugo-blox/guide/formatting/toggle/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://fahimsikder.com/courses/hugo-blox/guide/formatting/steps/</loc><changefreq>weekly</changefreq></url></urlset>
+    <loc>https://fahimsikder.com/publications/predict-performance/</loc><lastmod>2016-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url></urlset>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | Md Fahim Sikder</title>
-    <link>https://fahimsikder.com/events/</link>
-      <atom:link href="https://fahimsikder.com/events/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:6916/events/</link>
+      <atom:link href="http://localhost:6916/events/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://fahimsikder.com/media/icon_hu_4a89715e7cf75d49.png</url>
+      <url>http://localhost:6916/media/icon_hu_4a89715e7cf75d49.png</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://fahimsikder.com/events/</link>
+      <link>http://localhost:6916/events/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://fahimsikder.com/events/example/</link>
+      <link>http://localhost:6916/events/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://fahimsikder.com/events/example/</guid>
+      <guid>http://localhost:6916/events/example/</guid>
       <description>
 
 
