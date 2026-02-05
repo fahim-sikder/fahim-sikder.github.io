@@ -5,12 +5,39 @@
     <link>https://fahim-sikder.github.io/tags/generative-models/</link>
       <atom:link href="https://fahim-sikder.github.io/tags/generative-models/index.xml" rel="self" type="application/rss+xml" />
     <description>Generative Models</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Apr 2025 01:55:53 +0100</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Dec 2025 11:05:01 +0100</lastBuildDate>
     <image>
       <url>https://fahim-sikder.github.io/media/icon_hu_4a89715e7cf75d49.png</url>
       <title>Generative Models</title>
       <link>https://fahim-sikder.github.io/tags/generative-models/</link>
     </image>
+    
+    <item>
+      <title>Teaching Machines to Be Fair: The Fight Against Algorithmic Bias</title>
+      <link>https://fahim-sikder.github.io/post/representative-synthetic-data/</link>
+      <pubDate>Wed, 10 Dec 2025 11:05:01 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/post/representative-synthetic-data/</guid>
+      <description>&lt;h2 id=&#34;when-ai-gets-it-wrong-teaching-machines-to-be-fair&#34;&gt;When AI Gets It Wrong: Teaching Machines to Be Fair&lt;/h2&gt;
+&lt;p&gt;Picture this: You are applying for a loan, and an AI system instantly rejects your application. Not because your credit score or income, but because you belong to a demographic group that was historically denied loans. The algorithm learned from past data that reflected decades of discrimination. Now it is repeating those same mistakes at lightning speed.&lt;/p&gt;
+&lt;p&gt;This is the problem I have been wrestling with for the past few years of my PhD at Linköping University. How do we build AI systems that recognize and counteract bias instead of amplifying it?&lt;/p&gt;
+&lt;h2 id=&#34;the-hidden-problem-in-ai-systems&#34;&gt;The Hidden Problem in AI Systems&lt;/h2&gt;
+&lt;p&gt;AI models learn from historical data. Sounds reasonable, right? But here is the catch: historical data is messy, biased, and often reflects societal inequalities we are tyring to overcome. When we train models on healthcare records, criminal justice data, or financial information, we are essentially teaching them to maintaining existing discrimination.&lt;/p&gt;
+&lt;p&gt;The problem gets even trickier when we consider intersectional bias, where the compounded discrimination affects people with multiple marginalized identities. An AI system might appear &amp;ldquo;fair&amp;rdquo; when look at sensitive attribute like race or gender alone. But what about darker-skinned women? Or elderly individuals from minority communities? These intersectional groups often face unique forms of discrimination that traditional fairness approaches completely miss.&lt;/p&gt;
+&lt;h2 id=&#34;two-paths-to-fair-ai&#34;&gt;Two Paths to Fair AI&lt;/h2&gt;
+&lt;p&gt;My research explores two strategies for tackling these challenges:&lt;/p&gt;
+&lt;p&gt;First, I developed methods to generate synthetic data that removes discriminatory patterns while keeping the data useful for real-world applications. Think of it as creating practice datasets where AI can learn to make good decisions without picking up our bad habits.&lt;/p&gt;
+&lt;p&gt;I created two systems for this: 
+ for healthcare data, which tackles the challenge of medical records where biases run deep, and 
+, which works across different types of data.&lt;/p&gt;
+&lt;p&gt;The results were promising. When we tested Bt-GAN on real healthcare datasets, it achieved near-perfect demographic parity (reducing discrimination from 23.9% to just 0.1%) while maintaining the data quality needed for clinical predictions. FLDGMs showed similar success across financial and criminal justice datasets, proving that fair AI does not have to sacrifice accuracy.&lt;/p&gt;
+&lt;!-- Second, I developed techniques that teach AI models to extract &#34;fair features&#34; from biased data. Instead of treating fairness as an add-on, these approaches bake it directly into how the model understands and represents information. One method uses knowledge distillation where, a teacher model learns to be accurate, then transfers that knowledge to a student model that&#39;s also constrained to be fair. Another approach, called Diff-Fair, uses diffusion models to gradually refine representations until sensitive attributes like race or gender become irrelevant to the decision-making process. --&gt;
+&lt;p&gt;Second, I developed techniques that teach AI models to extract &amp;ldquo;fair features&amp;rdquo; from biased data. Instead of treating fairness as something you add at the end, these approaches build it directly into how the model understands and represents information.&lt;/p&gt;
+&lt;p&gt;One method uses knowledge distillation, a teacher model learns to be accurate, then passes that knowledge to a student model that&amp;rsquo;s also trained to be fair. Another approach, called Diff-Fair, uses diffusion models to gradually refine how the AI sees the data, making sensitive attributes like race or gender irrelevant to its decisions.&lt;/p&gt;
+&lt;h2 id=&#34;making-fairness-measurable&#34;&gt;Making Fairness Measurable&lt;/h2&gt;
+&lt;p&gt;One of the frustrating aspects of fairness research has been the lack of standardized tools. Researchers were using different metrics, different evaluation methods, and it was nearly impossiblem to compare approaches or know what acutually works in practice.&lt;/p&gt;
+&lt;p&gt;To address this, I built FairX, an open-source benchmarking platform that provides a unified way to evaluate both fairness and data quality. It&amp;rsquo;s designed for researchers and practitioners who need to assess whether their AI systems are actually fair, not just whether they seem fair on paper.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>TransFusion: Generating Long, High-Fidelity Time Series using Diffusion Models with Transformers</title>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Learn Hugo Blox in 10 minutes! | Md Fahim Sikder</title>
-    <link>https://fahim-sikder.github.io/courses/hugo-blox/</link>
-      <atom:link href="https://fahim-sikder.github.io/courses/hugo-blox/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:6916/courses/hugo-blox/</link>
+      <atom:link href="http://localhost:6916/courses/hugo-blox/index.xml" rel="self" type="application/rss+xml" />
     <description>Learn Hugo Blox in 10 minutes!</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://fahim-sikder.github.io/courses/hugo-blox/featured.jpg</url>
+      <url>http://localhost:6916/courses/hugo-blox/featured.jpg</url>
       <title>Learn Hugo Blox in 10 minutes!</title>
-      <link>https://fahim-sikder.github.io/courses/hugo-blox/</link>
+      <link>http://localhost:6916/courses/hugo-blox/</link>
     </image>
     
     <item>
       <title>Getting Started</title>
-      <link>https://fahim-sikder.github.io/courses/hugo-blox/getting-started/</link>
+      <link>http://localhost:6916/courses/hugo-blox/getting-started/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://fahim-sikder.github.io/courses/hugo-blox/getting-started/</guid>
+      <guid>http://localhost:6916/courses/hugo-blox/getting-started/</guid>
       <description>&lt;h2 id=&#34;quick-start-from-template&#34;&gt;Quick Start from Template&lt;/h2&gt;
 &lt;div class=&#34;hb-steps&#34;&gt;
 &lt;h3 id=&#34;create-a-site&#34;&gt;Create a site&lt;/h3&gt;
