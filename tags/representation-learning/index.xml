@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Representation Learning | Md Fahim Sikder</title>
-    <link>https://fahimsikder.com/tags/representation-learning/</link>
-      <atom:link href="https://fahimsikder.com/tags/representation-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/representation-learning/</link>
+      <atom:link href="http://localhost:1313/tags/representation-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Representation Learning</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Dec 2025 11:05:01 +0100</lastBuildDate>
     <image>
-      <url>https://fahimsikder.com/media/icon_hu_4a89715e7cf75d49.png</url>
+      <url>http://localhost:1313/media/icon_hu_4a89715e7cf75d49.png</url>
       <title>Representation Learning</title>
-      <link>https://fahimsikder.com/tags/representation-learning/</link>
+      <link>http://localhost:1313/tags/representation-learning/</link>
     </image>
     
     <item>
       <title>Teaching Machines to Be Fair: The Fight Against Algorithmic Bias</title>
-      <link>https://fahimsikder.com/post/representative-synthetic-data/</link>
+      <link>http://localhost:1313/post/representative-synthetic-data/</link>
       <pubDate>Wed, 10 Dec 2025 11:05:01 +0100</pubDate>
-      <guid>https://fahimsikder.com/post/representative-synthetic-data/</guid>
+      <guid>http://localhost:1313/post/representative-synthetic-data/</guid>
       <description>&lt;h2 id=&#34;when-ai-gets-it-wrong-teaching-machines-to-be-fair&#34;&gt;When AI Gets It Wrong: Teaching Machines to Be Fair&lt;/h2&gt;
 &lt;p&gt;Picture this: You are applying for a loan, and an AI system instantly rejects your application. Not because your credit score or income, but because you belong to a demographic group that was historically denied loans. The algorithm learned from past data that reflected decades of discrimination. Now it is repeating those same mistakes at lightning speed.&lt;/p&gt;
 &lt;p&gt;This is the problem I have been wrestling with for the past few years of my PhD at Linköping University. How do we build AI systems that recognize and counteract bias instead of amplifying it?&lt;/p&gt;
