@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Medical-Domain | Md Fahim Sikder</title>
-    <link>https://fahim-sikder.github.io/tags/medical-domain/</link>
-      <atom:link href="https://fahim-sikder.github.io/tags/medical-domain/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/medical-domain/</link>
+      <atom:link href="http://localhost:1313/tags/medical-domain/index.xml" rel="self" type="application/rss+xml" />
     <description>Medical-Domain</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Apr 2024 01:55:33 +0100</lastBuildDate>
     <image>
-      <url>https://fahim-sikder.github.io/media/icon_hu_4a89715e7cf75d49.png</url>
+      <url>http://localhost:1313/media/icon_hu_9aa06b753960df0e.png</url>
       <title>Medical-Domain</title>
-      <link>https://fahim-sikder.github.io/tags/medical-domain/</link>
+      <link>http://localhost:1313/tags/medical-domain/</link>
     </image>
     
     <item>
       <title>Bt-GAN: Generating Fair Synthetic Healthdata via Bias-transforming Generative Adversarial Networks</title>
-      <link>https://fahim-sikder.github.io/publications/bias-transforming-gan/</link>
+      <link>http://localhost:1313/publications/bias-transforming-gan/</link>
       <pubDate>Thu, 25 Apr 2024 01:55:33 +0100</pubDate>
-      <guid>https://fahim-sikder.github.io/publications/bias-transforming-gan/</guid>
+      <guid>http://localhost:1313/publications/bias-transforming-gan/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diffusion Models | Md Fahim Sikder</title>
+    <link>https://fahim-sikder.github.io/tags/diffusion-models/</link>
+      <atom:link href="https://fahim-sikder.github.io/tags/diffusion-models/index.xml" rel="self" type="application/rss+xml" />
+    <description>Diffusion Models</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 17 Feb 2026 12:26:04 +0100</lastBuildDate>
+    <image>
+      <url>https://fahim-sikder.github.io/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>Diffusion Models</title>
+      <link>https://fahim-sikder.github.io/tags/diffusion-models/</link>
+    </image>
+    
+    <item>
+      <title>Time Series Generation</title>
+      <link>https://fahim-sikder.github.io/project/time-series-generation/</link>
+      <pubDate>Tue, 17 Feb 2026 12:26:04 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/project/time-series-generation/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The Time Series Generation project develops state-of-the-art deep generative models for synthesizing high-quality, long-sequence time series data. Our recent contribution, &lt;strong&gt;TransFusion&lt;/strong&gt;, combines the strengths of diffusion models and transformer architectures to overcome limitations in existing time series generation methods, enabling the creation of realistic synthetic temporal data at higher sequence lengths.&lt;/p&gt;
+&lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
+&lt;p&gt;Traditional generative models for time series face several limitations:&lt;/p&gt;
+&lt;h3 id=&#34;1-sequence-length-limitations&#34;&gt;1. &lt;strong&gt;Sequence Length Limitations&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;RNN/LSTM-based GANs&lt;/strong&gt;: Struggle with sequences beyond 100 time steps due to vanishing/exploding gradients&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CNN-based models&lt;/strong&gt;: Limited receptive fields make capturing long-range dependencies difficult&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Standard GANs&lt;/strong&gt;: Training instability worsens with longer sequences&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-temporal-coherence&#34;&gt;2. &lt;strong&gt;Temporal Coherence&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Maintaining realistic temporal correlations across long sequences&lt;/li&gt;
+&lt;li&gt;Preserving both short-term fluctuations and long-term trends&lt;/li&gt;
+&lt;li&gt;Capturing seasonal patterns and periodic behaviors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-training-instability&#34;&gt;3. &lt;strong&gt;Training Instability&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mode collapse in GANs becomes more severe with complex temporal patterns&lt;/li&gt;
+&lt;li&gt;Difficulty balancing discriminator and generator learning&lt;/li&gt;
+&lt;li&gt;Convergence issues with long-sequence modeling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-scalability&#34;&gt;4. &lt;strong&gt;Scalability&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Computational cost grows prohibitively with sequence length&lt;/li&gt;
+&lt;li&gt;Memory constraints limit batch sizes and model capacity&lt;/li&gt;
+&lt;li&gt;Slow generation speed hinders practical applications&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

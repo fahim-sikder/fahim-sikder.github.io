@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bengali Language | Md Fahim Sikder</title>
+    <link>https://fahim-sikder.github.io/tags/bengali-language/</link>
+      <atom:link href="https://fahim-sikder.github.io/tags/bengali-language/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bengali Language</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Nov 2023 17:34:24 +0100</lastBuildDate>
+    <image>
+      <url>https://fahim-sikder.github.io/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>Bengali Language</title>
+      <link>https://fahim-sikder.github.io/tags/bengali-language/</link>
+    </image>
+    
+    <item>
+      <title>Explainable Bengali Multiclass News Classification</title>
+      <link>https://fahim-sikder.github.io/publications/explainable-bengali-news/</link>
+      <pubDate>Tue, 14 Nov 2023 17:34:24 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/explainable-bengali-news/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workshop | Md Fahim Sikder</title>
+    <link>https://fahim-sikder.github.io/tags/workshop/</link>
+      <atom:link href="https://fahim-sikder.github.io/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <description>Workshop</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 23 Mar 2026 23:03:51 +0200</lastBuildDate>
+    <image>
+      <url>https://fahim-sikder.github.io/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>Workshop</title>
+      <link>https://fahim-sikder.github.io/tags/workshop/</link>
+    </image>
+    
+    <item>
+      <title>I am co-organizing a Workshop - The Politics of Model</title>
+      <link>https://fahim-sikder.github.io/blog/the-politics-of-model-workshop/</link>
+      <pubDate>Mon, 23 Mar 2026 23:03:51 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/blog/the-politics-of-model-workshop/</guid>
+      <description>&lt;p&gt;I am happy to share that I am co-organizing the Workshop &lt;strong&gt;&amp;ldquo;The Politics of Models - Bias, Representation &amp;amp; Transparency in Generative Models&amp;rdquo;&lt;/strong&gt;, taking place on 25-27 August 2026 at Rånäs Slott, Sweden.&lt;/p&gt;
+&lt;p&gt;The workshop is part of WASP and WASP-HS and will bring together researchers working on questions related to bias, representation, transparency, accountability, and the broader impact of generative AI.&lt;/p&gt;
+&lt;p&gt;Researchers from WASP and WASP-HS are welcome to apply. The deadline for expression of interest is 17 April 2026, and the workshop is limited to 20 participants.&lt;/p&gt;
+&lt;p&gt;I am looking forward to the Conversations and ideas that will come out of it.&lt;/p&gt;
+&lt;h3 id=&#34;organizers&#34;&gt;Organizers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Kivanç Tatar, Chalmers University of Technology&lt;/li&gt;
+&lt;li&gt;Kathlén Kohn, KTH Royal Institute of Technology&lt;/li&gt;
+&lt;li&gt;Md Fahim Sikder, Linköping University&lt;/li&gt;
+&lt;li&gt;Francis Lee, Södertörn University&lt;/li&gt;
+&lt;li&gt;Bodil Formark, Södertörn University&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More details: 
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Md Fahim Sikder</title>
+    <link>https://fahim-sikder.github.io/project/</link>
+      <atom:link href="https://fahim-sikder.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://fahim-sikder.github.io/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>Projects</title>
+      <link>https://fahim-sikder.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Computational Cardio Oncology</title>
+      <link>https://fahim-sikder.github.io/project/computational-cardio-oncology/</link>
+      <pubDate>Tue, 17 Feb 2026 12:35:30 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/project/computational-cardio-oncology/</guid>
+      <description>&lt;h2 id=&#34;about-this-project&#34;&gt;About This Project&lt;/h2&gt;
+&lt;p&gt;Cancer survivors are influenced not only by the direct effects of cancer and its treatments but also by common risk factors and sociodemographic characteristics.
+Cardio-oncology is a collaborative field between cardiology and oncology aimed at identifying risk factors and preventing cardiovascular disease before, during, and after cancer treatment. Within the initiative Computational Cardio-Oncology, the goal is to use advanced data-driven methods to predict and prevent cardiovascular disease.
+Ultimately, the success of Computational Cardio-Oncology will depend on its ability to integrate with traditional clinical approaches and generate insights that can be translated into improved patient care.&lt;/p&gt;
+&lt;p&gt;To fully realize the potential of this emerging field, a combination of computational and clinical methods will likely be required in the future.&lt;/p&gt;
+&lt;h2 id=&#34;rebuc-ai&#34;&gt;Rebuc AI&lt;/h2&gt;
+&lt;p&gt;AI-Driven Innovations in Computational Cardio-Oncology: Enhancing Health Registry Research&lt;/p&gt;
+&lt;p&gt;This project, conducted within the Rebuc study, is a collaboration between the Division of AI and Integrated Computer Systems (AIICS) and the Human-Centered Systems (HCS) division at IDA, together with the Algorithmic Dynamics Lab at Karolinska Institutet.&lt;/p&gt;
+&lt;p&gt;In this new AI collaboration, we aim to develop a predictive model using the primary database to identify young cancer patients at risk of developing cardiovascular disease.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fair Decision Making</title>
+      <link>https://fahim-sikder.github.io/project/fair-decision-making/</link>
+      <pubDate>Tue, 17 Feb 2026 12:34:34 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/project/fair-decision-making/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The Fair Decision Making project addresses an important challenge in modern machine learning: generating high-quality synthetic data while ensuring fairness across different demographic groups. As machine learning models increasingly influence high-stakes decisions in healthcare, finance, and criminal justice, ensuring these systems make bias-free predictions has become paramount.&lt;/p&gt;
+&lt;p&gt;This research program develops novel deep generative model architectures and training methodologies that produce synthetic data exhibiting both high utility (quality, diversity, fidelity) and fairness properties as well as representation learning techniques that aids for fair decision making process. Our work primarily focuses on healthcare applications, where biased models can have serious real-world consequences for patient care and treatment decisions.&lt;/p&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Training machine learning models on real-world data often leads to biased outcomes due to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Spurious correlations&lt;/strong&gt; between sensitive attributes (e.g., race, gender) and target variables&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Underrepresentation&lt;/strong&gt; of minority subgroups in training data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Historical biases&lt;/strong&gt; embedded in data collection processes&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Synthetic data generation offers a promising solution by allowing us to create de-identified, representative datasets that maintain utility while mitigating these fairness concerns. However, existing synthetic data generators often fail to adequately address fairness, leading to bias amplification in downstream tasks.&lt;/p&gt;
+&lt;h2 id=&#34;research-approach&#34;&gt;Research Approach&lt;/h2&gt;
+&lt;p&gt;Our research tackles fairness in synthetic data generation through multiple approaches:&lt;/p&gt;
+&lt;h3 id=&#34;1-bias-transforming-generative-models&#34;&gt;1. Bias-Transforming Generative Models&lt;/h3&gt;
+&lt;p&gt;We develop generative adversarial networks (GANs) with specific fairness constraints that learn to transform biased data distributions into fair ones. This includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Information-constrained data generation processes based on well-defined notions of algorithmic fairness&lt;/li&gt;
+&lt;li&gt;Score-based weighted sampling to preserve minority subgroup densities&lt;/li&gt;
+&lt;li&gt;Techniques to break spurious correlations while maintaining data utility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-fair-latent-representations&#34;&gt;2. Fair Latent Representations&lt;/h3&gt;
+&lt;p&gt;We propose learning syntax-agnostic, model-agnostic fair latent representations that separate fairness optimization from data generation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enables more stable training by decoupling fairness constraints from generator optimization&lt;/li&gt;
+&lt;li&gt;Reduces computational demands by generating data in low-dimensional spaces&lt;/li&gt;
+&lt;li&gt;Provides flexibility to use different generative model architectures (GANs, Diffusion Models, VAEs)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-intersectional-fairness&#34;&gt;3. Intersectional Fairness&lt;/h3&gt;
+&lt;p&gt;We address the challenge of intersectional bias, where multiple sensitive attributes interact to create compounded discrimination:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Novel fairness metrics that capture intersectional disparities&lt;/li&gt;
+&lt;li&gt;Generation techniques that ensure fairness across intersecting demographic groups&lt;/li&gt;
+&lt;li&gt;Applications to temporal and sequential data domains&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h2&gt;
+&lt;p&gt;Our work has resulted in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Novel architectures&lt;/strong&gt;: Bt-GAN, FLDGM, and Fair distillation frameworks that achieve state-of-the-art performance in fair synthetic data generation and fair representation learning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Empirical validation&lt;/strong&gt;: Extensive experiments on real-world healthcare datasets (MIMIC-III, IV) demonstrating improved fairness without sacrificing utility&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open-source tools&lt;/strong&gt;: Publicly available implementations enabling reproducible research and practical applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;impact-and-applications&#34;&gt;Impact and Applications&lt;/h2&gt;
+&lt;p&gt;This research enables:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fair healthcare AI&lt;/strong&gt;: Training clinical decision support systems that provide equitable care across patient demographics&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bias mitigation&lt;/strong&gt;: Identifying and correcting biases in existing datasets and models&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical-approach&#34;&gt;Technical Approach&lt;/h2&gt;
+&lt;p&gt;Our methods employ:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Deep generative models&lt;/strong&gt;: GANs, Diffusion Models, Variational Autoencoders&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fairness metrics&lt;/strong&gt;: Demographic parity, equalized odds, individual fairness measures&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optimization techniques&lt;/strong&gt;: Adversarial training, score-based sampling, information constraints&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evaluation frameworks&lt;/strong&gt;: Comprehensive assessment of utility (quality, diversity, fidelity) and fairness trade-offs&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Time Series Generation</title>
+      <link>https://fahim-sikder.github.io/project/time-series-generation/</link>
+      <pubDate>Tue, 17 Feb 2026 12:26:04 +0100</pubDate>
+      <guid>https://fahim-sikder.github.io/project/time-series-generation/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The Time Series Generation project develops state-of-the-art deep generative models for synthesizing high-quality, long-sequence time series data. Our recent contribution, &lt;strong&gt;TransFusion&lt;/strong&gt;, combines the strengths of diffusion models and transformer architectures to overcome limitations in existing time series generation methods, enabling the creation of realistic synthetic temporal data at higher sequence lengths.&lt;/p&gt;
+&lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
+&lt;p&gt;Traditional generative models for time series face several limitations:&lt;/p&gt;
+&lt;h3 id=&#34;1-sequence-length-limitations&#34;&gt;1. &lt;strong&gt;Sequence Length Limitations&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;RNN/LSTM-based GANs&lt;/strong&gt;: Struggle with sequences beyond 100 time steps due to vanishing/exploding gradients&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CNN-based models&lt;/strong&gt;: Limited receptive fields make capturing long-range dependencies difficult&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Standard GANs&lt;/strong&gt;: Training instability worsens with longer sequences&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-temporal-coherence&#34;&gt;2. &lt;strong&gt;Temporal Coherence&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Maintaining realistic temporal correlations across long sequences&lt;/li&gt;
+&lt;li&gt;Preserving both short-term fluctuations and long-term trends&lt;/li&gt;
+&lt;li&gt;Capturing seasonal patterns and periodic behaviors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-training-instability&#34;&gt;3. &lt;strong&gt;Training Instability&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mode collapse in GANs becomes more severe with complex temporal patterns&lt;/li&gt;
+&lt;li&gt;Difficulty balancing discriminator and generator learning&lt;/li&gt;
+&lt;li&gt;Convergence issues with long-sequence modeling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-scalability&#34;&gt;4. &lt;strong&gt;Scalability&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Computational cost grows prohibitively with sequence length&lt;/li&gt;
+&lt;li&gt;Memory constraints limit batch sizes and model capacity&lt;/li&gt;
+&lt;li&gt;Slow generation speed hinders practical applications&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fairness Benchmarking Tool</title>
+      <link>https://fahim-sikder.github.io/project/fairx/</link>
+      <pubDate>Fri, 31 May 2024 23:19:19 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/project/fairx/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;FairX is a comprehensive open-source Python-based benchmarking tool designed to enable systematic evaluation of machine learning models across three dimensions: &lt;strong&gt;fairness&lt;/strong&gt;, &lt;strong&gt;utility&lt;/strong&gt;, and &lt;strong&gt;explainability&lt;/strong&gt; (XAI). As AI systems increasingly impact high-stakes decisions, ensuring models are not only accurate but also fair and interpretable has become essential. FairX provides a unified framework for researchers and practitioners to rigorously assess and compare bias-mitigation techniques.&lt;/p&gt;
+&lt;p&gt;Unlike existing fairness toolkits, FairX uniquely supports the evaluation of &lt;strong&gt;fair generative models&lt;/strong&gt; and synthetic data generation, filling an important gap in the fairness evaluation ecosystem. The tool enables comprehensive benchmarking of both predictive and generative models, supporting both tabular and image datasets.&lt;/p&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;The rapid deployment of machine learning models in sensitive domains like healthcare, criminal justice, and lending has exposed serious fairness concerns. While numerous bias-mitigation techniques have been proposed, systematic evaluation and comparison remains challenging due to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Fragmented tooling&lt;/strong&gt;: Existing tools focus on either fairness OR utility OR explainability, but rarely integrate all three&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Limited generative model support&lt;/strong&gt;: Most fairness tools only evaluate predictive models, neglecting the growing importance of synthetic data generation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inconsistent evaluation&lt;/strong&gt;: Lack of standardized evaluation protocols makes comparing different bias-mitigation approaches difficult&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Complexity barriers&lt;/strong&gt;: Implementing and evaluating multiple fairness techniques requires significant engineering effort&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;FairX addresses these challenges by providing an integrated platform where researchers can train, evaluate, and compare various fairness interventions using consistent metrics and protocols.&lt;/p&gt;
+&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;
+&lt;h3 id=&#34;1-comprehensive-model-library&#34;&gt;1. Comprehensive Model Library&lt;/h3&gt;
+&lt;p&gt;FairX includes implementations of state-of-the-art bias-mitigation techniques across the entire ML pipeline:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pre-processing methods&lt;/strong&gt;: Data reweighting, resampling, and fair representation learning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;In-processing methods&lt;/strong&gt;: Fairness-constrained optimization, adversarial debiasing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Post-processing methods&lt;/strong&gt;: Threshold optimization, calibration techniques&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fair generative models&lt;/strong&gt;: Fair GANs, VAEs, and diffusion models for synthetic data generation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-rich-evaluation-metrics&#34;&gt;2. Rich Evaluation Metrics&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Fairness Metrics&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Group fairness: Demographic parity, equalized odds, equal opportunity&lt;/li&gt;
+&lt;li&gt;Intersectional fairness: Multi-attribute fairness metrics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Utility Metrics&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Classification: Accuracy, precision, recall, F1-score, AUC-ROC&lt;/li&gt;
+&lt;li&gt;Synthetic data quality: Fidelity, diversity, authenticity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Explainability&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Feature importance analysis&lt;/li&gt;
+&lt;li&gt;Individual prediction explanations (SHAP, LIME)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-synthetic-data-evaluation&#34;&gt;3. Synthetic Data Evaluation&lt;/h3&gt;
+&lt;p&gt;A unique capability of FairX is comprehensive evaluation of synthetic data generated by fair generative models:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Statistical similarity&lt;/strong&gt;: Distribution matching, correlation preservation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Predictive performance&lt;/strong&gt;: Downstream task accuracy, train-on-synthetic-test-on-real (TSTR) evaluation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fairness preservation&lt;/strong&gt;: Verification that fairness properties transfer from synthetic to real data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-flexible-and-extensible&#34;&gt;4. Flexible and Extensible&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Custom datasets&lt;/strong&gt;: Easy integration of user-provided datasets&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom metrics&lt;/strong&gt;: Extensible framework for adding new fairness/utility metrics&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom models&lt;/strong&gt;: Support for user-defined bias-mitigation techniques&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multiple data modalities&lt;/strong&gt;: Tabular and image data support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical-implementation&#34;&gt;Technical Implementation&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Language&lt;/strong&gt;: Python 3.x&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Dependencies&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;scikit-learn, PyTorch/TensorFlow for model training&lt;/li&gt;
+&lt;li&gt;AIF360, Fairlearn for fairness metrics&lt;/li&gt;
+&lt;li&gt;SHAP, LIME for explainability&lt;/li&gt;
+&lt;li&gt;NumPy, Pandas for data processing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Architecture&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Modular design with separate components for data loading, model training, evaluation, and visualization&lt;/li&gt;
+&lt;li&gt;Pipeline-based workflow for reproducible experiments&lt;/li&gt;
+&lt;li&gt;Batch evaluation support for comparing multiple models/configurations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;use-cases&#34;&gt;Use Cases&lt;/h2&gt;
+&lt;p&gt;FairX is designed for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Researchers&lt;/strong&gt;: Benchmarking new fairness techniques against state-of-the-art baselines&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Practitioners&lt;/strong&gt;: Evaluating fairness of production ML systems&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Policymakers&lt;/strong&gt;: Auditing AI systems for compliance with fairness regulations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;impact&#34;&gt;Impact&lt;/h2&gt;
+&lt;p&gt;FairX democratizes access to fairness evaluation by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reducing the engineering barrier to fairness research&lt;/li&gt;
+&lt;li&gt;Standardizing evaluation protocols across the community&lt;/li&gt;
+&lt;li&gt;Enabling systematic comparison of fairness techniques&lt;/li&gt;
+&lt;li&gt;Supporting the emerging field of fair synthetic data generation&lt;/li&gt;
+&lt;li&gt;Providing transparency through comprehensive explainability tools&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The tool is publicly available on GitHub and has been designed with ease of use and extensibility in mind, making advanced fairness evaluation accessible to a broad audience.&lt;/p&gt;
+&lt;h2 id=&#34;repository&#34;&gt;Repository&lt;/h2&gt;
+&lt;p&gt;GitHub: 
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
