@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithmic Fairness | Md Fahim Sikder</title>
+    <link>https://fahimsikder.com/tags/algorithmic-fairness/</link>
+      <atom:link href="https://fahimsikder.com/tags/algorithmic-fairness/index.xml" rel="self" type="application/rss+xml" />
+    <description>Algorithmic Fairness</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 17 Feb 2026 12:34:34 +0100</lastBuildDate>
+    <image>
+      <url>https://fahimsikder.com/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>Algorithmic Fairness</title>
+      <link>https://fahimsikder.com/tags/algorithmic-fairness/</link>
+    </image>
+    
+    <item>
+      <title>Fair Decision Making</title>
+      <link>https://fahimsikder.com/project/fair-decision-making/</link>
+      <pubDate>Tue, 17 Feb 2026 12:34:34 +0100</pubDate>
+      <guid>https://fahimsikder.com/project/fair-decision-making/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The Fair Decision Making project addresses an important challenge in modern machine learning: generating high-quality synthetic data while ensuring fairness across different demographic groups. As machine learning models increasingly influence high-stakes decisions in healthcare, finance, and criminal justice, ensuring these systems make bias-free predictions has become paramount.&lt;/p&gt;
+&lt;p&gt;This research program develops novel deep generative model architectures and training methodologies that produce synthetic data exhibiting both high utility (quality, diversity, fidelity) and fairness properties as well as representation learning techniques that aids for fair decision making process. Our work primarily focuses on healthcare applications, where biased models can have serious real-world consequences for patient care and treatment decisions.&lt;/p&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Training machine learning models on real-world data often leads to biased outcomes due to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Spurious correlations&lt;/strong&gt; between sensitive attributes (e.g., race, gender) and target variables&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Underrepresentation&lt;/strong&gt; of minority subgroups in training data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Historical biases&lt;/strong&gt; embedded in data collection processes&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Synthetic data generation offers a promising solution by allowing us to create de-identified, representative datasets that maintain utility while mitigating these fairness concerns. However, existing synthetic data generators often fail to adequately address fairness, leading to bias amplification in downstream tasks.&lt;/p&gt;
+&lt;h2 id=&#34;research-approach&#34;&gt;Research Approach&lt;/h2&gt;
+&lt;p&gt;Our research tackles fairness in synthetic data generation through multiple approaches:&lt;/p&gt;
+&lt;h3 id=&#34;1-bias-transforming-generative-models&#34;&gt;1. Bias-Transforming Generative Models&lt;/h3&gt;
+&lt;p&gt;We develop generative adversarial networks (GANs) with specific fairness constraints that learn to transform biased data distributions into fair ones. This includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Information-constrained data generation processes based on well-defined notions of algorithmic fairness&lt;/li&gt;
+&lt;li&gt;Score-based weighted sampling to preserve minority subgroup densities&lt;/li&gt;
+&lt;li&gt;Techniques to break spurious correlations while maintaining data utility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-fair-latent-representations&#34;&gt;2. Fair Latent Representations&lt;/h3&gt;
+&lt;p&gt;We propose learning syntax-agnostic, model-agnostic fair latent representations that separate fairness optimization from data generation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enables more stable training by decoupling fairness constraints from generator optimization&lt;/li&gt;
+&lt;li&gt;Reduces computational demands by generating data in low-dimensional spaces&lt;/li&gt;
+&lt;li&gt;Provides flexibility to use different generative model architectures (GANs, Diffusion Models, VAEs)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-intersectional-fairness&#34;&gt;3. Intersectional Fairness&lt;/h3&gt;
+&lt;p&gt;We address the challenge of intersectional bias, where multiple sensitive attributes interact to create compounded discrimination:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Novel fairness metrics that capture intersectional disparities&lt;/li&gt;
+&lt;li&gt;Generation techniques that ensure fairness across intersecting demographic groups&lt;/li&gt;
+&lt;li&gt;Applications to temporal and sequential data domains&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h2&gt;
+&lt;p&gt;Our work has resulted in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Novel architectures&lt;/strong&gt;: Bt-GAN, FLDGM, and Fair distillation frameworks that achieve state-of-the-art performance in fair synthetic data generation and fair representation learning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Empirical validation&lt;/strong&gt;: Extensive experiments on real-world healthcare datasets (MIMIC-III, IV) demonstrating improved fairness without sacrificing utility&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open-source tools&lt;/strong&gt;: Publicly available implementations enabling reproducible research and practical applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;impact-and-applications&#34;&gt;Impact and Applications&lt;/h2&gt;
+&lt;p&gt;This research enables:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fair healthcare AI&lt;/strong&gt;: Training clinical decision support systems that provide equitable care across patient demographics&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bias mitigation&lt;/strong&gt;: Identifying and correcting biases in existing datasets and models&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical-approach&#34;&gt;Technical Approach&lt;/h2&gt;
+&lt;p&gt;Our methods employ:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Deep generative models&lt;/strong&gt;: GANs, Diffusion Models, Variational Autoencoders&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fairness metrics&lt;/strong&gt;: Demographic parity, equalized odds, individual fairness measures&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optimization techniques&lt;/strong&gt;: Adversarial training, score-based sampling, information constraints&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evaluation frameworks&lt;/strong&gt;: Comprehensive assessment of utility (quality, diversity, fidelity) and fairness trade-offs&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

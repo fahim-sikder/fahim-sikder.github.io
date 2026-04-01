@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Generative Model | Md Fahim Sikder</title>
+    <link>https://fahimsikder.com/tags/generative-model/</link>
+      <atom:link href="https://fahimsikder.com/tags/generative-model/index.xml" rel="self" type="application/rss+xml" />
+    <description>Generative Model</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 17 Feb 2026 12:35:30 +0100</lastBuildDate>
+    <image>
+      <url>https://fahimsikder.com/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>Generative Model</title>
+      <link>https://fahimsikder.com/tags/generative-model/</link>
+    </image>
+    
+    <item>
+      <title>Computational Cardio Oncology</title>
+      <link>https://fahimsikder.com/project/computational-cardio-oncology/</link>
+      <pubDate>Tue, 17 Feb 2026 12:35:30 +0100</pubDate>
+      <guid>https://fahimsikder.com/project/computational-cardio-oncology/</guid>
+      <description>&lt;h2 id=&#34;about-this-project&#34;&gt;About This Project&lt;/h2&gt;
+&lt;p&gt;Cancer survivors are influenced not only by the direct effects of cancer and its treatments but also by common risk factors and sociodemographic characteristics.
+Cardio-oncology is a collaborative field between cardiology and oncology aimed at identifying risk factors and preventing cardiovascular disease before, during, and after cancer treatment. Within the initiative Computational Cardio-Oncology, the goal is to use advanced data-driven methods to predict and prevent cardiovascular disease.
+Ultimately, the success of Computational Cardio-Oncology will depend on its ability to integrate with traditional clinical approaches and generate insights that can be translated into improved patient care.&lt;/p&gt;
+&lt;p&gt;To fully realize the potential of this emerging field, a combination of computational and clinical methods will likely be required in the future.&lt;/p&gt;
+&lt;h2 id=&#34;rebuc-ai&#34;&gt;Rebuc AI&lt;/h2&gt;
+&lt;p&gt;AI-Driven Innovations in Computational Cardio-Oncology: Enhancing Health Registry Research&lt;/p&gt;
+&lt;p&gt;This project, conducted within the Rebuc study, is a collaboration between the Division of AI and Integrated Computer Systems (AIICS) and the Human-Centered Systems (HCS) division at IDA, together with the Algorithmic Dynamics Lab at Karolinska Institutet.&lt;/p&gt;
+&lt;p&gt;In this new AI collaboration, we aim to develop a predictive model using the primary database to identify young cancer patients at risk of developing cardiovascular disease.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

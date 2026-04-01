@@ -5,12 +5,20 @@
     <link>https://fahimsikder.com/publications/</link>
       <atom:link href="https://fahimsikder.com/publications/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Dec 2025 11:16:52 +0100</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Feb 2026 19:19:07 +0100</lastBuildDate>
     <image>
       <url>https://fahimsikder.com/media/icon_hu_4a89715e7cf75d49.png</url>
       <title>Publications</title>
       <link>https://fahimsikder.com/publications/</link>
     </image>
+    
+    <item>
+      <title>FairRep: Mitigating Intersectional Bias through Fair Representation Learning</title>
+      <link>https://fahimsikder.com/publications/diffusion-intersectional-bias/</link>
+      <pubDate>Thu, 19 Feb 2026 19:19:07 +0100</pubDate>
+      <guid>https://fahimsikder.com/publications/diffusion-intersectional-bias/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Representative Synthetic Data for Fair Decision Making</title>
@@ -37,14 +45,6 @@
     </item>
     
     <item>
-      <title>FairRep: Mitigating Intersectional Bias through Fair Representation Learning</title>
-      <link>https://fahimsikder.com/publications/diffusion-intersectional-bias/</link>
-      <pubDate>Wed, 19 Feb 2025 19:19:07 +0100</pubDate>
-      <guid>https://fahimsikder.com/publications/diffusion-intersectional-bias/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Fair4Free: Generating High-fidelity Fair Synthetic Samples using Data Free Distillation</title>
       <link>https://fahimsikder.com/publications/fair4free/</link>
       <pubDate>Wed, 02 Oct 2024 13:19:44 +0200</pubDate>
@@ -61,18 +61,18 @@
     </item>
     
     <item>
-      <title>Generating Synthetic Fair Syntax-agnostic Data by Learning and Distilling Fair Representation</title>
-      <link>https://fahimsikder.com/publications/fairness-distillation/</link>
-      <pubDate>Sun, 12 May 2024 14:12:53 +0200</pubDate>
-      <guid>https://fahimsikder.com/publications/fairness-distillation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Bt-GAN: Generating Fair Synthetic Healthdata via Bias-transforming Generative Adversarial Networks</title>
       <link>https://fahimsikder.com/publications/bias-transforming-gan/</link>
       <pubDate>Thu, 25 Apr 2024 01:55:33 +0100</pubDate>
       <guid>https://fahimsikder.com/publications/bias-transforming-gan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting Students Yearly Performance using Neural Network: A Case Study of BSMRSTU</title>
+      <link>https://fahimsikder.com/publications/predict-performance/</link>
+      <pubDate>Thu, 25 Apr 2024 01:55:33 +0100</pubDate>
+      <guid>https://fahimsikder.com/publications/predict-performance/</guid>
       <description></description>
     </item>
     
@@ -153,14 +153,6 @@
       <link>https://fahimsikder.com/publications/smart-disaster/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       <guid>https://fahimsikder.com/publications/smart-disaster/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Predicting Students Yearly Performance using Neural Network: A Case Study of BSMRSTU</title>
-      <link>https://fahimsikder.com/publications/predict-performance/</link>
-      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://fahimsikder.com/publications/predict-performance/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intersectional Bias | Md Fahim Sikder</title>
+    <link>https://fahimsikder.com/tags/intersectional-bias/</link>
+      <atom:link href="https://fahimsikder.com/tags/intersectional-bias/index.xml" rel="self" type="application/rss+xml" />
+    <description>Intersectional Bias</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Feb 2026 19:19:07 +0100</lastBuildDate>
+    <image>
+      <url>https://fahimsikder.com/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>Intersectional Bias</title>
+      <link>https://fahimsikder.com/tags/intersectional-bias/</link>
+    </image>
+    
+    <item>
+      <title>FairRep: Mitigating Intersectional Bias through Fair Representation Learning</title>
+      <link>https://fahimsikder.com/publications/diffusion-intersectional-bias/</link>
+      <pubDate>Thu, 19 Feb 2026 19:19:07 +0100</pubDate>
+      <guid>https://fahimsikder.com/publications/diffusion-intersectional-bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Representative Synthetic Data for Fair Decision Making</title>
+      <link>https://fahimsikder.com/publications/representative-synthetic-data-for-fair-decision-making/</link>
+      <pubDate>Wed, 10 Dec 2025 11:16:52 +0100</pubDate>
+      <guid>https://fahimsikder.com/publications/representative-synthetic-data-for-fair-decision-making/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

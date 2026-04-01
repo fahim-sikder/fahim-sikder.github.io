@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Mining | Md Fahim Sikder</title>
+    <link>https://fahimsikder.com/tags/data-mining/</link>
+      <atom:link href="https://fahimsikder.com/tags/data-mining/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data Mining</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Apr 2024 01:55:33 +0100</lastBuildDate>
+    <image>
+      <url>https://fahimsikder.com/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>Data Mining</title>
+      <link>https://fahimsikder.com/tags/data-mining/</link>
+    </image>
+    
+    <item>
+      <title>Predicting Students Yearly Performance using Neural Network: A Case Study of BSMRSTU</title>
+      <link>https://fahimsikder.com/publications/predict-performance/</link>
+      <pubDate>Thu, 25 Apr 2024 01:55:33 +0100</pubDate>
+      <guid>https://fahimsikder.com/publications/predict-performance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

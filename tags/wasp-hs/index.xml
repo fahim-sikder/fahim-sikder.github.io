@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WASP-HS | Md Fahim Sikder</title>
+    <link>https://fahimsikder.com/tags/wasp-hs/</link>
+      <atom:link href="https://fahimsikder.com/tags/wasp-hs/index.xml" rel="self" type="application/rss+xml" />
+    <description>WASP-HS</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 23 Mar 2026 23:03:51 +0200</lastBuildDate>
+    <image>
+      <url>https://fahimsikder.com/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>WASP-HS</title>
+      <link>https://fahimsikder.com/tags/wasp-hs/</link>
+    </image>
+    
+    <item>
+      <title>I am co-organizing a Workshop - The Politics of Model</title>
+      <link>https://fahimsikder.com/blog/the-politics-of-model-workshop/</link>
+      <pubDate>Mon, 23 Mar 2026 23:03:51 +0200</pubDate>
+      <guid>https://fahimsikder.com/blog/the-politics-of-model-workshop/</guid>
+      <description>&lt;p&gt;I am happy to share that I am co-organizing the Workshop &lt;strong&gt;&amp;ldquo;The Politics of Models - Bias, Representation &amp;amp; Transparency in Generative Models&amp;rdquo;&lt;/strong&gt;, taking place on 25-27 August 2026 at Rånäs Slott, Sweden.&lt;/p&gt;
+&lt;p&gt;The workshop is part of WASP and WASP-HS and will bring together researchers working on questions related to bias, representation, transparency, accountability, and the broader impact of generative AI.&lt;/p&gt;
+&lt;p&gt;Researchers from WASP and WASP-HS are welcome to apply. The deadline for expression of interest is 17 April 2026, and the workshop is limited to 20 participants.&lt;/p&gt;
+&lt;p&gt;I am looking forward to the Conversations and ideas that will come out of it.&lt;/p&gt;
+&lt;h3 id=&#34;organizers&#34;&gt;Organizers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Kivanç Tatar, Chalmers University of Technology&lt;/li&gt;
+&lt;li&gt;Kathlén Kohn, KTH Royal Institute of Technology&lt;/li&gt;
+&lt;li&gt;Md Fahim Sikder, Linköping University&lt;/li&gt;
+&lt;li&gt;Francis Lee, Södertörn University&lt;/li&gt;
+&lt;li&gt;Bodil Formark, Södertörn University&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More details: 
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I am co-organizing a Hackathon</title>
+      <link>https://fahimsikder.com/blog/humanities-hackathon/</link>
+      <pubDate>Wed, 18 Mar 2026 23:03:51 +0200</pubDate>
+      <guid>https://fahimsikder.com/blog/humanities-hackathon/</guid>
+      <description>&lt;p&gt;One of the most rewarding parts of working on synthetic data is seeing it spark genuine curiosity beyond the technical community. I am proud to be co-organizing &lt;strong&gt;&amp;ldquo;Humanities Hackathin - AI Generated Texts and Images&amp;rdquo;&lt;/strong&gt;, which brings humanists and AI researchers into the same room to ask hard questions about how synthetic data can and should be used in historical and literary research.&lt;/p&gt;
+&lt;p&gt;Join us in Uppsala on May 25.&lt;/p&gt;
+&lt;p&gt;Registration closes May 15.&lt;/p&gt;
+&lt;p&gt;More details: 
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
