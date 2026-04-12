@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fair Representation | Md Fahim Sikder</title>
+    <link>https://fahim-sikder.github.io/tags/fair-representation/</link>
+      <atom:link href="https://fahim-sikder.github.io/tags/fair-representation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fair Representation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 12 Apr 2026 11:59:28 +0200</lastBuildDate>
+    <image>
+      <url>https://fahim-sikder.github.io/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>Fair Representation</title>
+      <link>https://fahim-sikder.github.io/tags/fair-representation/</link>
+    </image>
+    
+    <item>
+      <title>Synthetic Data: Facts, Representations, and Transparency</title>
+      <link>https://fahim-sikder.github.io/project/synthetic-data-fair-representation/</link>
+      <pubDate>Sun, 12 Apr 2026 11:59:28 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/project/synthetic-data-fair-representation/</guid>
+      <description>&lt;h2 id=&#34;about-this-project&#34;&gt;About This Project&lt;/h2&gt;
+&lt;p&gt;Synthetic data, computer‑made versions of real information, are becoming more common because they can be used to avoid some of the ethical and practical problems of using real-life data. But these AI‑generated versions of the world raise big questions about what counts as truth, how well they represent reality, and how transparent they should be.&lt;/p&gt;
+&lt;p&gt;How is synthetic data created and used, and how does this affect bias and representation? How do we know if synthetic data can be trusted? And what tools do we need to make synthetic data clear, transparent, and easy to check?&lt;/p&gt;
+&lt;p&gt;These are some of the questions explored by researchers in the WASP‑HS research environment Synthetic Data: Facts, Representations, and Transparency.&lt;/p&gt;
+&lt;p&gt;Details about this project can be found here: 
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
