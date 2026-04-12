@@ -5,12 +5,23 @@
     <link>https://fahimsikder.com/tags/synthetic-data/</link>
       <atom:link href="https://fahimsikder.com/tags/synthetic-data/index.xml" rel="self" type="application/rss+xml" />
     <description>Synthetic Data</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 12 Apr 2026 11:59:28 +0200</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 12 Apr 2026 12:32:34 +0200</lastBuildDate>
     <image>
       <url>https://fahimsikder.com/media/icon_hu_4a89715e7cf75d49.png</url>
       <title>Synthetic Data</title>
       <link>https://fahimsikder.com/tags/synthetic-data/</link>
     </image>
+    
+    <item>
+      <title>I have started working on a WASP-HS project (Synthetic Data)</title>
+      <link>https://fahimsikder.com/blog/started-working-on-wasp-hs-project/</link>
+      <pubDate>Sun, 12 Apr 2026 12:32:34 +0200</pubDate>
+      <guid>https://fahimsikder.com/blog/started-working-on-wasp-hs-project/</guid>
+      <description>&lt;p&gt;I have recently joined on a WASP-HS research project as part of my postdoctoral research titled &lt;strong&gt;&amp;ldquo;Synthetic Data: Facts, Representations, and Transparency.&amp;rdquo;&lt;/strong&gt; In this interdisciplinary project, I will explore and implement different measures for evaluating synthetic data, while also developing novel models to mitigate bias in synthetic data and representation learning.&lt;/p&gt;
+&lt;p&gt;More details about the project can be found in: 
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Synthetic Data: Facts, Representations, and Transparency</title>
