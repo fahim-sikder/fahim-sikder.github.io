@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Md Fahim Sikder</title>
+    <link>http://localhost:3119/publication_types/2/</link>
+      <atom:link href="http://localhost:3119/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Apr 2025 01:55:53 +0100</lastBuildDate>
+    <image>
+      <url>http://localhost:3119/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>2</title>
+      <link>http://localhost:3119/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>TransFusion: Generating Long, High-Fidelity Time Series using Diffusion Models with Transformers</title>
+      <link>http://localhost:3119/publications/diffusion-time-series/</link>
+      <pubDate>Tue, 01 Apr 2025 01:55:53 +0100</pubDate>
+      <guid>http://localhost:3119/publications/diffusion-time-series/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bt-GAN: Generating Fair Synthetic Healthdata via Bias-transforming Generative Adversarial Networks</title>
+      <link>http://localhost:3119/publications/bias-transforming-gan/</link>
+      <pubDate>Thu, 25 Apr 2024 01:55:33 +0100</pubDate>
+      <guid>http://localhost:3119/publications/bias-transforming-gan/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

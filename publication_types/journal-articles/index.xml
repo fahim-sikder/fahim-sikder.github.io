@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Journal Articles | Md Fahim Sikder</title>
-    <link>http://localhost:1313/publication_types/journal-articles/</link>
-      <atom:link href="http://localhost:1313/publication_types/journal-articles/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:5541/publication_types/journal-articles/</link>
+      <atom:link href="http://localhost:5541/publication_types/journal-articles/index.xml" rel="self" type="application/rss+xml" />
     <description>Journal Articles</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Apr 2024 01:55:33 +0100</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_9aa06b753960df0e.png</url>
+      <url>http://localhost:5541/media/icon_hu_4a89715e7cf75d49.png</url>
       <title>Journal Articles</title>
-      <link>http://localhost:1313/publication_types/journal-articles/</link>
+      <link>http://localhost:5541/publication_types/journal-articles/</link>
     </image>
     
     <item>
       <title>Bt-GAN: Generating Fair Synthetic Healthdata via Bias-transforming Generative Adversarial Networks</title>
-      <link>http://localhost:1313/publications/bias-transforming-gan/</link>
+      <link>http://localhost:5541/publications/bias-transforming-gan/</link>
       <pubDate>Thu, 25 Apr 2024 01:55:33 +0100</pubDate>
-      <guid>http://localhost:1313/publications/bias-transforming-gan/</guid>
+      <guid>http://localhost:5541/publications/bias-transforming-gan/</guid>
       <description></description>
     </item>
     

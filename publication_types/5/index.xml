@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>5 | Md Fahim Sikder</title>
+    <link>http://localhost:3119/publication_types/5/</link>
+      <atom:link href="http://localhost:3119/publication_types/5/index.xml" rel="self" type="application/rss+xml" />
+    <description>5</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Dec 2025 11:16:52 +0100</lastBuildDate>
+    <image>
+      <url>http://localhost:3119/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>5</title>
+      <link>http://localhost:3119/publication_types/5/</link>
+    </image>
+    
+    <item>
+      <title>Representative Synthetic Data for Fair Decision Making</title>
+      <link>http://localhost:3119/publications/representative-synthetic-data-for-fair-decision-making/</link>
+      <pubDate>Wed, 10 Dec 2025 11:16:52 +0100</pubDate>
+      <guid>http://localhost:3119/publications/representative-synthetic-data-for-fair-decision-making/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal Website | Md Fahim Sikder</title>
+    <link>http://localhost:10305/tags/personal-website/</link>
+      <atom:link href="http://localhost:10305/tags/personal-website/index.xml" rel="self" type="application/rss+xml" />
+    <description>Personal Website</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 31 Jul 2020 09:55:44 +0600</lastBuildDate>
+    <image>
+      <url>http://localhost:10305/media/icon_hu_4a89715e7cf75d49.png</url>
+      <title>Personal Website</title>
+      <link>http://localhost:10305/tags/personal-website/</link>
+    </image>
+    
+    <item>
+      <title>How to Create a Personal Website using Hugo and Host it into GitHub for Free</title>
+      <link>http://localhost:10305/post/how-to-create-personal-website-using-hugo/</link>
+      <pubDate>Fri, 31 Jul 2020 09:55:44 +0600</pubDate>
+      <guid>http://localhost:10305/post/how-to-create-personal-website-using-hugo/</guid>
+      <description>&lt;p&gt;This post is a tutorial on how to create a personal website using the awesome static site generator 
+, which is written in Go. This tutorial is consists of the followings:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Installations on Hugo in different OS (Windows, Linux)&lt;/li&gt;
+&lt;li&gt;Select Hugo Theme&lt;/li&gt;
+&lt;li&gt;Customize theme on your basis&lt;/li&gt;
+&lt;li&gt;Publish your site on GitHub&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Let&amp;rsquo;s first see how we can install hugo in our system.&lt;/p&gt;
+&lt;h2 id=&#34;installation-of-hugo&#34;&gt;Installation of Hugo&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
