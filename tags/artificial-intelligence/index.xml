@@ -7,7 +7,7 @@
     <description>Artificial Intelligence</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 Jun 2022 10:56:37 +0200</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_9aa06b753960df0e.png</url>
+      <url>http://localhost:1313/media/icon_hu_4a89715e7cf75d49.png</url>
       <title>Artificial Intelligence</title>
       <link>http://localhost:1313/tags/artificial-intelligence/</link>
     </image>
@@ -17,14 +17,6 @@
       <link>http://localhost:1313/publications/sequential-ice-hockey-events/</link>
       <pubDate>Fri, 03 Jun 2022 10:56:37 +0200</pubDate>
       <guid>http://localhost:1313/publications/sequential-ice-hockey-events/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bangla Handwritten Digit Recognition &amp; Generation</title>
-      <link>http://localhost:1313/publications/digit-generate/</link>
-      <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/digit-generate/</guid>
       <description></description>
     </item>
     
