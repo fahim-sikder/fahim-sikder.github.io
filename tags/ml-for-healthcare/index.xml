@@ -5,12 +5,28 @@
     <link>https://fahim-sikder.github.io/tags/ml-for-healthcare/</link>
       <atom:link href="https://fahim-sikder.github.io/tags/ml-for-healthcare/index.xml" rel="self" type="application/rss+xml" />
     <description>ML for Healthcare</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Feb 2026 19:19:07 +0100</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2026 23:35:00 +0200</lastBuildDate>
     <image>
       <url>https://fahim-sikder.github.io/media/icon_hu_51d43eb3b88ae3d9.png</url>
       <title>ML for Healthcare</title>
       <link>https://fahim-sikder.github.io/tags/ml-for-healthcare/</link>
     </image>
+    
+    <item>
+      <title>StreamFair: Online Fair Adaptation Under Temporal Intersectional Drift</title>
+      <link>https://fahim-sikder.github.io/publications/streamfair/</link>
+      <pubDate>Fri, 01 May 2026 23:35:00 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/streamfair/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FairCert: Certifiable Error Rate Fairness for ML and LLM Decision Systems</title>
+      <link>https://fahim-sikder.github.io/publications/faircert/</link>
+      <pubDate>Fri, 01 May 2026 23:32:44 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/faircert/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>FairRep: Mitigating Intersectional Bias through Fair Representation Learning</title>

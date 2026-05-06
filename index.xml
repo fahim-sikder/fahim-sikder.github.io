@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>StreamFair: Online Fair Adaptation Under Temporal Intersectional Drift</title>
+      <link>https://fahim-sikder.github.io/publications/streamfair/</link>
+      <pubDate>Fri, 01 May 2026 23:35:00 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/streamfair/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FairCert: Certifiable Error Rate Fairness for ML and LLM Decision Systems</title>
+      <link>https://fahim-sikder.github.io/publications/faircert/</link>
+      <pubDate>Fri, 01 May 2026 23:32:44 +0200</pubDate>
+      <guid>https://fahim-sikder.github.io/publications/faircert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>I have started working on a WASP-HS project (Synthetic Data)</title>
       <link>https://fahim-sikder.github.io/blog/started-working-on-wasp-hs-project/</link>
       <pubDate>Sun, 12 Apr 2026 12:32:34 +0200</pubDate>
