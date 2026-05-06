@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publics | Md Fahim Sikder</title>
+    <link>https://fahimsikder.com/public/</link>
+      <atom:link href="https://fahimsikder.com/public/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publics</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 May 2026 23:30:29 +0200</lastBuildDate>
+    <image>
+      <url>https://fahimsikder.com/media/icon_hu_51d43eb3b88ae3d9.png</url>
+      <title>Publics</title>
+      <link>https://fahimsikder.com/public/</link>
+    </image>
+    
+  </channel>
+</rss>

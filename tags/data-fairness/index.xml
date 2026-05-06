@@ -5,12 +5,28 @@
     <link>https://fahimsikder.com/tags/data-fairness/</link>
       <atom:link href="https://fahimsikder.com/tags/data-fairness/index.xml" rel="self" type="application/rss+xml" />
     <description>Data Fairness</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 12 Apr 2026 12:32:34 +0200</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2026 23:35:00 +0200</lastBuildDate>
     <image>
       <url>https://fahimsikder.com/media/icon_hu_51d43eb3b88ae3d9.png</url>
       <title>Data Fairness</title>
       <link>https://fahimsikder.com/tags/data-fairness/</link>
     </image>
+    
+    <item>
+      <title>StreamFair: Online Fair Adaptation Under Temporal Intersectional Drift</title>
+      <link>https://fahimsikder.com/publications/streamfair/</link>
+      <pubDate>Fri, 01 May 2026 23:35:00 +0200</pubDate>
+      <guid>https://fahimsikder.com/publications/streamfair/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FairCert: Certifiable Error Rate Fairness for ML and LLM Decision Systems</title>
+      <link>https://fahimsikder.com/publications/faircert/</link>
+      <pubDate>Fri, 01 May 2026 23:32:44 +0200</pubDate>
+      <guid>https://fahimsikder.com/publications/faircert/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>I have started working on a WASP-HS project (Synthetic Data)</title>
